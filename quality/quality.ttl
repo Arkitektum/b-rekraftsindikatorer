@@ -1,0 +1,48 @@
+@prefix dct: <http://purl.org/dc/> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.norge.no/vocabulary/indicator/quality/Class_1> a skos:Concept,
+        dqv:Metric ;
+    xkos:depth 1 ;
+    skos:closeMatch <http://metadata.un.org/sdg/ontology#tier_I> ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/quality> ;
+    skos:prefLabel "Class 1"@en,
+        "Klasse 1"@no .
+
+<https://data.norge.no/vocabulary/indicator/quality/Class_2> a skos:Concept,
+        dqv:Metric ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/quality> ;
+    skos:prefLabel "Class 2"@en,
+        "Klasse 2"@no ;
+    skos:relatedMatch <http://metadata.un.org/sdg/ontology#tier_II> .
+
+<https://data.norge.no/vocabulary/indicator/quality/Class_3> a skos:Concept,
+        dqv:Metric ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/quality> ;
+    skos:prefLabel "Class 3"@en,
+        "Klasse 3"@no ;
+    skos:relatedMatch <http://metadata.un.org/sdg/ontology#tier_II>,
+        <http://metadata.un.org/sdg/ontology#tier_III> .
+
+<https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> a vcard:Organization ;
+    vcard:hasEmail "kom@ks.no"^^xsd:anyURI ;
+    vcard:hasOrganizationName "KS"@no ;
+    vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
+
+<https://data.norge.no/vocabulary/indicator/quality> a skos:ConceptScheme ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/quality> ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
+    dct:title "Kvalitet"@no ;
+    uneskos:contains <https://data.norge.no/vocabulary/indicator/quality/Class_1>,
+        <https://data.norge.no/vocabulary/indicator/quality/Class_2>,
+        <https://data.norge.no/vocabulary/indicator/quality/Class_3> ;
+    xkos:numberOfLevels 1 ;
+    skos:definition "En klassifikasjon av kvalitet for hvor godt egnet eller brukelig indikatoren er for å benyttes mot angitte mål."@no .
+

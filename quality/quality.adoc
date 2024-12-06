@@ -1,0 +1,122 @@
+// Asciidoc file auto-generated
+
+== KS
+
+*URI*: https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2006/vcard/ns#Organization
+| hasEmail | vcard:hasEmail | http://www.w3.org/2006/vcard/ns#hasEmail | kom@ks.no
+| hasOrganizationName | vcard:hasOrganizationName | http://www.w3.org/2006/vcard/ns#hasOrganizationName | KS
+| hasURL | vcard:hasURL | http://www.w3.org/2006/vcard/ns#hasURL | https://www.ks.no
+|===
+
+== Kvalitet
+
+*URI*: https://data.norge.no/vocabulary/indicator/quality
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#ConceptScheme
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/quality
+| utgiver (org.nr.) | dct:publisher | http://purl.org/dc/publisher | https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146
+| navn | dct:title | http://purl.org/dc/title | Kvalitet
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/quality/Class_1
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/quality/Class_2
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/quality/Class_3
+| antall nivå | xkos:numberOfLevels | http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels | 1
+| definisjon | skos:definition | http://www.w3.org/2004/02/skos/core#definition | En klassifikasjon av kvalitet for hvor godt egnet eller brukelig indikatoren er for å benyttes mot angitte mål.
+|===
+
+== Class 1
+
+*URI*: https://data.norge.no/vocabulary/indicator/quality/Class_1
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/ns/dqv#Metric
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| nær sammenfallende | skos:closeMatch | http://www.w3.org/2004/02/skos/core#closeMatch | http://metadata.un.org/sdg/ontology#tier_I
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/quality
+| anbefalt navn | skos:prefLabel | http://www.w3.org/2004/02/skos/core#prefLabel | Class 1
+| anbefalt navn | skos:prefLabel | http://www.w3.org/2004/02/skos/core#prefLabel | Klasse 1
+|===
+
+== Class 2
+
+*URI*: https://data.norge.no/vocabulary/indicator/quality/Class_2
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/ns/dqv#Metric
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/quality
+| anbefalt navn | skos:prefLabel | http://www.w3.org/2004/02/skos/core#prefLabel | Class 2
+| anbefalt navn | skos:prefLabel | http://www.w3.org/2004/02/skos/core#prefLabel | Klasse 2
+| relatedMatch | skos:relatedMatch | http://www.w3.org/2004/02/skos/core#relatedMatch | http://metadata.un.org/sdg/ontology#tier_II
+|===
+
+== Class 3
+
+*URI*: https://data.norge.no/vocabulary/indicator/quality/Class_3
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/ns/dqv#Metric
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/quality
+| anbefalt navn | skos:prefLabel | http://www.w3.org/2004/02/skos/core#prefLabel | Class 3
+| anbefalt navn | skos:prefLabel | http://www.w3.org/2004/02/skos/core#prefLabel | Klasse 3
+| relatedMatch | skos:relatedMatch | http://www.w3.org/2004/02/skos/core#relatedMatch | http://metadata.un.org/sdg/ontology#tier_II
+| relatedMatch | skos:relatedMatch | http://www.w3.org/2004/02/skos/core#relatedMatch | http://metadata.un.org/sdg/ontology#tier_III
+|===
+
+== Navnerom
+
+[cols="20s,80d"]
+|===
+| Prefix | URI
+| brick | https://brickschema.org/schema/Brick#
+| csvw | http://www.w3.org/ns/csvw#
+| dc | http://purl.org/dc/elements/1.1/
+| dcat | http://www.w3.org/ns/dcat#
+| dcmitype | http://purl.org/dc/dcmitype/
+| dcterms | http://purl.org/dc/terms/
+| dcam | http://purl.org/dc/dcam/
+| doap | http://usefulinc.com/ns/doap#
+| foaf | http://xmlns.com/foaf/0.1/
+| geo | http://www.opengis.net/ont/geosparql#
+| odrl | http://www.w3.org/ns/odrl/2/
+| org | http://www.w3.org/ns/org#
+| prof | http://www.w3.org/ns/dx/prof/
+| prov | http://www.w3.org/ns/prov#
+| qb | http://purl.org/linked-data/cube#
+| schema | https://schema.org/
+| sh | http://www.w3.org/ns/shacl#
+| skos | http://www.w3.org/2004/02/skos/core#
+| sosa | http://www.w3.org/ns/sosa/
+| ssn | http://www.w3.org/ns/ssn/
+| time | http://www.w3.org/2006/time#
+| vann | http://purl.org/vocab/vann/
+| void | http://rdfs.org/ns/void#
+| wgs | https://www.w3.org/2003/01/geo/wgs84_pos#
+| owl | http://www.w3.org/2002/07/owl#
+| rdf | http://www.w3.org/1999/02/22-rdf-syntax-ns#
+| rdfs | http://www.w3.org/2000/01/rdf-schema#
+| xsd | http://www.w3.org/2001/XMLSchema#
+| xml | http://www.w3.org/XML/1998/namespace
+| dct | http://purl.org/dc/
+| dqv | http://www.w3.org/ns/dqv#
+| uneskos | http://purl.org/umu/uneskos#
+| vcard | http://www.w3.org/2006/vcard/ns#
+| xkos | http://rdf-vocabulary.ddialliance.org/xkos#
+|===

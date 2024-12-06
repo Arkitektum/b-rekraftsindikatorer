@@ -1,0 +1,125 @@
+// Asciidoc file auto-generated
+
+== KS
+
+*URI*: https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2006/vcard/ns#Organization
+| hasEmail | vcard:hasEmail | http://www.w3.org/2006/vcard/ns#hasEmail | kom@ks.no
+| hasOrganizationName | vcard:hasOrganizationName | http://www.w3.org/2006/vcard/ns#hasOrganizationName | KS
+| hasURL | vcard:hasURL | http://www.w3.org/2006/vcard/ns#hasURL | https://www.ks.no
+|===
+
+== Trippel bunnlinje
+
+*URI*: https://data.norge.no/vocabulary/indicator/triplebottomline
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#ConceptScheme
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/triplebottomline
+| utgiver (org.nr.) | dct:publisher | http://purl.org/dc/publisher | https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146
+| navn | dct:title | http://purl.org/dc/title | Trippel bunnlinje
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity
+| antall nivå | xkos:numberOfLevels | http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels | 1
+| definisjon | skos:definition | http://www.w3.org/2004/02/skos/core#definition | En klassifikasjon av trippel bunnlinje.
+|===
+
+== People
+
+*URI*: https://data.norge.no/vocabulary/indicator/triplebottomline/People
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| alternativt navn | skos:altLabel | http://www.w3.org/2004/02/skos/core#altLabel | Sosial
+| nøyaktig sammenfallende | skos:exactMatch | http://www.w3.org/2004/02/skos/core#exactMatch | http://data.arkitektum.no/vocabulary/esrs/category/S
+| nøyaktig sammenfallende | skos:exactMatch | http://www.w3.org/2004/02/skos/core#exactMatch | https://en.wikipedia.org/wiki/Triple_bottom_line#People,_the_social_equity_bottom_line
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/triplebottomline
+| anbefalt navn | skos:prefLabel | http://www.w3.org/2004/02/skos/core#prefLabel | People
+| anbefalt navn | skos:prefLabel | http://www.w3.org/2004/02/skos/core#prefLabel | Menneske
+|===
+
+== Prosperity
+
+*URI*: https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| alternativt navn | skos:altLabel | http://www.w3.org/2004/02/skos/core#altLabel | Profit
+| alternativt navn | skos:altLabel | http://www.w3.org/2004/02/skos/core#altLabel | Fortjeneste
+| nøyaktig sammenfallende | skos:exactMatch | http://www.w3.org/2004/02/skos/core#exactMatch | http://data.arkitektum.no/vocabulary/esrs/kategori/G
+| nøyaktig sammenfallende | skos:exactMatch | http://www.w3.org/2004/02/skos/core#exactMatch | https://en.wikipedia.org/wiki/Triple_bottom_line#Profit,_the_economic_bottom_line
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/triplebottomline
+| anbefalt navn | skos:prefLabel | http://www.w3.org/2004/02/skos/core#prefLabel | Prosperity
+| anbefalt navn | skos:prefLabel | http://www.w3.org/2004/02/skos/core#prefLabel | Velstand
+|===
+
+== Planet
+
+*URI*: https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| alternativt navn | skos:altLabel | http://www.w3.org/2004/02/skos/core#altLabel | Environment
+| alternativt navn | skos:altLabel | http://www.w3.org/2004/02/skos/core#altLabel | Planet
+| nøyaktig sammenfallende | skos:exactMatch | http://www.w3.org/2004/02/skos/core#exactMatch | http://data.arkitektum.no/vocabulary/esrs/kategori/E
+| nøyaktig sammenfallende | skos:exactMatch | http://www.w3.org/2004/02/skos/core#exactMatch | https://en.wikipedia.org/wiki/Triple_bottom_line#Planet,_the_environmental_bottom_line
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/triplebottomline
+| anbefalt navn | skos:prefLabel | http://www.w3.org/2004/02/skos/core#prefLabel | Planet
+| anbefalt navn | skos:prefLabel | http://www.w3.org/2004/02/skos/core#prefLabel | Miljø
+|===
+
+== Navnerom
+
+[cols="20s,80d"]
+|===
+| Prefix | URI
+| brick | https://brickschema.org/schema/Brick#
+| csvw | http://www.w3.org/ns/csvw#
+| dc | http://purl.org/dc/elements/1.1/
+| dcat | http://www.w3.org/ns/dcat#
+| dcmitype | http://purl.org/dc/dcmitype/
+| dcterms | http://purl.org/dc/terms/
+| dcam | http://purl.org/dc/dcam/
+| doap | http://usefulinc.com/ns/doap#
+| foaf | http://xmlns.com/foaf/0.1/
+| geo | http://www.opengis.net/ont/geosparql#
+| odrl | http://www.w3.org/ns/odrl/2/
+| org | http://www.w3.org/ns/org#
+| prof | http://www.w3.org/ns/dx/prof/
+| prov | http://www.w3.org/ns/prov#
+| qb | http://purl.org/linked-data/cube#
+| schema | https://schema.org/
+| sh | http://www.w3.org/ns/shacl#
+| skos | http://www.w3.org/2004/02/skos/core#
+| sosa | http://www.w3.org/ns/sosa/
+| ssn | http://www.w3.org/ns/ssn/
+| time | http://www.w3.org/2006/time#
+| vann | http://purl.org/vocab/vann/
+| void | http://rdfs.org/ns/void#
+| wgs | https://www.w3.org/2003/01/geo/wgs84_pos#
+| owl | http://www.w3.org/2002/07/owl#
+| rdf | http://www.w3.org/1999/02/22-rdf-syntax-ns#
+| rdfs | http://www.w3.org/2000/01/rdf-schema#
+| xsd | http://www.w3.org/2001/XMLSchema#
+| xml | http://www.w3.org/XML/1998/namespace
+| dct | http://purl.org/dc/
+| uneskos | http://purl.org/umu/uneskos#
+| vcard | http://www.w3.org/2006/vcard/ns#
+| xkos | http://rdf-vocabulary.ddialliance.org/xkos#
+|===

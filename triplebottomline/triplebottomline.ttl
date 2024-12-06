@@ -1,0 +1,51 @@
+@prefix dct: <http://purl.org/dc/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.norge.no/vocabulary/indicator/triplebottomline/People> a skos:Concept ;
+    xkos:depth 1 ;
+    skos:altLabel "Sosial"@no ;
+    skos:exactMatch <http://data.arkitektum.no/vocabulary/esrs/category/S>,
+        <https://en.wikipedia.org/wiki/Triple_bottom_line#People,_the_social_equity_bottom_line> ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/triplebottomline> ;
+    skos:prefLabel "People"@en,
+        "Menneske"@no .
+
+<https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> a skos:Concept ;
+    xkos:depth 1 ;
+    skos:altLabel "Environment"@en,
+        "Planet"@no ;
+    skos:exactMatch <http://data.arkitektum.no/vocabulary/esrs/kategori/E>,
+        <https://en.wikipedia.org/wiki/Triple_bottom_line#Planet,_the_environmental_bottom_line> ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/triplebottomline> ;
+    skos:prefLabel "Planet"@en,
+        "Miljø"@no .
+
+<https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> a skos:Concept ;
+    xkos:depth 1 ;
+    skos:altLabel "Profit"@en,
+        "Fortjeneste"@no ;
+    skos:exactMatch <http://data.arkitektum.no/vocabulary/esrs/kategori/G>,
+        <https://en.wikipedia.org/wiki/Triple_bottom_line#Profit,_the_economic_bottom_line> ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/triplebottomline> ;
+    skos:prefLabel "Prosperity"@en,
+        "Velstand"@no .
+
+<https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> a vcard:Organization ;
+    vcard:hasEmail "kom@ks.no"^^xsd:anyURI ;
+    vcard:hasOrganizationName "KS"@no ;
+    vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
+
+<https://data.norge.no/vocabulary/indicator/triplebottomline> a skos:ConceptScheme ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/triplebottomline> ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
+    dct:title "Trippel bunnlinje"@no ;
+    uneskos:contains <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> ;
+    xkos:numberOfLevels 1 ;
+    skos:definition "En klassifikasjon av trippel bunnlinje."@no .
+
