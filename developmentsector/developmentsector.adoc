@@ -1,0 +1,280 @@
+// Asciidoc file auto-generated
+
+== KS
+
+*URI*: https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2006/vcard/ns#Organization
+| hasEmail | vcard:hasEmail | http://www.w3.org/2006/vcard/ns#hasEmail | kom@ks.no
+| hasOrganizationName | vcard:hasOrganizationName | http://www.w3.org/2006/vcard/ns#hasOrganizationName | KS
+| hasURL | vcard:hasURL | http://www.w3.org/2006/vcard/ns#hasURL | https://www.ks.no
+|===
+
+== Utviklingssektor
+
+*URI*: https://data.norge.no/vocabulary/indicator/developmetsector
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#ConceptScheme
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/developmetsector
+| utgiver (org.nr.) | dct:publisher | http://purl.org/dc/publisher | https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146
+| navn | dct:title | http://purl.org/dc/title | Utviklingssektor
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/developmetsector/Culture
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/developmetsector/Economy
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/developmetsector/Energy
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/developmetsector/Industry
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/developmetsector/Transport
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment
+| antall nivå | xkos:numberOfLevels | http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels | 1
+| definisjon | skos:definition | http://www.w3.org/2004/02/skos/core#definition | En klassifikasjon av utviklingssektor.
+|===
+
+== Water and waste
+
+*URI*: https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste
+| navn | dct:title | http://purl.org/dc/title | Water and waste
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/developmetsector
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://psi.norge.no/los/tema/natur-klima-og-miljo
+|===
+
+== Health and social services and welfare
+
+*URI*: https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare
+| navn | dct:title | http://purl.org/dc/title | Health and social services and welfare
+| nær sammenfallende | skos:closeMatch | http://www.w3.org/2004/02/skos/core#closeMatch | https://psi.norge.no/los/tema/helse-og-omsorg
+| nær sammenfallende | skos:closeMatch | http://www.w3.org/2004/02/skos/core#closeMatch | https://psi.norge.no/los/tema/sosiale-tjenester
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/developmetsector
+|===
+
+== Childhood and education
+
+*URI*: https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education
+| navn | dct:title | http://purl.org/dc/title | Childhood and education
+| nær sammenfallende | skos:closeMatch | http://www.w3.org/2004/02/skos/core#closeMatch | https://psi.norge.no/los/tema/skole-og-utdanning
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/developmetsector
+|===
+
+== Industry
+
+*URI*: https://data.norge.no/vocabulary/indicator/developmetsector/Industry
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/developmetsector/Industry
+| navn | dct:title | http://purl.org/dc/title | Industry
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/developmetsector
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://psi.norge.no/los/tema/naring
+|===
+
+== Energy
+
+*URI*: https://data.norge.no/vocabulary/indicator/developmetsector/Energy
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/developmetsector/Energy
+| navn | dct:title | http://purl.org/dc/title | Energy
+| nøyaktig sammenfallende | skos:exactMatch | http://www.w3.org/2004/02/skos/core#exactMatch | https://psi.norge.no/los/tema/energi
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/developmetsector
+|===
+
+== Safety and preparedness
+
+*URI*: https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness
+| navn | dct:title | http://purl.org/dc/title | Safety and preparedness
+| nær sammenfallende | skos:closeMatch | http://www.w3.org/2004/02/skos/core#closeMatch | https://psi.norge.no/los/tema/arbeid
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/developmetsector
+|===
+
+== Governance and citizen engagement
+
+*URI*: https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement
+| navn | dct:title | http://purl.org/dc/title | Governance and citizen engagement
+| nær sammenfallende | skos:closeMatch | http://www.w3.org/2004/02/skos/core#closeMatch | https://psi.norge.no/los/tema/demokrati-og-innbyggerrettigheter
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/developmetsector
+|===
+
+== Economy
+
+*URI*: https://data.norge.no/vocabulary/indicator/developmetsector/Economy
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/developmetsector/Economy
+| navn | dct:title | http://purl.org/dc/title | Economy
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/developmetsector
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://psi.norge.no/los/tema/naring
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://psi.norge.no/los/tema/skatt-og-avgift
+|===
+
+== Natural environment
+
+*URI*: https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment
+| navn | dct:title | http://purl.org/dc/title | Natural environment
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/developmetsector
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://psi.norge.no/los/tema/natur-klima-og-miljo
+|===
+
+== Work and employment
+
+*URI*: https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment
+| navn | dct:title | http://purl.org/dc/title | Work and employment
+| nær sammenfallende | skos:closeMatch | http://www.w3.org/2004/02/skos/core#closeMatch | https://psi.norge.no/los/tema/arbeid
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/developmetsector
+|===
+
+== Transport
+
+*URI*: https://data.norge.no/vocabulary/indicator/developmetsector/Transport
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/developmetsector/Transport
+| navn | dct:title | http://purl.org/dc/title | Transport
+| nær sammenfallende | skos:closeMatch | http://www.w3.org/2004/02/skos/core#closeMatch | https://psi.norge.no/los/tema/trafikk-og-transport
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/developmetsector
+|===
+
+== Digitalisation
+
+*URI*: https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation
+| navn | dct:title | http://purl.org/dc/title | Digitalisation
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/developmetsector
+|===
+
+== Culture
+
+*URI*: https://data.norge.no/vocabulary/indicator/developmetsector/Culture
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/developmetsector/Culture
+| navn | dct:title | http://purl.org/dc/title | Culture
+| nøyaktig sammenfallende | skos:exactMatch | http://www.w3.org/2004/02/skos/core#exactMatch | https://psi.norge.no/los/tema/kultur
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/developmetsector
+|===
+
+== Built environment
+
+*URI*: https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment
+| navn | dct:title | http://purl.org/dc/title | Built environment
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/developmetsector
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://psi.norge.no/los/tema/bygg-og-eiendom
+|===
+
+== Navnerom
+
+[cols="20s,80d"]
+|===
+| Prefix | URI
+| brick | https://brickschema.org/schema/Brick#
+| csvw | http://www.w3.org/ns/csvw#
+| dc | http://purl.org/dc/elements/1.1/
+| dcat | http://www.w3.org/ns/dcat#
+| dcmitype | http://purl.org/dc/dcmitype/
+| dcterms | http://purl.org/dc/terms/
+| dcam | http://purl.org/dc/dcam/
+| doap | http://usefulinc.com/ns/doap#
+| foaf | http://xmlns.com/foaf/0.1/
+| geo | http://www.opengis.net/ont/geosparql#
+| odrl | http://www.w3.org/ns/odrl/2/
+| org | http://www.w3.org/ns/org#
+| prof | http://www.w3.org/ns/dx/prof/
+| prov | http://www.w3.org/ns/prov#
+| qb | http://purl.org/linked-data/cube#
+| schema | https://schema.org/
+| sh | http://www.w3.org/ns/shacl#
+| skos | http://www.w3.org/2004/02/skos/core#
+| sosa | http://www.w3.org/ns/sosa/
+| ssn | http://www.w3.org/ns/ssn/
+| time | http://www.w3.org/2006/time#
+| vann | http://purl.org/vocab/vann/
+| void | http://rdfs.org/ns/void#
+| wgs | https://www.w3.org/2003/01/geo/wgs84_pos#
+| owl | http://www.w3.org/2002/07/owl#
+| rdf | http://www.w3.org/1999/02/22-rdf-syntax-ns#
+| rdfs | http://www.w3.org/2000/01/rdf-schema#
+| xsd | http://www.w3.org/2001/XMLSchema#
+| xml | http://www.w3.org/XML/1998/namespace
+| dct | http://purl.org/dc/
+| uneskos | http://purl.org/umu/uneskos#
+| vcard | http://www.w3.org/2006/vcard/ns#
+| xkos | http://rdf-vocabulary.ddialliance.org/xkos#
+|===

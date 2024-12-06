@@ -1,0 +1,118 @@
+@prefix dct: <http://purl.org/dc/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> a vcard:Organization ;
+    vcard:hasEmail "kom@ks.no"^^xsd:anyURI ;
+    vcard:hasOrganizationName "KS"@no ;
+    vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
+
+<https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment> ;
+    dct:title "Built environment"@en ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/developmetsector> ;
+    skos:related <https://psi.norge.no/los/tema/bygg-og-eiendom> .
+
+<https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education> ;
+    dct:title "Childhood and education"@en ;
+    skos:closeMatch <https://psi.norge.no/los/tema/skole-og-utdanning> ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/developmetsector> .
+
+<https://data.norge.no/vocabulary/indicator/developmetsector/Culture> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/developmetsector/Culture> ;
+    dct:title "Culture"@en ;
+    skos:exactMatch <https://psi.norge.no/los/tema/kultur> ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/developmetsector> .
+
+<https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation> ;
+    dct:title "Digitalisation"@en ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/developmetsector> .
+
+<https://data.norge.no/vocabulary/indicator/developmetsector/Economy> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "Economy"@en ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/developmetsector> ;
+    skos:related <https://psi.norge.no/los/tema/naring>,
+        <https://psi.norge.no/los/tema/skatt-og-avgift> .
+
+<https://data.norge.no/vocabulary/indicator/developmetsector/Energy> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/developmetsector/Energy> ;
+    dct:title "Energy"@en ;
+    skos:exactMatch <https://psi.norge.no/los/tema/energi> ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/developmetsector> .
+
+<https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement> ;
+    dct:title "Governance and citizen engagement"@en ;
+    skos:closeMatch <https://psi.norge.no/los/tema/demokrati-og-innbyggerrettigheter> ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/developmetsector> .
+
+<https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare> ;
+    dct:title "Health and social services and welfare"@en ;
+    skos:closeMatch <https://psi.norge.no/los/tema/helse-og-omsorg>,
+        <https://psi.norge.no/los/tema/sosiale-tjenester> ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/developmetsector> .
+
+<https://data.norge.no/vocabulary/indicator/developmetsector/Industry> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/developmetsector/Industry> ;
+    dct:title "Industry"@en ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/developmetsector> ;
+    skos:related <https://psi.norge.no/los/tema/naring> .
+
+<https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "Natural environment"@en ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/developmetsector> ;
+    skos:related <https://psi.norge.no/los/tema/natur-klima-og-miljo> .
+
+<https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness> ;
+    dct:title "Safety and preparedness"@en ;
+    skos:closeMatch <https://psi.norge.no/los/tema/arbeid> ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/developmetsector> .
+
+<https://data.norge.no/vocabulary/indicator/developmetsector/Transport> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "Transport"@en ;
+    skos:closeMatch <https://psi.norge.no/los/tema/trafikk-og-transport> ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/developmetsector> .
+
+<https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "Water and waste"@en ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/developmetsector> ;
+    skos:related <https://psi.norge.no/los/tema/natur-klima-og-miljo> .
+
+<https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment> ;
+    dct:title "Work and employment"@en ;
+    skos:closeMatch <https://psi.norge.no/los/tema/arbeid> ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/developmetsector> .
+
+<https://data.norge.no/vocabulary/indicator/developmetsector> a skos:ConceptScheme ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/developmetsector> ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
+    dct:title "Utviklingssektor"@no ;
+    uneskos:contains <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Culture>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment> ;
+    xkos:numberOfLevels 1 ;
+    skos:definition "En klassifikasjon av utviklingssektor."@no .
+
