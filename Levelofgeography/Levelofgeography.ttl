@@ -1,3 +1,4 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
 @prefix dct: <http://purl.org/dc/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix uneskos: <http://purl.org/umu/uneskos#> .
@@ -40,6 +41,7 @@
 
 <https://data.norge.no/vocabulary/indicator/Levelofgeography> a skos:ConceptScheme ;
     dct:identifier <https://data.norge.no/vocabulary/indicator/Levelofgeography> ;
+    dct:modified "2024-12-10"^^xsd:date ;
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
     dct:title "Nivå på område"@no ;
     uneskos:contains <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level>,
@@ -47,5 +49,6 @@
         <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level>,
         <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
     xkos:numberOfLevels 1 ;
-    skos:prefLabel "Level of geography"@en .
+    skos:prefLabel "Level of geography"@en ;
+    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
 
