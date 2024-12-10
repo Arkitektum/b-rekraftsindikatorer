@@ -1,0 +1,133 @@
+// Asciidoc file auto-generated
+
+== KS
+
+*URI*: https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2006/vcard/ns#Organization
+| hasEmail | vcard:hasEmail | http://www.w3.org/2006/vcard/ns#hasEmail | kom@ks.no
+| hasOrganizationName | vcard:hasOrganizationName | http://www.w3.org/2006/vcard/ns#hasOrganizationName | KS
+| hasURL | vcard:hasURL | http://www.w3.org/2006/vcard/ns#hasURL | https://www.ks.no
+|===
+
+== Nivå på område
+
+*URI*: https://data.norge.no/vocabulary/indicator/Levelofgeography
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#ConceptScheme
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/Levelofgeography
+| utgiver (org.nr.) | dct:publisher | http://purl.org/dc/publisher | https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146
+| navn | dct:title | http://purl.org/dc/title | Nivå på område
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/Levelofgeography/District-level
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level
+| antall nivå | xkos:numberOfLevels | http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels | 1
+| anbefalt navn | skos:prefLabel | http://www.w3.org/2004/02/skos/core#prefLabel | Level of geography
+|===
+
+== National level
+
+*URI*: https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level
+| navn | dct:title | http://purl.org/dc/title | National level
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/Levelofgeography
+| anbefalt navn | skos:prefLabel | http://www.w3.org/2004/02/skos/core#prefLabel | National level
+|===
+
+== City level
+
+*URI*: https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| navn | dct:title | http://purl.org/dc/title | City level
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/Levelofgeography
+| anbefalt navn | skos:prefLabel | http://www.w3.org/2004/02/skos/core#prefLabel | City level
+|===
+
+== District level
+
+*URI*: https://data.norge.no/vocabulary/indicator/Levelofgeography/District-level
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/Levelofgeography/District-level
+| navn | dct:title | http://purl.org/dc/title | District level
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/Levelofgeography
+| anbefalt navn | skos:prefLabel | http://www.w3.org/2004/02/skos/core#prefLabel | District level
+|===
+
+== Regional/county level
+
+*URI*: https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level
+| navn | dct:title | http://purl.org/dc/title | Regional/county level
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/Levelofgeography
+| anbefalt navn | skos:prefLabel | http://www.w3.org/2004/02/skos/core#prefLabel | Regional/county level
+|===
+
+== Navnerom
+
+[cols="20s,80d"]
+|===
+| Prefix | URI
+| brick | https://brickschema.org/schema/Brick#
+| csvw | http://www.w3.org/ns/csvw#
+| dc | http://purl.org/dc/elements/1.1/
+| dcat | http://www.w3.org/ns/dcat#
+| dcmitype | http://purl.org/dc/dcmitype/
+| dcterms | http://purl.org/dc/terms/
+| dcam | http://purl.org/dc/dcam/
+| doap | http://usefulinc.com/ns/doap#
+| foaf | http://xmlns.com/foaf/0.1/
+| geo | http://www.opengis.net/ont/geosparql#
+| odrl | http://www.w3.org/ns/odrl/2/
+| org | http://www.w3.org/ns/org#
+| prof | http://www.w3.org/ns/dx/prof/
+| prov | http://www.w3.org/ns/prov#
+| qb | http://purl.org/linked-data/cube#
+| schema | https://schema.org/
+| sh | http://www.w3.org/ns/shacl#
+| skos | http://www.w3.org/2004/02/skos/core#
+| sosa | http://www.w3.org/ns/sosa/
+| ssn | http://www.w3.org/ns/ssn/
+| time | http://www.w3.org/2006/time#
+| vann | http://purl.org/vocab/vann/
+| void | http://rdfs.org/ns/void#
+| wgs | https://www.w3.org/2003/01/geo/wgs84_pos#
+| owl | http://www.w3.org/2002/07/owl#
+| rdf | http://www.w3.org/1999/02/22-rdf-syntax-ns#
+| rdfs | http://www.w3.org/2000/01/rdf-schema#
+| xsd | http://www.w3.org/2001/XMLSchema#
+| xml | http://www.w3.org/XML/1998/namespace
+| dct | http://purl.org/dc/
+| uneskos | http://purl.org/umu/uneskos#
+| vcard | http://www.w3.org/2006/vcard/ns#
+| xkos | http://rdf-vocabulary.ddialliance.org/xkos#
+|===

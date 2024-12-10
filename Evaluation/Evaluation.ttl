@@ -1,0 +1,59 @@
+@prefix dct: <http://purl.org/dc/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> a vcard:Organization ;
+    vcard:hasEmail "kom@ks.no"^^xsd:anyURI ;
+    vcard:hasOrganizationName "KS"@no ;
+    vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
+
+<https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    dct:title "1-Input"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/Evaluation> ;
+    skos:prefLabel "1-Input"@en .
+
+<https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    dct:title "2-Process"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/Evaluation> ;
+    skos:prefLabel "2-Process"@en .
+
+<https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    dct:title "3-Output"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/Evaluation> ;
+    skos:prefLabel "3-Output"@en .
+
+<https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    dct:title "4-Outcome"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/Evaluation> ;
+    skos:prefLabel "4-Outcome"@en .
+
+<https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    dct:title "5-Impact"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/Evaluation> ;
+    skos:prefLabel "5-Impact"@en .
+
+<https://data.norge.no/vocabulary/indicator/Evaluation> a skos:ConceptScheme ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/Evaluation> ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
+    dct:title "Evaluering"@no ;
+    uneskos:contains <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    xkos:numberOfLevels 1 ;
+    skos:prefLabel "Evaluation"@en .
+

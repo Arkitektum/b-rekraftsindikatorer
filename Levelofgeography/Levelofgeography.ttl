@@ -1,0 +1,51 @@
+@prefix dct: <http://purl.org/dc/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> a vcard:Organization ;
+    vcard:hasEmail "kom@ks.no"^^xsd:anyURI ;
+    vcard:hasOrganizationName "KS"@no ;
+    vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
+
+<https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dct:title "City level"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/Levelofgeography> ;
+    skos:prefLabel "City level"@en .
+
+<https://data.norge.no/vocabulary/indicator/Levelofgeography/District-level> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/Levelofgeography/District-level> ;
+    dct:title "District level"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/Levelofgeography> ;
+    skos:prefLabel "District level"@en .
+
+<https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dct:title "National level"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/Levelofgeography> ;
+    skos:prefLabel "National level"@en .
+
+<https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> a skos:Concept ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dct:title "Regional/county level"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/Levelofgeography> ;
+    skos:prefLabel "Regional/county level"@en .
+
+<https://data.norge.no/vocabulary/indicator/Levelofgeography> a skos:ConceptScheme ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/Levelofgeography> ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
+    dct:title "Nivå på område"@no ;
+    uneskos:contains <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level>,
+        <https://data.norge.no/vocabulary/indicator/Levelofgeography/District-level>,
+        <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level>,
+        <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    xkos:numberOfLevels 1 ;
+    skos:prefLabel "Level of geography"@en .
+
