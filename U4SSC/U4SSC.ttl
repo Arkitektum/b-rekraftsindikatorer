@@ -1,0 +1,1943 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdgo: <http://metadata.un.org/sdg/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> a vcard:Organization ;
+    vcard:hasEmail "kom@ks.no"^^xsd:anyURI ;
+    vcard:hasOrganizationName "KS"@no ;
+    vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2150> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/17> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2150> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.statista.com/statistics/377770/household-internet-access-in-norway/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation> ;
+    dct:title "['Household Internet Access']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: ICT: ICT: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2151> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/17> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2151> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://data.worldbank.org/indicator/IT.NET.BBND?locations=NO']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation> ;
+    dct:title "['Fixed Broadband Subscriptions']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: ICT: ICT: 2C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2152> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/17>,
+        <http://metadata.un.org/sdg/5>,
+        <http://metadata.un.org/sdg/9> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2152> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://data.worldbank.org/indicator/IT.CEL.SETS.P2?locations=NO']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation> ;
+    dct:title "['Wireless Broadband Subscriptions']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: ICT: ICT: 3C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2153> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/17>,
+        <http://metadata.un.org/sdg/5>,
+        <http://metadata.un.org/sdg/9> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2153> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['Page 127: https://www.itu.int/en/ITU-D/Regional-Presence/Europe/Documents/Events/2020/5GTech/5GT%20-%205G%20country%20profiles%20in%20non-EU%20countries_v1.2_final.pdf']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation> ;
+    dct:title "['Wireless Broadband Coverage - 3G']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: ICT: ICT: 4C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2154> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/17>,
+        <http://metadata.un.org/sdg/5>,
+        <http://metadata.un.org/sdg/9> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2154> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['Page 127: https://www.itu.int/en/ITU-D/Regional-Presence/Europe/Documents/Events/2020/5GTech/5GT%20-%205G%20country%20profiles%20in%20non-EU%20countries_v1.2_final.pdf']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation> ;
+    dct:title "['Wireless Broadband Coverage - 4G']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: ICT: ICT: 4C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2155> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2155> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['No reliable source has been found.']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation> ;
+    dct:title "['Availability of WIFI in Public Areas']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: ICT: ICT: 5A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2156> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2156> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['Page 6: https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation> ;
+    dct:title "['Smart Water Meters']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: ICT: WS: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2157> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2157> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['Page 6: https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation> ;
+    dct:title "['Water Supply ICT Monitoring']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: ICT: WS: 2A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2158> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2158> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['Page 18: https://www.itu.int/en/publications/Documents/tsb/2020-U4SSC-Factsheet-Alesund-Norway/index.html#p=25']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Drainage / Storm Water System ICT Monitoring']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: ICT: D: 1A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2159> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2159> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['Page 7: https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Energy> ;
+    dct:title "['Smart Electricity Meters']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: ICT: ES: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2160> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2160> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['Page 7: https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Electricity Supply ICT Monitoring']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: ICT: ES: 2A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2161> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2161> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['Page 7: https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement> ;
+    dct:title "['Demand Response Penetration']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: ICT: ES: 3A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2162> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2162> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['Page 8: https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Dynamic Public Transport Information']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: ICT: T: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2163> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2163> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['Page 8: https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Traffic Monitoring']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: ICT: T: 2C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2164> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2164> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['Page 8: https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Intersection Control']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: ICT: T: 3A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2165> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6>,
+        <http://metadata.un.org/sdg/16.7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2165> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['Page 9: https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement> ;
+    dct:title "['Open Data']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: ICT: PS: 1A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2166> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6>,
+        <http://metadata.un.org/sdg/16.7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2166> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['Page 9: https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement> ;
+    dct:title "['e- Government']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: ICT: PS: 2A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2167> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6>,
+        <http://metadata.un.org/sdg/16.7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2167> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['Page 9: https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement> ;
+    dct:title "['Public Sector e-procurement']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: ICT: PS: 3A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2168> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2168> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['Page 9: https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment> ;
+    dct:title "['R&D expenditure']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: P: IN: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2169> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2169> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['Page 9: https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment> ;
+    dct:title "['Patents']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: P: IN: 2C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2170> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2170> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['Page 9: https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment> ;
+    dct:title "['Small and Medium-Sized Enterprises']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: P: IN: 3A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2171> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2171> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['Page 9: https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment> ;
+    dct:title "['Unemployment Rate']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: P: EM: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2172> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2172> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['Page 9: https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment> ;
+    dct:title "['Youth Unemployment Rate']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: P: EM: 2C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2173> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2173> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment> ;
+    dct:title "['Tourism Sector Employment']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: P: EM: 3A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2174> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2174> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment> ;
+    dct:title "['ICT Sector Employment']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: P: EM: 4A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2175> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2175> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Basic Water Supply']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: WS: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2176> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2176> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Potable Water Supply']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: WS: 2C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2177> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2177> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Water Supply Loss']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: WS: 3C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2178> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2178> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Wastewater Collection']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: WS: 4C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2179> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2179> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Household Sanitation']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: WS: 5C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2180> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2180> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauAA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Solid Waste Collection']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: WA: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2181> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2181> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Energy> ;
+    dct:title "['Electricity System Outage Frequency']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: ES: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2182> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2182> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Energy> ;
+    dct:title "['Electricity System Outage Time']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: ES: 2C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2183> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2183> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Energy> ;
+    dct:title "['Access to Electricity']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: ES: 3C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2184> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2184> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Public Transport Network']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: T: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2185> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2185> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Public Transport Network Convenience']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: T: 2A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2186> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2186> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Bicycle Network']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: T: 3C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2187> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2187> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Transportation Mode Share - Private Vehicles']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: T: 4A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2188> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2188> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Transportation Mode Share - Public Transport']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: T: 4A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2189> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2189> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Transportation Mode Share - Walking']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: T: 4A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2190> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2190> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Transportation Mode Share - Cycling']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: T: 4A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2191> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2191> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Transportation Mode Share - Para Transport']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: T: 4A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2192> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2192> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Travel Time Index']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: T: 5A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2193> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2193> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Shared Bicycles']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: T: 6A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2194> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2194> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauAA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Shared Vehicles']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: T: 7A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2195> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2195> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Low-Carbon Emission Passenger Vehicles']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: T: 8A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2196> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2196> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.ssb.no/statbank/table/11906/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Energy> ;
+    dct:title "['Public Building Sustainability']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: B: 1A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2197> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.c> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2197> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['#REF!']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Energy> ;
+    dct:title "['Integrated Building Management Systems in Public Buildings']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: B: 2A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2198> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2198> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['#REF!']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Pedestrian infrastructure']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: UP: 1A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2199> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2199> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['#REF!']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment> ;
+    dct:title "['Urban Development and Spatial Planning - Compact']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: UP: 2A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2200> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2200> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['#REF!']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Urban Development and Spatial Planning - Connected']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: UP: 2A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2201> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2201> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['#REF!']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment> ;
+    dct:title "['Urban Development and Spatial Planning - Integrated']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: UP: 2A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2202> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2202> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['#REF!']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment> ;
+    dct:title "['Urban Development and Spatial Planning - Inclusive']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: UP: 2A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2203> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2203> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['#REF!']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness> ;
+    dct:title "['Urban Development and Spatial Planning - Resilient']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EC: I: UP: 2A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2204> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2204> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://luftkvalitet.miljostatus.no/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Air Pollution - PM 2.5']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: AQ: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2205> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2205> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://luftkvalitet.miljostatus.no/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Air Pollution - PM 10']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: AQ: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2206> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2206> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://luftkvalitet.miljostatus.no/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Air Pollution - NO2']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: AQ: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2207> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2207> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://luftkvalitet.miljostatus.no/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Air Pollution - SO2']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: AQ: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2208> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2208> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://luftkvalitet.miljostatus.no/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Air Pollution - O3']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: AQ: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2209> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/13> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2209> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/natur-og-miljo/forurensning-og-klima/statistikk/utslipp-til-luft']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['GHG Emissions']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: AQ: 2C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2210> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2210> ;
+    dcterms:accrualPeriodicity "['Monthly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['#REF!']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Drinking Water Quality']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: WS: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2211> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2211> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.ssb.no/en/natur-og-miljo/vann-og-avlop/statistikk/kommunal-vannforsyning']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Water Consumption']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: WS: 2C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2212> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2212> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.ssb.no/statbank/table/11793/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Freshwater Consumption']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: WS: 3C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2213> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2213> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.ssb.no/statbank/table/11793/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Wastewater Treatment - Primary']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: WS: 3C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2214> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2214> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.ssb.no/statbank/table/11793/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Wastewater Treatment - Secondary']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: WS: 3C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2215> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2215> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['#REF!']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Wastewater Treatment - Tertiary']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: WS: 3C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2216> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2216> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.ssb.no/kommunefakta/kostra']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Solid Waste Treatment - Landfill']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: WA: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2217> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2217> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.ssb.no/kommunefakta/kostra']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Solid Waste Treatment - Burnt']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: WA: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2218> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2218> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.ssb.no/kommunefakta/kostra']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Solid Waste Treatment - Incinerated']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: WA: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2219> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2219> ;
+    dcterms:accrualPeriodicity "['Monthly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Solid Waste Treatment - Open Dump']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: WA: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2220> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2220> ;
+    dcterms:accrualPeriodicity "['Monthly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Solid Waste Treatment - Recycled']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: WA: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2221> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2221> ;
+    dcterms:accrualPeriodicity "['Monthly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Solid Waste Treatment - Other']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: WA: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2222> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.b> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2222> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dct:title "['EMF Exposure']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: EQ: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2223> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2223> ;
+    dcterms:accrualPeriodicity "['Monthly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Noise Exposure']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: EQ: 2A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2224> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2224> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Green Areas']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: PSN: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2225> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2225> ;
+    dcterms:accrualPeriodicity "['Every other year']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Green Area Accessibility']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: PSN: 2A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2226> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/15> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/14.5>,
+        <http://metadata.un.org/sdg/15.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2226> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Protected Natural Areas']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: PSN: 3A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2227> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2227> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dct:title "['Recreational Facilities']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: EN: PSN: 4A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2228> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2228> ;
+    dcterms:accrualPeriodicity "['Monthly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry> ;
+    dct:title "['Renewable Energy Consumption']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: E: E: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2229> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2229> ;
+    dcterms:accrualPeriodicity "['Monthly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry> ;
+    dct:title "['Electricity Consumption']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: E: E: 2C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2230> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2230> ;
+    dcterms:accrualPeriodicity "['Monthly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry> ;
+    dct:title "['Residential Thermal Energy Consumption']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: E: E: 3C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2231> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2231> ;
+    dcterms:accrualPeriodicity "['Monthly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry> ;
+    dct:title "['Public Building Energy Consumption']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['EN: E: E: 4A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2232> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4>,
+        <http://metadata.un.org/sdg/5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2232> ;
+    dcterms:accrualPeriodicity "['Quarterly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation> ;
+    dct:title "['Student ICT Access']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: EH: ED:1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2233> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2233> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education> ;
+    dct:title "['School Enrollment']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: EH: ED:2C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2234> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2234> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education> ;
+    dct:title "['Higher Education Degrees']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: EH: ED: 3C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2235> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2235> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education> ;
+    dct:title "['Adult Literacy']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: EH: ED: 4C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2236> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2236> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation> ;
+    dct:title "['Electronic Health Records']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: EH: H: 6A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2237> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2237> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dct:title "['Life Expectancy']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: EH: H:1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2238> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2238> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dct:title "['Maternal Mortality Rate']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: EH: H: 2C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2239> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2239> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment> ;
+    dct:title "['Physicians']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: EH: H:3C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2240> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2240> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dct:title "['In-Patient Hospital Beds']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: EH: H: 4A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2241> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2241> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dct:title "['Health Insurance/Public Health Coverage']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: EH: H: 5A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2242> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.4> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2242> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Culture>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Cultural Expenditure']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: EH: C: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2243> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.4> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2243> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Culture> ;
+    dct:title "['Cultural Infrastructure']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: EH: C: 2A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2244> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2244> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness> ;
+    dct:title "['Informal Settlements']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: SH: HO: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2245> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2245> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Housing Expenditure']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: SH: HO: 2A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2246> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2246> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Gender Income Equity']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: SH: SI: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2247> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/10.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2247> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Gini Coefficient']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: SH: SI: 2C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2248> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2248> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness> ;
+    dct:title "['Poverty']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: SH: SI: 3C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2249> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3>,
+        <http://metadata.un.org/sdg/16.7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2249> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement> ;
+    dct:title "['Voter Participation']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: SH: SI: 4C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2250> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/10>,
+        <http://metadata.un.org/sdg/4>,
+        <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/10.4> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2250> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare> ;
+    dct:title "['Child Care Availability']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: SH: SI: 5A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2251> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/13> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5>,
+        <http://metadata.un.org/sdg/13.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2251> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness> ;
+    dct:title "['Natural Disaster Related Deaths']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: SH: SA: 1C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2252> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2252> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Disaster Related Economic Losses']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: SH: SA: 2C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2253> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.b> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2253> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness> ;
+    dct:title "['Resilience Plans']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: SH: SA: 3A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2254> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.b> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2254> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness> ;
+    dct:title "['Population Living in Disaster Prone Areas']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: SH: SA: 4A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2255> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2255> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness> ;
+    dct:title "['Emergency Services Response Time']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: SH: SA: 5A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2256> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2256> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness> ;
+    dct:title "['Police Service']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: SH: SA: 6C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2257> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2257> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness> ;
+    dct:title "['Fire Service']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: SH: SA: 7C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2258> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.1>,
+        <http://metadata.un.org/sdg/16.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2258> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness> ;
+    dct:title "['Violent Crime Rate']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: SH: SA: 8C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2259> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2259> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Traffic Fatalities']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: SH: SA: 9C']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC/2260> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC/2260> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itu.int/en/ITU-T/ssc/united/Documents/U4SSC%20Publications/Verification%20Reports/September%202020/U4SSC_Trondheim-Norway_Verification_Report.pdf?csf=1&e=eKrauA']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Local Food Production']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    skos:notation "['SC: SH: FS: 1A']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/U4SSC> a skos:ConceptScheme ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/U4SSC> ;
+    dct:modified "2024-12-10"^^xsd:date ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
+    uneskos:contains <https://data.norge.no/vocabulary/indicator/U4SSC/2150>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2151>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2152>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2153>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2154>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2155>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2156>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2157>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2158>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2159>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2160>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2161>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2162>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2163>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2164>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2165>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2166>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2167>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2168>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2169>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2170>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2171>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2172>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2173>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2174>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2175>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2176>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2177>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2178>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2179>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2180>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2181>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2182>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2183>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2184>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2185>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2186>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2187>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2188>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2189>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2190>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2191>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2192>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2193>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2194>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2195>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2196>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2197>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2198>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2199>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2200>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2201>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2202>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2203>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2204>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2205>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2206>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2207>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2208>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2209>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2210>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2211>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2212>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2213>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2214>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2215>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2216>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2217>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2218>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2219>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2220>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2221>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2222>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2223>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2224>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2225>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2226>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2227>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2228>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2229>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2230>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2231>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2232>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2233>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2234>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2235>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2236>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2237>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2238>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2239>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2240>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2241>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2242>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2243>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2244>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2245>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2246>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2247>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2248>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2249>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2250>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2251>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2252>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2253>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2254>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2255>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2256>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2257>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2258>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2259>,
+        <https://data.norge.no/vocabulary/indicator/U4SSC/2260> ;
+    xkos:numberOfLevels 1 ;
+    skos:prefLabel "U4SSC"@en ;
+    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
+

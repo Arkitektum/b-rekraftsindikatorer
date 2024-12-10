@@ -1,0 +1,1352 @@
+// Asciidoc file auto-generated
+
+== KS
+
+*URI*: https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2006/vcard/ns#Organization
+| e-postadresse | vcard:hasEmail | http://www.w3.org/2006/vcard/ns#hasEmail | kom@ks.no
+| organisasjonsnavn | vcard:hasOrganizationName | http://www.w3.org/2006/vcard/ns#hasOrganizationName | KS
+| nettadresse | vcard:hasURL | http://www.w3.org/2006/vcard/ns#hasURL | https://www.ks.no
+|===
+
+== The EU-JRC-VLR-handbook indicators 2020
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#ConceptScheme
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| sist oppdatert | dct:modified | http://purl.org/dc/modified | 2024-12-10
+| utgiver (org.nr.) | dct:publisher | http://purl.org/dc/publisher | https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2722
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2725
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2726
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2727
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2730
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2731
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2732
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2733
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2734
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2735
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2737
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2738
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2739
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2740
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2742
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2743
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2744
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2745
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2746
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2747
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2748
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2750
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2752
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2755
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2756
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2757
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2758
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2759
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2760
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2761
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2763
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2764
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2766
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2769
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2770
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2771
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2772
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2773
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2775
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2776
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2777
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2779
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2780
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2781
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2782
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2783
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2784
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2785
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2786
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2789
+| inneholder | uneskos:contains | http://purl.org/umu/uneskos#contains | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2790
+| antall nivå | xkos:numberOfLevels | http://rdf-vocabulary.ddialliance.org/xkos#numberOfLevels | 1
+| anbefalt navn | skos:prefLabel | http://www.w3.org/2004/02/skos/core#prefLabel | The EU-JRC-VLR-handbook indicators 2020
+| status | adms:status | http://www.w3.org/ns/adms#status | http://publications.europa.eu/resource/authority/dataset-status/DEVELOP
+|===
+
+== ['Heat vulnerability']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2777
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/13
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/13.1
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2777
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Other']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['no data found']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness
+| navn | dct:title | http://purl.org/dc/title | ['Heat vulnerability']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+|===
+
+== ['City trasport performance']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2757
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/9
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/9.1
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2757
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/statbank/table/03982/tableViewSorted/']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Transport
+| navn | dct:title | http://purl.org/dc/title | ['City trasport performance']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity
+|===
+
+== ['Children 0-4 in day care or school ']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2732
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/4
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/4.2
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2732
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/sdg/god-utdanning']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare
+| navn | dct:title | http://purl.org/dc/title | ['Children 0-4 in day care or school ']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['Urban Flood Risk']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2776
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/13
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/13.1
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2776
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Other']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.iea.org/articles/norway-climate-resilience-policy-indicator']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness
+| navn | dct:title | http://purl.org/dc/title | ['Urban Flood Risk']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+|===
+
+== ['Blue City Index (BCI)']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2744
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/6
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/6.1
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/6.2
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/6.3
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/6.4
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/6.5
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2744
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.watershare.eu/tool/city-blueprint/#:~:text=Furthermore%2C%20the%20Blue%20City%20Index,with%20low%20BCI%20performance%20scores.']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste
+| navn | dct:title | http://purl.org/dc/title | ['Blue City Index (BCI)']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+|===
+
+== ['Cultural Creative Cities Index - C3 Index']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2769
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/11
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/11.2
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/11.3
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/11.7
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/11.b
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2769
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://composite-indicators.jrc.ec.europa.eu/cultural-creative-cities-monitor/countries-and-cities']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Culture
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Transport
+| navn | dct:title | http://purl.org/dc/title | ['Cultural Creative Cities Index - C3 Index']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity
+|===
+
+== ['Energy consumption index']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2748
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/7
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/7.1
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2748
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/District-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://ec.europa.eu/eurostat/web/sdi/affordable-and-clean-energy']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Energy
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Industry
+| navn | dct:title | http://purl.org/dc/title | ['Energy consumption index']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+|===
+
+== ['Local tourism intensity ']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2773
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/12
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/12.b
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2773
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['no data found']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Culture
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Industry
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment
+| navn | dct:title | http://purl.org/dc/title | ['Local tourism intensity ']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+|===
+
+== ['Murders and violent deaths']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2783
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/16
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/16.1
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2783
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/sdg/fred-rettferdighet-og-velfungerende-institusjoner']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness
+| navn | dct:title | http://purl.org/dc/title | ['Murders and violent deaths']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['Gini index ']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2758
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/10
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/10.4
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2758
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://tradingeconomics.com/norway/gini-index-wb-data.html#:~:text=Gini%20index%20in%20Norway%20was,Bank%20on%20June%20of%202022.']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Economy
+| navn | dct:title | http://purl.org/dc/title | ['Gini index ']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity
+|===
+
+== ['Satisfaction with the administrative services of the city']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2785
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/16
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/16.6
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2785
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Other']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['no data found']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement
+| navn | dct:title | http://purl.org/dc/title | ['Satisfaction with the administrative services of the city']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['Adults with less then primary, primary and lower secondary education']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2733
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/4
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/4.1
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2733
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Other']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/utdanning/voksenopplaering/statistikk/voksnes-laering']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare
+| navn | dct:title | http://purl.org/dc/title | ['Adults with less then primary, primary and lower secondary education']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['Tree Cover Density ']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2782
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/15
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/15.1
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2782
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Other']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/sdg/livet-pa-land']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment
+| navn | dct:title | http://purl.org/dc/title | ['Tree Cover Density ']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+|===
+
+== ['Accidents at Work']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2750
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/8
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/8.8
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2750
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://ec.europa.eu/eurostat/web/sdi/decent-work-and-economic-growth']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment
+| navn | dct:title | http://purl.org/dc/title | ['Accidents at Work']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['Enterprises in Industry, construction and services ']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2755
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/9
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/9.2
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2755
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/statbank/table/09028/tableViewLayout1/']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Economy
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment
+| navn | dct:title | http://purl.org/dc/title | ['Enterprises in Industry, construction and services ']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity
+|===
+
+== ['Deaths in Road Accidents']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2730
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/3
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/3.6
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2730
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/sdg/god-helse-og-livskvalitet']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Transport
+| navn | dct:title | http://purl.org/dc/title | ['Deaths in Road Accidents']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['Greenhouse gas emissions']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2775
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/13
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/13.2
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2775
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/sdg/stoppe-klimaendringene']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness
+| navn | dct:title | http://purl.org/dc/title | ['Greenhouse gas emissions']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+|===
+
+== ['Recycled water used for open spaces ']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2743
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/6
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/6.4
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2743
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['no data found']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste
+| navn | dct:title | http://purl.org/dc/title | ['Recycled water used for open spaces ']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+|===
+
+== ['Local recycling rates']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2770
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/12
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/12.5
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2770
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/sdg/ansvarlig-forbruk-og-produksjon']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste
+| navn | dct:title | http://purl.org/dc/title | ['Local recycling rates']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+|===
+
+== ['Technical Photovoltaic Potential ']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2746
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/7
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/7.2
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2746
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Other']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.solenergiklyngen.no/2021/06/24/status-update-on-the-norwegian-solar-pv-market-2020/']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Energy
+| navn | dct:title | http://purl.org/dc/title | ['Technical Photovoltaic Potential ']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/1-Input
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+|===
+
+== ['Built-up area per capita']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2766
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/11
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/11.3
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2766
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['http://www.worldcitiestool.org/']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment
+| navn | dct:title | http://purl.org/dc/title | ['Built-up area per capita']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity
+|===
+
+== ['Seats held by women in municipal governments']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2740
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/5
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/5.5
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2740
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/sdg/likestilling-mellom-kjonnene']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment
+| navn | dct:title | http://purl.org/dc/title | ['Seats held by women in municipal governments']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['Population with migrant background']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2761
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/10
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/10.7
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2761
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/befolkning/innvandrere/statistikk/innvandrere-og-norskfodte-med-innvandrerforeldre']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare
+| navn | dct:title | http://purl.org/dc/title | ['Population with migrant background']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['Female hospitalization for assault data ']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2739
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/5
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/5.2
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2739
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['no data found']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare
+| navn | dct:title | http://purl.org/dc/title | ['Female hospitalization for assault data ']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['Graduates by field and gender']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2760
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/10
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/10.2
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2760
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/utdanning/utdanningsniva/statistikk/befolkningens-utdanningsniva']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Economy
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment
+| navn | dct:title | http://purl.org/dc/title | ['Graduates by field and gender']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['Formal complaints for episodes of ‘violence against women’ ']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2738
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/5
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/5.2
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2738
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/District-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['no data found']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare
+| navn | dct:title | http://purl.org/dc/title | ['Formal complaints for episodes of ‘violence against women’ ']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['New Start-ups over 1,000 inhabitants']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2756
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/9
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/9.2
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2756
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['no data found']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Economy
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment
+| navn | dct:title | http://purl.org/dc/title | ['New Start-ups over 1,000 inhabitants']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity
+|===
+
+== ['Housing cost overburden rate']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2763
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/11
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/11.1
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2763
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Other']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/statbank/table/12128/tableViewLayout1/']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Economy
+| navn | dct:title | http://purl.org/dc/title | ['Housing cost overburden rate']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['Urban greenness ']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2780
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/15
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/15.1
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2780
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/District-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['no data found']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment
+| navn | dct:title | http://purl.org/dc/title | ['Urban greenness ']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+|===
+
+== ['Students in higher education ']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2734
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/4
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/4.3
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2734
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/utdanning/hoyere-utdanning/statistikk/studenter-i-universitets-og-hogskoleutdanning']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education
+| navn | dct:title | http://purl.org/dc/title | ['Students in higher education ']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['Transparency of the public administration ']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2786
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/16
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/16.6
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2786
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.transparency.org/en/countries/norway']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement
+| navn | dct:title | http://purl.org/dc/title | ['Transparency of the public administration ']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['Energy consumption per capita']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2747
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/7
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/7.1
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2747
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/District-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://ec.europa.eu/eurostat/web/sdi/affordable-and-clean-energy']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Energy
+| navn | dct:title | http://purl.org/dc/title | ['Energy consumption per capita']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+|===
+
+== ['Bicycle traffic ']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2764
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/11
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/11.2
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2764
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/statbank/table/08515/tableViewLayout1/']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Transport
+| navn | dct:title | http://purl.org/dc/title | ['Bicycle traffic ']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['New buildings']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2745
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/7
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/7.3
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2745
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Energy
+| navn | dct:title | http://purl.org/dc/title | ['New buildings']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+|===
+
+== ['Lone parent private households (with children aged 0 to under 18)']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2722
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/1
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/1.2
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/1.4
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2722
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/statbank/table/06071/tableViewLayout1/']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare
+| navn | dct:title | http://purl.org/dc/title | ['Lone parent private households (with children aged 0 to under 18)']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity
+|===
+
+== ['Level of trust toward other people in the city']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2784
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/16
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/16.1
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2784
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Other']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/sdg/fred-rettferdighet-og-velfungerende-institusjoner']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement
+| navn | dct:title | http://purl.org/dc/title | ['Level of trust toward other people in the city']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['Soup kitchens for people who cannot afford food']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2727
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/2
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/2.1
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2727
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Other']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['no data found']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare
+| navn | dct:title | http://purl.org/dc/title | ['Soup kitchens for people who cannot afford food']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['Adults overweight (including obese)']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2725
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/2
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/2.2
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2725
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Other']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/statbank/table/06189/tableViewLayout1/']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare
+| navn | dct:title | http://purl.org/dc/title | ['Adults overweight (including obese)']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity
+|===
+
+== ['Daily smokers in 1st and 2nd year of upper secondary school']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2731
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/3
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/3.a
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2731
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Other']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/statbank/table/05307/tableViewLayout1/']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare
+| navn | dct:title | http://purl.org/dc/title | ['Daily smokers in 1st and 2nd year of upper secondary school']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['Remittances as a proportion of GDP ']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2789
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/17
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/17.3
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2789
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://unstats.un.org/sdgs/dataportal/database']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Economy
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment
+| navn | dct:title | http://purl.org/dc/title | ['Remittances as a proportion of GDP ']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity
+|===
+
+== ['Drinking water consumption ']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2742
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/6
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/6.1
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2742
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.worldometers.info/water/norway-water/']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste
+| navn | dct:title | http://purl.org/dc/title | ['Drinking water consumption ']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+|===
+
+== ['Participation of local governments in Community-Led Local Development (CLLD) projects ']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2779
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/14
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/14.7
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2779
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['no data found']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment
+| navn | dct:title | http://purl.org/dc/title | ['Participation of local governments in Community-Led Local Development (CLLD) projects ']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/2-Process
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+|===
+
+== ['Land Abandonment']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2781
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/15
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/15.3
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2781
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['no data found']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment
+| navn | dct:title | http://purl.org/dc/title | ['Land Abandonment']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+|===
+
+== ['Non-native students graduating from upper secondary schools']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2735
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/4
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/4.1
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2735
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['no data found']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education
+| navn | dct:title | http://purl.org/dc/title | ['Non-native students graduating from upper secondary schools']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['Gross Domestic Product (GDP) per capita']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2752
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/8
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/8.1
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2752
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/District-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://ec.europa.eu/eurostat/web/sdi/decent-work-and-economic-growth']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Economy
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment
+| navn | dct:title | http://purl.org/dc/title | ['Gross Domestic Product (GDP) per capita']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity
+|===
+
+== ['Unemployed people with disabilities ']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2759
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/10
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/10.2
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2759
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.ssb.no/en/arbeid-og-lonn/sysselsetting/statistikk/personer-med-nedsatt-funksjonsevne-arbeidskraftundersokelsen']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Economy
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Work_and_employment
+| navn | dct:title | http://purl.org/dc/title | ['Unemployed people with disabilities ']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity
+|===
+
+== ['Organic food purchased for schools ']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2726
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/2
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/2.2
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2726
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Other']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['no data found']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare
+| navn | dct:title | http://purl.org/dc/title | ['Organic food purchased for schools ']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['Urban waste per capita']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2771
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/12
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/12.5
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2771
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['no data found']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste
+| navn | dct:title | http://purl.org/dc/title | ['Urban waste per capita']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+|===
+
+== ['Satisfaction with life by sexual identity for 15-year-old children ']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2737
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/5
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/5.6
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2737
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Other']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['no data found']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare
+| navn | dct:title | http://purl.org/dc/title | ['Satisfaction with life by sexual identity for 15-year-old children ']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+|===
+
+== ['VLR indicators from official statistics']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2790
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/17
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/17.18
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2790
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Other']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| navn | dct:title | http://purl.org/dc/title | ['VLR indicators from official statistics']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+|===
+
+== ['Pollutants from industrial facilities']
+
+*URI*: https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2772
+
+[cols="20s,20d,20d,40d"]
+|===
+| Egenskapsnavn (norsk) | *EgenskapsURI* (kortform) | *EgenskapsURI* | *Verdi*
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://metadata.un.org/sdg/ontology#Indicator
+| er instans av | rdf:type | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/2004/02/skos/core#Concept
+| har mål | sdgo:hasGoal | http://metadata.un.org/sdg/ontology#hasGoal | http://metadata.un.org/sdg/12
+| er indikator for delmål | sdgo:isIndicatorOf | http://metadata.un.org/sdg/ontology#isIndicatorOf | http://metadata.un.org/sdg/12.4
+| identifikator | dct:identifier | http://purl.org/dc/identifier | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2772
+| oppdateringsfrekvens | dcterms:accrualPeriodicity | http://purl.org/dc/terms/accrualPeriodicity | ['Yearly']
+| geografisk dekning | dcterms:coverage | http://purl.org/dc/terms/coverage | https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level
+| kilde | dcterms:source | http://purl.org/dc/terms/source | ['https://www.norskeutslipp.no/en/Industrial-activities/?SectorID=600']
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Health_and_social_services_and_welfare
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Industry
+| emne | dcterms:subject | http://purl.org/dc/terms/subject | https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness
+| navn | dct:title | http://purl.org/dc/title | ['Pollutants from industrial facilities']
+| nivånummer | xkos:depth | http://rdf-vocabulary.ddialliance.org/xkos#depth | 1
+| er i klassifikasjon | skos:inScheme | http://www.w3.org/2004/02/skos/core#inScheme | https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/Evaluation/3-Output
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/People
+| relatert | skos:related | http://www.w3.org/2004/02/skos/core#related | https://data.norge.no/vocabulary/indicator/triplebottomline/Planet
+|===
+
+== Navnerom
+
+[cols="20s,80d"]
+|===
+| Prefix | URI
+| brick | https://brickschema.org/schema/Brick#
+| csvw | http://www.w3.org/ns/csvw#
+| dc | http://purl.org/dc/elements/1.1/
+| dcat | http://www.w3.org/ns/dcat#
+| dcmitype | http://purl.org/dc/dcmitype/
+| dcterms | http://purl.org/dc/terms/
+| dcam | http://purl.org/dc/dcam/
+| doap | http://usefulinc.com/ns/doap#
+| foaf | http://xmlns.com/foaf/0.1/
+| geo | http://www.opengis.net/ont/geosparql#
+| odrl | http://www.w3.org/ns/odrl/2/
+| org | http://www.w3.org/ns/org#
+| prof | http://www.w3.org/ns/dx/prof/
+| prov | http://www.w3.org/ns/prov#
+| qb | http://purl.org/linked-data/cube#
+| schema | https://schema.org/
+| sh | http://www.w3.org/ns/shacl#
+| skos | http://www.w3.org/2004/02/skos/core#
+| sosa | http://www.w3.org/ns/sosa/
+| ssn | http://www.w3.org/ns/ssn/
+| time | http://www.w3.org/2006/time#
+| vann | http://purl.org/vocab/vann/
+| void | http://rdfs.org/ns/void#
+| wgs | https://www.w3.org/2003/01/geo/wgs84_pos#
+| owl | http://www.w3.org/2002/07/owl#
+| rdf | http://www.w3.org/1999/02/22-rdf-syntax-ns#
+| rdfs | http://www.w3.org/2000/01/rdf-schema#
+| xsd | http://www.w3.org/2001/XMLSchema#
+| xml | http://www.w3.org/XML/1998/namespace
+| adms | http://www.w3.org/ns/adms#
+| dct | http://purl.org/dc/
+| sdgo | http://metadata.un.org/sdg/ontology#
+| uneskos | http://purl.org/umu/uneskos#
+| vcard | http://www.w3.org/2006/vcard/ns#
+| xkos | http://rdf-vocabulary.ddialliance.org/xkos#
+|===

@@ -1,0 +1,2066 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdgo: <http://metadata.un.org/sdg/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> a vcard:Organization ;
+    vcard:hasEmail "kom@ks.no"^^xsd:anyURI ;
+    vcard:hasOrganizationName "KS"@no ;
+    vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2035> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2035> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.oecd-ilibrary.org/economics/country-statistical-profile-norway-2021-2_535f458e-en']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Average disposable income per day of the first quintile (equivalised household, in USD PPP, constant prices of 2010)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C010101a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2036> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2036> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.oecd-ilibrary.org/economics/country-statistical-profile-norway-2021-2_535f458e-en']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Percentage of population with a disposable income below the 60% of national median disposable income']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C010201']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2037> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2037> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://data.oecd.org/inequality/poverty-rate.htm']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Decrease in poverty rates (national poverty line) due to transfers and taxes (%)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C010301']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2038> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2038> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.oecdbetterlifeindex.org/topics/housing/']" ;
+    dct:title "['Rooms per person']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C010400a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2039> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.b> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2039> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/sosiale-forhold-og-kriminalitet/levekar/statistikk/fattigdomsproblemer-levekarsundersokelsen']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Percentage of population satisfied with efforts to deal with poverty']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C010b01a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2040> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/2> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/2.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2040> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Percentage of people with access to at least one food shop within 15 minutes of walking']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C020100a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2041> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/2> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/2.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2041> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://data.worldbank.org/indicator/NV.AGR.EMPL.KD?locations=NO']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Productivity (Gross Value Added per worker) in agriculture, forestry and fishing (ISIC rev4) (in constant 2010 USD PPP)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C020301']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2042> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/2> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/2.4> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2042> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://stats.oecd.org/Index.aspx?DataSetCode=LAND_COVER_CHANGE']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Change in cropland (from 1992 to 2015, percentage points)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C020401a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2043> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/2> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/2.4> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2043> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Cropland as a percentage of total area in 2015']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C020401b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2044> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2044> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://data.oecd.org/healthstat/infant-mortality-rates.htm']" ;
+    dct:title "['Mortality rates for the 0 to 4 years old population (deaths per 10 000 people).']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C030201a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2045> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2045> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.who.int/data/maternal-newborn-child-adolescent-ageing/indicator-explorer-new/mca/infant-mortality-rate-(per-1000-live-births)']" ;
+    dct:title "['Infant mortality rate (number of deaths of children one year old or younger per 1 000 live births).']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C030202a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2046> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2046> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.idunn.no/nordisk_valfardsforskning/2019/02/trends_in_high_life_satisfaction_among_adolescents_in_five_                                          https://www.oecdbetterlifeindex.org/topics/life-satisfaction/']" ;
+    dct:title "['Satisfaction with life as a whole (from 0 to 10).']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C030400a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2047> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2047> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://data.worldbank.org/indicator/SP.DYN.LE00.IN?locations=NO']" ;
+    dct:title "['Life expectancy at birth (years).']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C030400b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2048> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2048> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.oecd-ilibrary.org/docserver/health_glance-2013-9-en.pdf?expires=1638316536&id=id&accname=guest&checksum=886D8C823DACCBD187A4165224459DB3']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Transport-related mortality rates (deaths per 100 000 people).']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C030601']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2049> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2049> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.oecdbetterlifeindex.org/topics/life-satisfaction/']" ;
+    dct:title "['Percentage of people satisfied with the availability or quality of healthcare.']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C030802a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2050> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2050> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/helse/artikler-og-publikasjoner/lengst-kjoretid-til-akuttmottak-i-finnmark?tabell=399359']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Percentage of people with access to at least one hospital within 20 minutes of driving.']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C030802b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2051> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.c> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2051> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=NO']" ;
+    dct:title "['Active physicians rate (active physicians per 1 000 people).']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C030c01']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2052> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.c> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2052> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.who.int/data/gho/data/indicators/indicator-details/GHO/hospital-beds-(per-10-000-population)']" ;
+    dct:title "['Hospital beds rate (hospital beds per 10 000 people).']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C030c01a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2053> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2053> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://stats.oecd.org/Index.aspx?DataSetCode=EAG_ENRL_RATE_AGE']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Percentage of population from 15 to 19 years old enrolled in public or private institutions ']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C040101']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2054> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2054> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['Not enough data available']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Percentage of people with access to at least one school within 15 minutes of public transport']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C040200a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2055> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2055> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://stats.oecd.org/BrandedView.aspx?oecd_bv_id=trsprt-data-en&doi=0ae92b30-en']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Percentage of people with access to at least one school within 20 minutes of walking']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C040200b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2056> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2056> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/District-level> ;
+    dcterms:source "['https://www.oecd-local-sdgs.org/index.html']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education> ;
+    dct:title "['Percentage of early leavers from education and training, for the 18 to 24 years old population']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C040202']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2057> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2057> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://data.oecd.org/eduatt/population-with-tertiary-education.htm']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education> ;
+    dct:title "['Percentage of population from 25 to 64 years old with at least tertiary education']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C040300a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2058> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2058> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Adult_learning_statistics&oldid=9602#Participation_rate_of_adults_in_learning_in_the_last_12_months']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education> ;
+    dct:title "['Percentage of population from 25 to 64 years old participating in education and training.']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C040301']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2059> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2059> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.oecd.org/officialdocuments/publicdisplaydocumentpdf/?cote=EDU/WKP(2018)19&docLanguage=En']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Gender gap in the rate of early leavers (male-female, percentage points).']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C040501a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2060> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2060> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://data.oecd.org/youthinac/youth-not-in-employment-education-or-training-neet.htm']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Gender gap in the rate of young population (from 18 to 24 years old) not in education, employment or training (NEET) (female-male, percentage points)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C040501b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2061> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2061> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dct:title "['Percentage of population that believe women are treated with respect and dignity in their country']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C050101a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2062> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.4> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2062> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "['https://www.ssb.no/en/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Gender gap in employment rate (male-female, percentage points)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C050401a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2063> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.4> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2063> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "['https://www.ssb.no/en/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Gender gap in part-time employment incidence (female-male, percentage points)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C050401b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2064> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2064> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.nifu.no/fou-statistiske/fou-statistikk/kjonnsbalanse-i-forskning/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Female research and development personnel as a percentage of total research and development employment']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C050500a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2065> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2065> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://stats.oecd.org/Index.aspx?DataSetCode=BLI']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Percentage of population satisfied with quality of water']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C06300a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2066> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2066> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "['https://www.ssb.no/en/statbank/table/06198/tableViewLayout1/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Change in water bodies (from 1992 to 2015, percentage points)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C060601']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2067> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2067> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "['https://www.ssb.no/en/natur-og-miljo/areal/statistikk/areal-av-land-og-ferskvatn']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Water bodies as percentage of total area in 2015']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C060601a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2068> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/7.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2068> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "['https://www.ssb.no/en/statbank/table/08308/tableViewLayout2/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Percentage of total electricity production that comes from renewable sources']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C070201a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2069> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/7.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2069> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "['https://www.ssb.no/en/statbank/table/08308/tableViewLayout2/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Percentage of total electricity production that comes from coal']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C070201b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2070> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/7.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2070> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "['https://www.ssb.no/en/statbank/table/08308/tableViewLayout2/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Percentage of total electricity production that comes from fossil fuels (natural gas and oil, excluding coal)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C070201c']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2071> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/7.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2071> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Percentage of total electricity production that comes from nuclear power']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C070201d']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2072> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2072> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/nasjonalregnskap-og-konjunkturer/nokkeltall/economic-and-financial-data-for-norway']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Annual growth rate of real GDP per capita (%, from to 2008 to 2016-17)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080101']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2073> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2073> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "['https://www.ssb.no/en/arbeid-og-lonn/sysselsetting/statistikk/sysselsetting-registerbasert']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Employment in knowledge-intensive services as a percentage of total employment']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080200a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2074> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2074> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/statbank/table/09174/tableViewLayout1/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Annual growth rate of real GVA per worker (%, from to 2008 to 2016-17)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080201']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2075> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2075> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/statbank/table/08338/tableViewLayout1/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Percentage of labour force with at least secondary education']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080300a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2076> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2076> ;
+    dcterms:accrualPeriodicity "['Quarterly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "['https://www.ssb.no/en/virksomheter-foretak-og-regnskap/virksomheter-og-foretak/statistikk/foretak']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement> ;
+    dct:title "['Firm creation rate (%)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080300b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2077> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2077> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "['https://www.ssb.no/en/statbank/table/06707/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Employment rate associated to newly created firms (%)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080300c']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2078> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2078> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/virksomheter-foretak-og-regnskap/virksomheter-og-foretak/statistikk/nyetablerte-foretaks-overlevelse-og-vekst']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry> ;
+    dct:title "['3-year survival rate of firms (%)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080300d']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2079> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2079> ;
+    dcterms:accrualPeriodicity "['Quarterly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/virksomheter-foretak-og-regnskap/virksomheter-og-foretak/statistikk/foretak']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement> ;
+    dct:title "['Net firm creation rate (%) (firm birth rate minus firm death rate)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080300e']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2080> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2080> ;
+    dcterms:accrualPeriodicity "['Monthly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/arbeid-og-lonn/sysselsetting/statistikk/arbeidskraftundersokinga-sesongjusterte-tal']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Unemployment rate (%)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080502']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2081> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2081> ;
+    dcterms:accrualPeriodicity "['Monthly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/statbank/table/13332/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Gender gap in unemployment rate (female-male, percentage points)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080502a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2082> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2082> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "['https://www.ssb.no/en/statbank/table/12539/tableViewLayout1/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Long term unemployment incidence (%)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080502b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2083> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2083> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "['https://www.ssb.no/en/statbank/table/12539/tableViewLayout1/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Part-time employment incidence (%)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080502c']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2084> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2084> ;
+    dcterms:accrualPeriodicity "['Quarterly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "['https://www.ssb.no/en/arbeid-og-lonn/sysselsetting/statistikk/arbeidskraftundersokelsen']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Employment rate (%)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080502d']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2085> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2085> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/statbank/table/09858/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Percentage of young population (from 18 to 24 years old) not in education, employment or training (NEET)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080601']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2086> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.8> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2086> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/arbeid-og-lonn/sysselsetting/statistikk/sysselsetting-blant-innvandrere-registerbasert']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Employment rate of the foreign-born (%)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080800a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2087> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.8> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2087> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/innvarbl']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Unemployment rate of the foreign-born (%)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080800b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2088> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.8> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2088> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.ssb.no/en/arbeid-og-lonn/artikler-og-publikasjoner/_attachment/193602?_ts=1480d13ceb8']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Over-qualification rates for the foreign-born (%)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080800c']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2089> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.8> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2089> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://data.oecd.org/migration/foreign-born-unemployment.htm']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Gender gap in employment rate for the foreign-born (male-female, percentage points)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080800d']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2090> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/10>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/10.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2090> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/befolkning/innvandrere/statistikk/innvandrere-og-norskfodte-med-innvandrerforeldre']" ;
+    dct:title "['Percentage of foreign-born among the total population']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080800e']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2091> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.b> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2091> ;
+    dcterms:accrualPeriodicity "['Quarterly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/statbank/table/07458/tableViewLayout1/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Youth unemployment rate (%)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C080b01a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2092> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/9.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2092> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Performance of public transport network, ratio between accessibility and proximity to people.']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C090100a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2093> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/9.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2093> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Performance of car transport network, ratio between accessibility and proximity to people.']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C090100b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2094> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/9.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2094> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Percentage of population satisfied with roads and highways.']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C090101a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2095> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/9.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2095> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry> ;
+    dct:title "['Productivity (Gross Value Added per worker) in Manufacture (ISIC rev4) (in constant 2010 USD PPP)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C090201']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2096> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/9.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2096> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry> ;
+    dct:title "['Gross Value Added (GVA) in Manufacture (ISIC rev4) as a percentage of GDP']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C090201a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2097> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/9.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2097> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/arbeid-og-lonn/sysselsetting/statistikk/sysselsetting-registerbasert']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry> ;
+    dct:title "['Manufacturing employment as a percentage of total employment']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C090202']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2098> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/9.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2098> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry> ;
+    dct:title "['Employment in high-technology manufacturing as a percentage of total manufacturing employment']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C090202a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2099> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/9.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2099> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/statbank/table/10990/tableViewLayout1/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry> ;
+    dct:title "['Patent applications (PCT) per 1 000 000 people']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C090500a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2100> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/9.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2100> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry> ;
+    dct:title "['Percentage of labour force with at least tertiary education']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C090500b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2101> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/9.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2101> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=NO']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry> ;
+    dct:title "['Research and Development expenditure as a proportion of GDP (%)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C090501']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2102> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/9.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2102> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/statbank/table/11145/tableViewLayout1/?rxid=8c6909a3-6ec8-487f-ac70-d6cd139e2193']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry> ;
+    dct:title "['Research and development personnel as a share of total employment']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C090502']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2103> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/10.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2103> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/statbank/table/07756/tableViewLayout1/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Gini index of disposable income (after taxes and transfers) (from 0 to 1)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C100100a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2104> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/10.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2104> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Ratio between average disposable income of top and bottom quintiles']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C100100b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2105> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/10.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2105> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/inntekt-og-forbruk/inntekt-og-formue/statistikk/inntekts-og-formuesstatistikk-for-husholdninger']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Median disposable income per equivalised household (in USD PPP, constant prices of 2010)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C100100c']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2106> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/10.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2106> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://tradingeconomics.com/norway/disposable-personal-income']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Growth in disposable income per capita (%, from 2008 to 2016-17)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C100101']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2107> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/10.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2107> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/inntekt-og-forbruk/inntekt-og-formue/statistikk/inntekts-og-formuesstatistikk-for-husholdninger']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Average disposable income per equivalised household (in USD PPP, constant prices of 2010)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C100101a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2108> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/10.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2108> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/statbank/table/12599/tableViewLayout1/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Percentage of population with a disposable income below the 60% of regional median disposable income']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C100201']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2109> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/10.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2109> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness> ;
+    dct:title "['Percentage of population that believes their place of residence is a good place to live for racial and ethnic minorities']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C200204c']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2110> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/10.4> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2110> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Decrease in Gini index due to transfers and taxes (%)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C100400a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2111> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/10.4> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2111> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Decrease in poverty rates (regional poverty line) due to transfers and taxes (%)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C100400b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2112> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2112> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.oecd.org/els/family/HC1-1-Housing-related-expenditure-of-households.pdf']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Percentage of households expenses dedicated to housing costs.']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C110100a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2113> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2113> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.oecd.org/social/HC1.4-Satisfaction-with-Housing-Affordability.pdf']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Economy> ;
+    dct:title "['Percentage of population satisfied with affordability of housing.']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C110100b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2114> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2114> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Percentage of population satisfied with the quality of public transportation systems.']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C110200a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2115> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2115> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Performance of public transport network, ratio between accessibility and proximity to hospitals']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C110201a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2116> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2116> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.itf-oecd.org/sites/default/files/docs/accessibility-proximity-transport-performance.pdf']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Performance of car transport network, ratio between accessibility and proximity to hospitals']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C110201b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2117> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2117> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.oecd.org/cfe/Norway-Regions-and-Cities-2020.pdf']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Difference between built-up area growth rate and population growth rate (percentage points)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C110301']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2118> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2118> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=NO']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Exposure to PM2.5 in µg/m³, population weighted (micrograms per cubic metre)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C110602']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2119> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2119> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['Data not found.']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Percentage of population satisfied with quality of air']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C110602a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2120> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2120> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://databank.worldbank.org/source/world-development-indicators,https://www.oecd-ilibrary.org/docserver/9789264235199-7-en.pdf?expires=1643559307&id=id&accname=ocid42012887&checksum=6ECE30B125F5BE55F01B2F58B288080A']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Percentage of people exposed to more than 10 µg/m³ (micrograms per cubic metre) of PM2.5']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C110602b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2121> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2121> ;
+    dcterms:accrualPeriodicity "['Every other year']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "['https://www.ssb.no/en/natur-og-miljo/areal/statistikk/rekreasjonsareal-og-naerturterreng']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Percentage of population with access to at least 1 hectare of green urban areas (parks) and forests within 15 minutes of walking.']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C110701a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2122> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2122> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/statbank/table/05300/tableViewLayout1/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Percentage of population with access to at least one recreational opportunity (theatres, museums, cinemas, stadiums or cultural attractions) within 15 minutes of cycling.']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C110701b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2123> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2123> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "['https://www.ssb.no/en/statbank/table/12220/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Water_and_waste> ;
+    dct:title "['Municipal waste rate (kilos per capita)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C120501']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2124> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.8> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2124> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://stats.oecd.org/index.aspx?queryid=73639']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Transport> ;
+    dct:title "['Number of motor road vehicles per 100 people']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C120801a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2125> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2125> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['Data unavailable.']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Percentage of population satisfied with efforts to preserve the environment']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C200300a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2126> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2126> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.iea.org/countries/norway']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['CO2 emissions per electricity production (in tons of CO2 equivalent per gigawatt hours)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C200300b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2127> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2127> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['Data on HDDs and CDDs unavailable.']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Change in cooling degree-days needed to maintain an average building indoor temperature of 22 degree Celsius, from 1970-1984 to 2004-2018']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C130201a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2128> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2128> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['Data on HDDs and CDDs unavailable.']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Cooling degree-days needed to maintain an average building indoor temperature of 22 degree Celsius, 2004-2018']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C130201b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2129> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2129> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['Data on HDDs and CDDs unavailable.']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Change in heating degree-days needed to maintain an average building indoor temperature of 15.5 degree Celsius, from 1970-1984 to 2004-2018']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C130201c']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2130> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2130> ;
+    dcterms:accrualPeriodicity "['Other']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['Data on HDDs and CDDs unavailable.']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Heating degree-days needed to maintain an average building indoor temperature of 15.5 degree Celsius, 2004-2018']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C130201d']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2131> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/14> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/14.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2131> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://stats.oecd.org/Index.aspx?DataSetCode=PROTECTED_AREAS']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Protected coastal area as a percentage of total coastal area']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C140501']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2132> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/14> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/14.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2132> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://stats.oecd.org/Index.aspx?DataSetCode=PROTECTED_AREAS']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Coastal area as a percentage of total area']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C140501a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2133> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2133> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.regjeringen.no/contentassets/cd6543b5e7f947cd9a086c3528adc654/norways-national-forestry-accounting-plan_2021-2025.pdf']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Change in tree cover (from 1992 to 2015, percentage points)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C150101a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2134> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2134> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "['https://www.ssb.no/en/natur-og-miljo/areal/statistikk/arealbruk-og-arealressurser']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Tree cover as a percentage of total area in 2015']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C150101b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2135> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2135> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "['https://www.ssb.no/en/natur-og-miljo/areal/statistikk/arealbruk-og-arealressurser']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Increase in artificial areas (from 1992 to 2015, percentage points)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C150301a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2136> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2136> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "['https://www.ssb.no/en/natur-og-miljo/areal/statistikk/arealbruk-og-arealressurser']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Artificial areas as a percentage of total area in 2015']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C150301b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2137> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2137> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "['https://www.ssb.no/en/natur-og-miljo/areal/statistikk/vernede-omrader']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Natural_environment> ;
+    dct:title "['Terrestrial protected areas as a percentage of total area']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C150501a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2138> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2138> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.oecdbetterlifeindex.org/topics/safety/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness> ;
+    dct:title "['Homicides per 100 000 persons']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C160101']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2139> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2139> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/sosiale-forhold-og-kriminalitet/kriminalitet-og-rettsvesen/statistikk/anmeldte-lovbrudd-og-ofre']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness> ;
+    dct:title "['Percentage of population that have been assaulted or mugged in the previous 12 months']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C160103']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2140> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2140> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://stats.oecd.org/Index.aspx?DataSetCode=HSL']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Safety_and_preparedness> ;
+    dct:title "['Percentage of population that feel safe walking alone at night around the area they live']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C160104']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2141> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2141> ;
+    dcterms:accrualPeriodicity "['Every other year']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.oecd.org/gov/government-at-a-glance-22214399.htm']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement> ;
+    dct:title "['Percentage of population that have confidence in judicial system and courts']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C160300a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2142> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2142> ;
+    dcterms:accrualPeriodicity "['Every other year']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.oecd.org/gov/government-at-a-glance-22214399.htm']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement> ;
+    dct:title "['Percentage of population that believe corruption is spread throughout the government in the country']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C160500a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2143> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2143> ;
+    dcterms:accrualPeriodicity "['Every other year']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://data.oecd.org/gga/trust-in-government.htm']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement> ;
+    dct:title "['Percentage of population that have confidence in the national government']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C160602']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2144> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2144> ;
+    dcterms:accrualPeriodicity "['Every other year']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.oecd-ilibrary.org/trust-and-safety_f7e14512-en.pdf?itemId=%2Fcontent%2Fcomponent%2Ff7e14512-en&mimeType=pdf']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Governance_and_citizen_engagement> ;
+    dct:title "['Percentage of population that have confidence in the local police force']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C160602a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2145> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.b> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2145> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/sosiale-forhold-og-kriminalitet/levekar/artikler/quality-of-life-in-norway-2021/_/attachment/inline/c2d3a9a8-5dad-4745-ac05-e5f2417ffec0:b844119bf0cfaaf253f214b7ac75c316792b4624/RAPP2021-27_web.pdf']" ;
+    dct:title "['Percentage of population that believes their place of residence is a good place to live for migrants']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C200204a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2146> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.b> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2146> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/sosiale-forhold-og-kriminalitet/artikler-og-publikasjoner/livskvalitetsundersokelsen-2020']" ;
+    dct:title "['Percentage of population that believes their place of residence is a good place to live for gay or lesbian people']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C200204b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2147> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/17> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/17.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2147> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.patentstyret.no/globalassets/om-oss/aarsrapporter/patentstyrets-arsrapport-2020.pdf']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Industry> ;
+    dct:title "['Share of PCT co-patent applications that are done with foreign regions (in % of co-patent applications)']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C170600a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2148> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/17>,
+        <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/17.8>,
+        <http://metadata.un.org/sdg/9.c> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2148> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/teknologi-og-innovasjon/informasjons-og-kommunikasjonsteknologi-ikt/statistikk/bruk-av-ikt-i-husholdningene']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation> ;
+    dct:title "['Percentage of households with broadband internet access']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C170801a']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2149> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/17>,
+        <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/17.8>,
+        <http://metadata.un.org/sdg/9.c> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2149> ;
+    dcterms:accrualPeriodicity "['Yearly']" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/National-level> ;
+    dcterms:source "['https://www.ssb.no/en/statbank/table/10999/']" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmetsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmetsector/Digitalisation> ;
+    dct:title "['Percentage of houses and buildings connected to optical fibre']"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    skos:notation "['C170801b']" ;
+    skos:related <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> a skos:ConceptScheme ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs> ;
+    dct:modified "2024-12-10"^^xsd:date ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
+    uneskos:contains <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2035>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2036>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2037>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2038>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2039>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2040>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2041>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2042>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2043>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2044>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2045>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2046>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2047>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2048>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2049>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2050>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2051>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2052>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2053>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2054>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2055>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2056>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2057>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2058>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2059>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2060>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2061>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2062>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2063>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2064>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2065>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2066>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2067>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2068>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2069>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2070>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2071>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2072>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2073>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2074>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2075>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2076>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2077>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2078>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2079>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2080>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2081>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2082>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2083>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2084>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2085>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2086>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2087>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2088>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2089>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2090>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2091>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2092>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2093>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2094>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2095>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2096>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2097>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2098>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2099>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2100>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2101>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2102>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2103>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2104>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2105>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2106>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2107>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2108>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2109>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2110>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2111>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2112>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2113>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2114>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2115>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2116>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2117>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2118>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2119>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2120>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2121>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2122>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2123>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2124>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2125>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2126>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2127>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2128>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2129>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2130>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2131>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2132>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2133>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2134>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2135>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2136>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2137>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2138>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2139>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2140>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2141>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2142>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2143>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2144>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2145>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2146>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2147>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2148>,
+        <https://data.norge.no/vocabulary/indicator/OECD-A-Territorial-Approach-to-the-SDGs/2149> ;
+    xkos:numberOfLevels 1 ;
+    skos:prefLabel "OECD: A Territorial Approach to the SDGs"@en ;
+    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
+
