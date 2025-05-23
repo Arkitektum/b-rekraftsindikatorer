@@ -23,18 +23,17 @@ concurrency:
 
 jobs:
   # Single deploy job since we're just deploying
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      
       - name: Installer Asciidoctor
         run: |
           gem install asciidoctor --user-install
           echo "$(ruby -r rubygems -e 'puts Gem.user_dir')/bin" >> $GITHUB_PATH
+      
       - name: Konverter .adoc til .html
         run: |
           mkdir -p public
@@ -43,6 +42,7 @@ jobs:
             mkdir -p "$(dirname "$out_file")"
             asciidoctor -o "$out_file" "$file"
           done
+      
       - name: Kopier .ttl-filer
         run: |
           find vocabulary/ -name "*.ttl" | while read file; do
@@ -50,6 +50,22 @@ jobs:
             mkdir -p "$(dirname "$out_file")"
             cp "$file" "$out_file"
           done
+      
+      - name: Legg til CNAME
+        run: echo "data.arkitektum.no" > public/CNAME
+
+      - name: Last opp artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: ./public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
