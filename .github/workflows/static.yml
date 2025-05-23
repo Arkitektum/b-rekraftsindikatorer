@@ -50,9 +50,6 @@ jobs:
             mkdir -p "$(dirname "$out_file")"
             cp "$file" "$out_file"
           done
-      
-      - name: Legg til CNAME
-        run: echo "data.arkitektum.no" > public/CNAME
 
       - name: Last opp artifact
         uses: actions/upload-pages-artifact@v3
