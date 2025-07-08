@@ -34,15 +34,40 @@ jobs:
           gem install asciidoctor --user-install
           echo "$(ruby -r rubygems -e 'puts Gem.user_dir')/bin" >> $GITHUB_PATH
       
-      - name: Konverter .adoc til .html
+      - name: Installer pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      - name: Konverter .md eller .adoc til .html
         run: |
           mkdir -p public
+          
+          find vocabulary/ -name "*.md" | while read file; do
+            out_file="public/${file%.md}.html"
+            mkdir -p "$(dirname "$out_file")"
+            pandoc "$file" -o "$out_file"
+          done
+          
           find vocabulary/ -name "*.adoc" | while read file; do
             out_file="public/${file%.adoc}.html"
-            mkdir -p "$(dirname "$out_file")"
-            asciidoctor -o "$out_file" "$file"
+            md_equiv="${file%.adoc}.md"
+            if [ ! -f "$md_equiv" ]; then
+              mkdir -p "$(dirname "$out_file")"
+              asciidoctor -o "$out_file" "$file"
+            fi
           done
-      
+
+          # Lag en enkel index.html med lenker til alle .html-filer
+          INDEX_FILE="public/index.html"
+          echo "<!DOCTYPE html><html><head><meta charset='UTF-8'><title>Index</title></head><body>" > "$INDEX_FILE"
+          echo "<h1>Genererte dokumenter</h1><ul>" >> "$INDEX_FILE"
+
+          find public/ -name "*.html" ! -name "index.html" | sort | while read file; do
+            rel_path="${file#public/}"
+            echo "<li><a href=\"$rel_path\">$rel_path</a></li>" >> "$INDEX_FILE"
+          done
+
+          echo "</ul></body></html>" >> "$INDEX_FILE"
+          
       - name: Kopier .ttl-filer
         run: |
           find vocabulary/ -name "*.ttl" | while read file; do
