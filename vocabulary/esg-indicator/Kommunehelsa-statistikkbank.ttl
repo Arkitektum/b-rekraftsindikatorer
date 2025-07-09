@@ -1,0 +1,2285 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix my: <https://metadata.ks.no/sdg-taxonomi/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdgo: <http://metadata.un.org/sdg/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+my:hasEvaluation a rdf:Property ;
+    rdfs:label "has evaluation"@en ;
+    rdfs:subPropertyOf skos:related .
+
+my:hasImpact a rdf:Property ;
+    rdfs:label "has impact"@en ;
+    rdfs:subPropertyOf skos:related .
+
+<https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> a vcard:Organization ;
+    vcard:hasEmail "kom@ks.no"^^xsd:anyURI ;
+    vcard:hasOrganizationName "KS"@no ;
+    vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1093> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1093> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Befolkning - alle aldere - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1096> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1096> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Befolkning - alle aldere - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1098> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1098> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Befolkning - alle aldere - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1102> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1102> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Befolkning - 0-17 år"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1104> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1104> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Befolkning - 80 år +"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1106> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/10.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1106> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Innvandrere og norskfødte med innvandrerforeldre"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1108> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1108> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Personer som bor alene"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1110> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1110> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Fødte"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1112> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1112> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dct:title "Befolkningsvekst"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1113> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1113> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Framskrevet befolkning - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1114> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1114> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Framskrevet befolkning - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1116> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1116> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Framskrevet befolkning - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1117> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1117> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dct:title "Nettoinnflytting"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1119> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/10.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1119> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dct:title "Inntektsulikhet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1120> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1120> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dct:title "Vedvarende lavinntekt, husholdninger - 0-17 år"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1122> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1122> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dct:title "Vedvarende lavinntekt, husholdninger - alle aldere"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1124> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1124> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dct:title "Vedvarende lavinntekt, husholdninger, kommunal grense - alle aldere"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1125> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1125> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dct:title "Vedvarende lavinntekt, husholdninger, kommunal grense - 0-17 år"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1127> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1127> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dct:title "Gjeld over tre ganger inntekt, husholdninger"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1129> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1129> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Unge utenfor arbeid, utdanning og opplæring - 15-29 år - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1131> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1131> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Unge utenfor arbeid, utdanning og opplæring - 15-29 år - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1132> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1132> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Unge utenfor arbeid, utdanning og opplæring - 15-29 år - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1134> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1134> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Unge utenfor arbeid, utdanning og opplæring - 15-24 år - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1136> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1136> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Unge utenfor arbeid, utdanning og opplæring - 15-24 år - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1138> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1138> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Unge utenfor arbeid, utdanning og opplæring - 15-24 år - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1140> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1140> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Mottakere av stønad til livsopphold (20-66 år) - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1141> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1141> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Mottakere av stønad til livsopphold (20-66 år) - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1143> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1143> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Mottakere av stønad til livsopphold (20-66 år) - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1144> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1144> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Barn av sosialhjelpsmottakere"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1146> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1146> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Mottakere av uføreytelser - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1147> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1147> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Mottakere av uføreytelser - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1149> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1149> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Mottakere av uføreytelser - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1151> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1151> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Arbeidsledighet, registrerte (15-74 år) - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1152> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1152> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Arbeidsledighet, registrerte (15-74 år) - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1154> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1154> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Arbeidsledighet, registrerte (15-74 år) - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1155> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1155> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Barn av eneforsørgere"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1157> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1157> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dct:title "Eierstatus bolig (over 45 år)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1159> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1159> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dct:title "Bor trangt (0-17 år)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1161> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1161> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Bemanning i barnehager"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1162> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1162> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Utdanningsnivå (30-39 år) - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1164> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1164> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Utdanningsnivå (30-39 år) - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1165> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1165> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Utdanningsnivå (30-39 år) - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1167> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1167> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Trivsel på skolen"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1168> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1168> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Trivsel på skolen, årlige tall for store kommuner - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1169> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1169> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Trivsel på skolen, årlige tall for store kommuner - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1170> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1170> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Trivsel på skolen, årlige tall for store kommuner - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1171> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1171> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Mobbing, 7. og 10. klasse"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1173> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1173> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Mobbing på skolen, årlige tall"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1174> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1174> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Leseferdighet etter innvandringsbakgrunn (mestringsnivå 1), 5. trinn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1176> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1176> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Regneferdighet (mestringsnivå 1), 5. trinn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1177> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1177> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Gjennomføring i videregående opplæring etter innvandringsbakgrunn - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1179> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1179> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Gjennomføring i videregående opplæring etter innvandringsbakgrunn - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1181> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1181> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Gjennomføring i videregående opplæring etter innvandringsbakgrunn - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1182> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1182> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Gjennomføring i videregående opplæring etter foreldrenes utdanningsnivå - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1184> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1184> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Gjennomføring i videregående opplæring etter foreldrenes utdanningsnivå - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1185> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1185> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Gjennomføring i videregående opplæring etter foreldrenes utdanningsnivå - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1187> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1187> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Grunnskolepoeng etter foreldrenes utdanning - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1188> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1188> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Grunnskolepoeng etter foreldrenes utdanning - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1189> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1189> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Grunnskolepoeng etter foreldrenes utdanning - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1190> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1190> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Grunnskolepoeng etter innvandringsbakgrunn - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1191> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1191> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Grunnskolepoeng etter innvandringsbakgrunn - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1192> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1192> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Grunnskolepoeng etter innvandringsbakgrunn - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1193> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1193> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Barn med barnevernstiltak"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1194> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1194> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Barn med undersøkelse av barnevernet - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1195> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1195> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Barn med undersøkelse av barnevernet - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1196> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1196> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Barn med undersøkelse av barnevernet - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1197> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1197> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Troen på et lykkelig liv, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1198> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1198> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Misfornøyd med flere sider av livet, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1199> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1199> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Høy tilfredshet med livet, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1200> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1200> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Fornøydhet med foreldrene, ungdom (Litt eller svært fornøyd)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1201> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1201> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Fornøydhet med skolen, ungdom (Litt eller svært fornøyd)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1202> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1202> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Vold og mishandling, anmeldte tilfeller"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1203> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1203> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Plaget av ensomhet, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1204> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1204> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Fornøyd med lokalmiljøet, ungdom (Litt eller svært fornøyd)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1205> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1205> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Med i fritidsorganisasjon, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1206> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1206> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Fortrolig venn, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1207> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1207> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Med venner, hos meg/dem, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1208> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1208> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Ute med venner, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1209> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1209> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Culture> ;
+    dct:title "Treffsteder for unge, opplever at tilbudet er bra"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1210> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1210> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Regelbrudd, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1211> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1211> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Trygghet i nærmiljøet, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1212> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1212> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Transport> ;
+    dct:title "Fornøyd med kollektivtilbudet, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1213> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1213> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Valgdeltakelse - Stortingsvalg"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1214> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1214> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Valgdeltagelse - Kommunestyrevalg"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1215> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.9> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1215> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dct:title "Luftforurensning, eksponert over luftkvalitetskriteriene for finkornet svevestøv"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1216> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1216> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Hygienisk og stabil drikkevannsforsyning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1217> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1217> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Andel tilknyttet vannverk som forsyner mer enn 50 personer"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1218> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1218> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Spesialisthelsetjenesten, somatikk - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1219> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1219> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Spesialisthelsetjenesten, somatikk - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1220> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1220> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Spesialisthelsetjenesten, somatikk - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1221> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1221> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Kan svømme 200 meter, selvrapportert - Begge kjønn "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1222> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1222> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Kan svømme 200 meter, selvrapportert - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1223> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1223> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Kan svømme 200 meter, selvrapportert - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1224> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1224> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Alkohol omsatt i dagligvarebutikker og Vinmonopol (liter ren alkohol per innbygger 15 år +)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1225> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.a> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1225> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Røyking, kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1226> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1226> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Cannabisbruk, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1227> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1227> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Alkohol, har vært beruset, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1228> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1228> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Trener sjeldnere enn ukentlig, selvrapportert - Begge kjønn "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1229> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1229> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Trener sjeldnere enn ukentlig, selvrapportert - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1230> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1230> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Trener sjeldnere enn ukentlig, selvrapportert - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1231> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1231> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Lite fysisk aktive, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1232> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1232> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Skjermtid, mer enn fire timer daglig, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1233> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1233> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Culture> ;
+    dct:title "Data- og TV-spill, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1234> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1234> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Bruk av sosiale medier, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1235> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1235> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Culture> ;
+    dct:title "Mediebruk, filmer/serier/youtube, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1236> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1236> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Forventet levealder totalt og etter utdanning - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1237> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1237> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Forventet levealder totalt og etter utdanning - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1238> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1238> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Forventet levealder totalt og etter utdanning - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1239> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1239> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Forventet levealder, forskjell mellom to utdanningsgrupper - Begge kjønn "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1240> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1240> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Forventet levealder, forskjell mellom to utdanningsgrupper - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1241> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1241> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Forventet levealder, forskjell mellom to utdanningsgrupper - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1242> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1242> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Fornøyd med helsa, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1243> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1243> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Søvnproblemer, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1244> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1244> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Overvekt og fedme, 17 år, selvrapportert (KMI over 25) - Begge kjønn "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1245> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1245> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Overvekt og fedme, 17 år, selvrapportert (KMI over 25) - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1246> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1246> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Overvekt og fedme, 17 år, selvrapportert (KMI over 25) - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1247> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1247> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Overvekt inkl. fedme, kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1248> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1248> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Psykiske plager, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1249> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1249> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Legemiddelbrukere (0-74 år) - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1250> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1250> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Legemiddelbrukere (0-74 år) - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1251> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1251> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Legemiddelbrukere (0-74 år) - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1252> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1252> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Hjerte- og karsykdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1253> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1253> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Kreft, nye tilfeller - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1254> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1254> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Kreft, nye tilfeller - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1255> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1255> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Kreft, nye tilfeller - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1256> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1256> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Brukere av legemidler til behandling av type 2-diabetes - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1257> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1257> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Brukere av legemidler til behandling av type 2-diabetes - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1258> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1258> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Brukere av legemidler til behandling av type 2-diabetes - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1259> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1259> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "KOLS, spesialisthelsetjenesten (45 år +) - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1260> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1260> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "KOLS, spesialisthelsetjenesten (45 år +) - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1261> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1261> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "KOLS, spesialisthelsetjenesten (45 år +) - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1262> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1262> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "KOLS og astma, legemiddelbrukere (45-74 år) - Begge kjønn "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1263> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1263> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "KOLS og astma, legemiddelbrukere (45-74 år) - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1264> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1264> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "KOLS og astma, legemiddelbrukere (45-74 år) - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1265> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1265> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Reseptfrie smertestillende legemidler, ungdom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1266> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1266> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Fødselsvekt (høy fødselsvekt)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1267> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1267> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Influensavaksinerte over 65 år"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1268> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1268> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Vaksinerte, HPV-vaksine til kvinner født 1991-1996"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1269> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1269> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Vaksinasjonsdekning - barnevaksinasjonprogrammet (Meslinger) - 2-åringer"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1270> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1270> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Vaksinasjonsdekning - barnevaksinasjonprogrammet (Meslinger) - 9-åringer"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1271> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1271> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Vaksinasjonsdekning - barnevaksinasjonprogrammet (Meslinger) - 16-åringer"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1272> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.9> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1272> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Antibiotikaresepter, Antibiotika til systemisk bruk, ekskl. metenamin (J01 ekskl. J01XX05), 0-79 år - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1273> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.9> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1273> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Antibiotikaresepter, Antibiotika til systemisk bruk, ekskl. metenamin (J01 ekskl. J01XX05), 0-79 år - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1274> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.9> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1274> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Antibiotikaresepter, Antibiotika til systemisk bruk, ekskl. metenamin (J01 ekskl. J01XX05), 0-79 år - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1275> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1275> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Antibiotikaresepter, Antibiotika til systemisk bruk, ekskl. metenamin (J01 ekskl. J01XX05), 0-4 år - Begge kjønn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1276> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1276> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Antibiotikaresepter, Antibiotika til systemisk bruk, ekskl. metenamin (J01 ekskl. J01XX05), 0-4 år - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1277> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1277> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Antibiotikaresepter, Antibiotika til systemisk bruk, ekskl. metenamin (J01 ekskl. J01XX05), 0-4 år - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1278> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1278> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Resepter med smalspektret antibiotika mot luftveisinfeksjoner (0-79 år) - Begge kjønn "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1279> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1279> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Resepter med smalspektret antibiotika mot luftveisinfeksjoner (0-79 år) - Menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1280> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1280> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://khs.fhi.no/webview/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Resepter med smalspektret antibiotika mot luftveisinfeksjoner (0-79 år) - Kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> a skos:ConceptScheme ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank> ;
+    dct:modified "2025-07-08"^^xsd:date ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
+    dct:title "Kommunehelsa statistikkbank"@no ;
+    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1093>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1096>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1098>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1102>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1104>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1106>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1108>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1110>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1112>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1113>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1114>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1116>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1117>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1119>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1120>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1122>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1124>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1125>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1127>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1129>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1131>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1132>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1134>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1136>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1138>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1140>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1141>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1143>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1144>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1146>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1147>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1149>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1151>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1152>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1154>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1155>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1157>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1159>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1161>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1162>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1164>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1165>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1167>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1168>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1169>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1170>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1171>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1173>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1174>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1176>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1177>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1179>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1181>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1182>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1184>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1185>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1187>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1188>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1189>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1190>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1191>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1192>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1193>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1194>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1195>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1196>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1197>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1198>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1199>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1200>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1201>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1202>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1203>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1204>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1205>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1206>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1207>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1208>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1209>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1210>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1211>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1212>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1213>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1214>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1215>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1216>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1217>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1218>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1219>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1220>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1221>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1222>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1223>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1224>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1225>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1226>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1227>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1228>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1229>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1230>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1231>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1232>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1233>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1234>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1235>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1236>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1237>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1238>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1239>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1240>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1241>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1242>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1243>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1244>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1245>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1246>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1247>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1248>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1249>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1250>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1251>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1252>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1253>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1254>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1255>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1256>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1257>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1258>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1259>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1260>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1261>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1262>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1263>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1264>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1265>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1266>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1267>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1268>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1269>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1270>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1271>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1272>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1273>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1274>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1275>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1276>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1277>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1278>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1279>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kommunehelsa-statistikkbank#1280> ;
+    xkos:numberOfLevels 1 ;
+    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
+

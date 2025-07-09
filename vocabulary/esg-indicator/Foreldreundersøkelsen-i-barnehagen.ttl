@@ -1,0 +1,470 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix my: <https://metadata.ks.no/sdg-taxonomi/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdgo: <http://metadata.un.org/sdg/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+my:hasEvaluation a rdf:Property ;
+    rdfs:label "has evaluation"@en ;
+    rdfs:subPropertyOf skos:related .
+
+my:hasImpact a rdf:Property ;
+    rdfs:label "has impact"@en ;
+    rdfs:subPropertyOf skos:related .
+
+<https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> a vcard:Organization ;
+    vcard:hasEmail "kom@ks.no"^^xsd:anyURI ;
+    vcard:hasOrganizationName "KS"@no ;
+    vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3145> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3145> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Hvor fornøyd eller misfornøyd er du med barnehagens utearealer?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3146> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3146> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Hvor fornøyd eller misfornøyd er du med barnehagens lokaler?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3147> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3147> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Hvor fornøyd eller misfornøyd er du med barnehagens leker og utstyr?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3149> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3149> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Hvor fornøyd eller misfornøyd er du med hygienen i barnehagen?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3150> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/2> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/2.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3150> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Hvor fornøyd eller misfornøyd er du med barnehagens mattilbud?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3151> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3151> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Hvor fornøyd eller misfornøyd er du med hvordan barnehagen ivaretar barnas sikkerhet?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3152> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3152> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Jeg opplever at barnet mitt føler seg trygg på personalet i barnehagen"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3153> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3153> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Jeg opplever at de ansatte tar hensyn til mitt barns behov"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3154> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3154> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Jeg opplever at de ansatte er engasjerte i mitt barn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3155> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3155> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Jeg opplever at bemanningstetthet - antallet barn per voksen – i barnehagen er tilfredsstillende"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3156> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3156> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Jeg har inntrykk av at barnet mitt trives i barnehagen"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3157> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3157> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Jeg har inntrykk av at mitt barn har venner i barnehagen"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3158> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3158> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Jeg har inntrykk av at barnehagen legger til rette for allsidig lek og aktiviteter"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3159> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3159> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Jeg får god informasjon fra personalet om hvordan barnet mitt har det i barnehagen"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3160> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3160> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Jeg får god informasjon om innholdet i barnehagedagen"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3161> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3161> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Barnehagen er flinke til å informere om eventuelle endringer i personalgruppen"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3162> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3162> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Jeg har inntrykk av at barnehagen bidrar til mitt barns sosiale utvikling (vennskap, empati, vise hensyn)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3163> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3163> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Jeg har inntrykk av at personalet i barnehagen oppmuntrer mitt barns nysgjerrighet og lyst til å lære"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3164> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3164> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Jeg har inntrykk av at barnehagen tilrettelegger for mitt barns språkutvikling"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3165> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3165> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Jeg opplever å ha en god dialog med barnehagen om mitt barns utvikling"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3166> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3166> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Jeg har inntrykk av at barnet mitt får være med på å påvirke innholdet i barnehagedagen"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3167> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3167> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Barnehagen tar hensyn til mine synspunkter"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3168> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3168> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Barnehagen jobber for å sikre foreldrenes medvirkning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3169> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3169> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Opplever du foreldremøte som nyttig?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3170> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3170> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Hvor fornøyd eller misfornøyd er du med hvordan personalet møter dere ved levering av barn?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3171> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3171> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Hvor fornøyd eller misfornøyd er du med hvordan personalet møter dere ved henting av barn?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3172> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3172> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Hvor fornøyd eller misfornøyd er du med hvordan barnehagen forbereder barnet ditt til skolestart?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3173> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3173> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Hvor fornøyd eller misfornøyd er du med hvordan barnet ditt ble ivaretatt i tilvenningsperioden?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3174> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3174> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/statistikk-barnehage/foreldreundersokelsen-i-barnehager-resultater/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Totalt sett, hvor fornøyd eller misfornøyd er du med din barnehage?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> a skos:ConceptScheme ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-> ;
+    dct:modified "2025-07-08"^^xsd:date ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
+    dct:title "Foreldreundersøkelsen i barnehagen "@no ;
+    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3145>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3146>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3147>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3149>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3150>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3151>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3152>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3153>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3154>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3155>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3156>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3157>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3158>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3159>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3160>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3161>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3162>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3163>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3164>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3165>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3166>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3167>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3168>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3169>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3170>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3171>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3172>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3173>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Foreldreundersøkelsen-i-barnehagen-#3174> ;
+    xkos:numberOfLevels 1 ;
+    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
+

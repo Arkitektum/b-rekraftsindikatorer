@@ -1,0 +1,95 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix my: <https://metadata.ks.no/sdg-taxonomi/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdgo: <http://metadata.un.org/sdg/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+my:hasEvaluation a rdf:Property ;
+    rdfs:label "has evaluation"@en ;
+    rdfs:subPropertyOf skos:related .
+
+my:hasImpact a rdf:Property ;
+    rdfs:label "has impact"@en ;
+    rdfs:subPropertyOf skos:related .
+
+<https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> a vcard:Organization ;
+    vcard:hasEmail "kom@ks.no"^^xsd:anyURI ;
+    vcard:hasOrganizationName "KS"@no ;
+    vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3927> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3927> ;
+    dcterms:accrualPeriodicity "24" ;
+    dcterms:source "https://www.ssb.no/statbank/table/09579" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dct:title "Andel med trygg tilgang til rekreasjonsareal - alle aldere "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3929> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3929> ;
+    dcterms:accrualPeriodicity "24" ;
+    dcterms:source "https://www.ssb.no/statbank/table/09579" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dct:title "Andel med trygg tilgang til nærturterreng - alle aldere "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3930> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3930> ;
+    dcterms:accrualPeriodicity "24" ;
+    dcterms:source "https://www.ssb.no/statbank/table/09579" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dct:title "Andel med trygg tilgang til rekreasjonsareal - under 20 år"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3931> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3931> ;
+    dcterms:accrualPeriodicity "24" ;
+    dcterms:source "https://www.ssb.no/statbank/table/09579" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dct:title "Andel med trygg tilgang til nærturterreng - under 20 år"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng> a skos:ConceptScheme ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng> ;
+    dct:modified "2025-07-08"^^xsd:date ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
+    dct:title "Areal - Rekreasjonsareal og nærturterreng"@no ;
+    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3927>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3929>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3930>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3931> ;
+    xkos:numberOfLevels 1 ;
+    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
+

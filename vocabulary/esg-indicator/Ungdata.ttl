@@ -1,0 +1,1025 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix my: <https://metadata.ks.no/sdg-taxonomi/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdgo: <http://metadata.un.org/sdg/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+my:hasEvaluation a rdf:Property ;
+    rdfs:label "has evaluation"@en ;
+    rdfs:subPropertyOf skos:related .
+
+my:hasImpact a rdf:Property ;
+    rdfs:label "has impact"@en ;
+    rdfs:subPropertyOf skos:related .
+
+<https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> a vcard:Organization ;
+    vcard:hasEmail "kom@ks.no"^^xsd:anyURI ;
+    vcard:hasOrganizationName "KS"@no ;
+    vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#11> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#11> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som er fornøyd med vennene sine "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#444> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#444> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som har en fortrolig venn "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#449> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#449> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som har vært ute med venner størsteparten av kvelden minst to ganger siste uken"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#455> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#455> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som er fornøyd med foreldrene sine "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#461> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#461> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som opplever at foreldrene har god oversikt over ungdommenes venner og fritid "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#462> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#462> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dct:title "Prosentandel som oppøever at familien har dårlig råd "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#467> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#467> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som er fornøyd med skolen de går på "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#476> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#476> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som ofte gruer seg til å gå på skolen "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#477> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#477> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som syntes lærerene sine bryr seg om dem "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#478> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#478> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som bruker minst en time hver dag på lekser og annet skolearbeid utenom skolen "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#482> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#482> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som syntes de passer inn blant elevene på skolen "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#483> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#483> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som kjeder seg på skolen "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#486> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#486> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som ofte eller svært ofte blir stresset av skolearbeidet "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#504> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#504> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som har skulket skolen siste år "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#505> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#505> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som trives på skolen "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#506> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#506> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Transport> ;
+    dct:title "Prosentandel som syntes at kollektivtilbudet der de bor er bra "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#512> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#512> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Culture> ;
+    dct:title "Prosentandel som syntes at kulturtilbudet der de bor er bra "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#519> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#519> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Culture> ;
+    dct:title "Prosentandel som syntes at tilbudet av idressanlegg der de bor er bra "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#520> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#520> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som er fornøyd med lokalmiljøet "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#522> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#522> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Culture> ;
+    dct:title "Prosentandel som opplever at tilbudet av lokaler til å treffe andre unge på fritida er bra "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#529> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#529> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Prosentandel som opplever det som trygt å være ute om kvelden i nærområdet der de bor "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#638> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#638> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Prosentandel som tror de vil bli arbeidsledig "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#640> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#640> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som tror de vil fullføre videregående "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#733> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#733> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som tror de vil ta utdanning på universistet eller høgskole "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#8> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#8> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosentandel som føler på ensomhet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#921> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#921> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosentandel som tror de vil få et godt og lykkelig liv "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#923> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#923> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som bruker minst en time daglig på elektroniske spill "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#924> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#924> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som bruker minst en time daglig på å se filmer eller serier "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#926> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#926> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som daglig bruker minst en halvtime på å lese bøker (ikke skolebøker) "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#928> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#928> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som bruker minst en time daglig på å se på TV"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#929> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#929> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosentandel som bruker minst tre timer daglig foran en skjerm "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#931> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#931> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Digitalisation> ;
+    dct:title "Prosentandel som bruker minst en time daglig på sosiale medier "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#932> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#932> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Culture> ;
+    dct:title "Prosentandel som aldri har vært med i en organisasjon, klubb eller lag "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#933> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#933> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Culture> ;
+    dct:title "Prosentandel som har vært med på en annen organisert aktivitet "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#934> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#934> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Culture> ;
+    dct:title "Prosentandel som er med i en organisasjon, klubb eller lag "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#936> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#936> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Culture> ;
+    dct:title "Prosentandel som har vært med på en aktivitet i en idrettsklubb "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#937> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#937> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Culture> ;
+    dct:title "Prosentandel som har vært med på en aktivitet i korps, kor, orkester, musikk-/kulturskole "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#938> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#938> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Culture> ;
+    dct:title "Prosentandel som har vært med på en aktivitet i en religiøs forening "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#940> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#940> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Culture> ;
+    dct:title "Prosentandel som har vært med på en aktivitet i en fritidsklubb/undomsklubb"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#942> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#942> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosentandel som trener på andre organiserte måter "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#944> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#944> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosentandel som trener på egenhånd "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#946> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#946> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosentandel som er fysisk aktiv sjeldnere enn en gang i uka "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#948> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#948> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosentandel som trener i idrettslag "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#950> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#950> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosentandel som trener jevnlig minst en gang i uka "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#952> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#952> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosentandel som trener i treningsstudio"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#954> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#954> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosentandel som er fornøyd med helsa si "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#955> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#955> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosentandel som har brukt helsestasjon for ungdom "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#957> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#957> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosentandel som har brukt helsesykepleier på skolen "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#959> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#959> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosentandel som siste måned har hatt hodepine mange ganger eller daglig "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#961> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#961> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosentandel som har hatt mange psykiske plager de siste sju dagene "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#963> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#963> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosentandel som ukentlig bruker smertestillende tabletter"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#965> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#965> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosentandel som har brukt cannabis siste år "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#967> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#967> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosentandel som drikker alkohhol jevnlig minst en gang i måneden "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#968> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#968> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosentandel som aldri har smakt alkohol eller bare har smakt noen få ganger "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#970> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#970> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som får lov av foreldre/foresatte å drikke alkohol "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#972> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.a> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#972> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosent som røyker daglig eller ukentlig "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#974> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.a> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#974> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosentandel som snuser daglig eller ukentlig "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#975> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#975> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Prosentandel som har blitt tilbudt hasj eller marihuana i løpet av det siste året "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#977> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#977> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Prosent som har vært beruset på alkohol "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#978> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#978> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som har vært borte om natta uten at foreldre visste hvor de var "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#980> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#980> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Prosentandel som har drevet med hærverk "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#983> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#983> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Prosentandel som har nasket i butikk "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#985> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#985> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Prosentandel som har vært i slåsskamp "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#987> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#987> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Prosentandel som har sneket på kino, buss etcl "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#988> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#988> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Prosentandel som har tagget "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#990> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#990> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som blir mobbet minst hver 14. dag "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#992> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#992> ;
+    dcterms:accrualPeriodicity "36" ;
+    dcterms:source "https://www.ungdata.no/kartside/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Prosentandel som mobber andre minst hver 14. dag "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> a skos:ConceptScheme ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-> ;
+    dct:modified "2025-07-08"^^xsd:date ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
+    dct:title "Ungdata "@no ;
+    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#11>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#444>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#449>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#455>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#461>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#462>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#467>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#476>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#477>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#478>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#482>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#483>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#486>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#504>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#505>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#506>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#512>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#519>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#520>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#522>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#529>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#638>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#640>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#733>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#8>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#921>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#923>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#924>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#926>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#928>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#929>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#931>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#932>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#933>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#934>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#936>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#937>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#938>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#940>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#942>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#944>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#946>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#948>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#950>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#952>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#954>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#955>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#957>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#959>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#961>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#963>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#965>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#967>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#968>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#970>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#972>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#974>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#975>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#977>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#978>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#980>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#983>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#985>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#987>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#988>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#990>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Ungdata-#992> ;
+    xkos:numberOfLevels 1 ;
+    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
+

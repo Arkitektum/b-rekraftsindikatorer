@@ -1,0 +1,800 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix my: <https://metadata.ks.no/sdg-taxonomi/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdgo: <http://metadata.un.org/sdg/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+my:hasEvaluation a rdf:Property ;
+    rdfs:label "has evaluation"@en ;
+    rdfs:subPropertyOf skos:related .
+
+my:hasImpact a rdf:Property ;
+    rdfs:label "has impact"@en ;
+    rdfs:subPropertyOf skos:related .
+
+<https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> a vcard:Organization ;
+    vcard:hasEmail "kom@ks.no"^^xsd:anyURI ;
+    vcard:hasOrganizationName "KS"@no ;
+    vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4330> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4330> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen gjennomført helhetlig ROS? I så fall, når ble den siste gjennomført?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4332> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4332> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Er følgende forhold vurdert i kommunens helhetlige ROS (minimumskrav)? - Risiko og sårbarhet utenfor kommunens geografiske område som kan ha betydning for kommunen "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4333> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4333> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Er følgende forhold vurdert i kommunens helhetlige ROS (minimumskrav)? - Særlige utfordringer for kritiske samfunnsfunksjoner*"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4334> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4334> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Er følgende forhold vurdert i kommunens helhetlige ROS (minimumskrav)? - Fremtidig risiko og sårbarhet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4335> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4335> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen i sin helhetlige ROS vurdert egen evne til å opprettholde følgende funksjoner ved uønskede hendelser? - Kriseledelse"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4336> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4336> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen i sin helhetlige ROS vurdert egen evne til å opprettholde følgende funksjoner ved uønskede hendelser? - Helse- og omsorgstjenester"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4337> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4337> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen i sin helhetlige ROS vurdert egen evne til å opprettholde følgende funksjoner ved uønskede hendelser? - Brann- og redningstjenester"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4338> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4338> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen i sin helhetlige ROS vurdert egen evne til å opprettholde følgende funksjoner ved uønskede hendelser? - Vann og avløp "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4339> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4339> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Er helhetlig ROS forankret i kommunestyret?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4340> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4340> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen utarbeidet mål for arbeidet med samfunnssikkerhet og beredskap?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4341> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4341> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen utarbeidet plan for oppfølging av samfunnssikkerhets- og beredskapsarbeidet?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4342> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4342> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "I hvilken grad involveres beredskapskontakt/beredskapskoordinator i utarbeidelsen eller kvalitetssikring av ROS-analyser til utbyggingsplaner til kommuneplanens arealdel?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4343> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4343> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "I hvilken grad involveres kommunens beredskapskontakt/beredskapskoordinator i utarbeidelsen eller kvalitetssikring av ROS-analyser til reguleringsplaner?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4344> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.b> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4344> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen utarbeidet en overordnet beredskapsplan?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4345> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4345> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Når ble gjeldende overordnet beredskapsplan sist revidert? Kryss av for når planen er utarbeidet hvis den ikke er revidert."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4346> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4346> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Er kommunens overordnede beredskapsplan utarbeidet med utgangspunkt i helhetlig ROS?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4347> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4347> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Inneholder overordnet beredskapsplan følgende: - Plan for kommunens kriseledelse"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4348> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4348> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Inneholder overordnet beredskapsplan følgende: - Varslingsliste for aktører i kommunens krisehåndtering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4349> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4349> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Inneholder overordnet beredskapsplan følgende: - Oversikt over interne og eksterne ressurser"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4350> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4350> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Inneholder overordnet beredskapsplan følgende: - Evakueringsplan"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4351> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4351> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Inneholder overordnet beredskapsplan følgende: - Plan for krisekommunikasjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4352> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4352> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen øvd egen beredskapsorganisasjon i henhold til krav i forskrift om kommunal beredskapsplikt? I så fall, hvilket år ble det sist øvet?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4353> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4353> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen etablert beredskapsråd?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4354> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4354> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunalt beredskapsråd vært involvert i følgende arbeidsprosesser? Helhetlig risiko- og sårbarhetsanalyse"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4355> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4355> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunalt beredskapsråd vært involvert i følgende arbeidsprosesser? Overordnet beredskapsplan"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4356> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.b> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4356> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunalt beredskapsråd vært involvert i følgende arbeidsprosesser? Øvelser"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4357> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4357> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunalt beredskapsråd vært involvert i følgende arbeidsprosesser? Krisehåndtering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4358> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4358> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunalt beredskapsråd vært involvert i følgende arbeidsprosesser? Tiltak som skal behandles etter plan og- og bygningsloven, beskriv:"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4359> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4359> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen vært utsatt for alvorlige naturhendelser de siste to år? Flom"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4360> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4360> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen vært utsatt for alvorlige naturhendelser de siste to år? Skred"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4361> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4361> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen vært utsatt for alvorlige naturhendelser de siste to år? Overvann/vann på avveie"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4362> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4362> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen vært utsatt for alvorlige naturhendelser de siste to år? Sterk vind"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4363> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4363> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen vært utsatt for alvorlige naturhendelser de siste to år? Stormflo"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4364> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4364> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen vært utsatt for alvorlige naturhendelser de siste to år? Skog-/utmarksbrann"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4365> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4365> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen vært utsatt for alvorlige naturhendelser de siste to år? Langvarig tørke"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4366> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4366> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen vært utsatt for alvorlige naturhendelser de siste to år? Kraftig snøfall"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4367> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4367> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen vært utsatt for alvorlige naturhendelser de siste to år? I så fall, hvilke typer? Flere svar mulig. - Ingen alvorlige naturhendelser siste to år"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4368> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4368> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "I hvilken grad blir økt risiko og sårbarhet som følge av langsiktige klimaendringer tatt hensyn til i kommunal planlegging (plan- og bygningsloven)?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4369> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4369> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen planlagt tiltak for kommunikasjon med befolkningen ved langvarig bortfall av strøm og e-kom i sin krisekommunikasjonsplan?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4370> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4370> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Hvilke av disse tiltakene er en del av planen? Kommunen har ett eller flere definerte steder der innbyggerne kan møte opp og få informasjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4371> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4371> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Hvilke av disse tiltakene er en del av planen? Kommunen har ansatte eller frivillige som vil reise rundt og informere innbyggerne der de oppholder seg"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4372> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4372> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Kjenner du til Egenberedskapsuka 2023?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4373> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4373> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Hvilke aktiviteter har kommunen gjennomført eller deltatt på i forbindelse med Egenberedskapsuka 2023?  Hatt informasjonsstand"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4374> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4374> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Hvilke aktiviteter har kommunen gjennomført eller deltatt på i forbindelse med Egenberedskapsuka 2023? Laget utstilling"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4375> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4375> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Hvilke aktiviteter har kommunen gjennomført eller deltatt på i forbindelse med Egenberedskapsuka 2023? Delt informasjon i egen organisasjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4376> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4376> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Hvilke aktiviteter har kommunen gjennomført eller deltatt på i forbindelse med Egenberedskapsuka 2023? Publisert sak på kommunens nettsider"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4377> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4377> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Hvilke aktiviteter har kommunen gjennomført eller deltatt på i forbindelse med Egenberedskapsuka 2023? Laget eller delt innhold på kommunens sosiale medier"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4378> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4378> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Hvilke aktiviteter har kommunen gjennomført eller deltatt på i forbindelse med Egenberedskapsuka 2023? Holdt presentasjoner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4379> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4379> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Hvilke aktiviteter har kommunen gjennomført eller deltatt på i forbindelse med Egenberedskapsuka 2023? Fått lokale medier til å lage sak om egenberedskap"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4380> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4380> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Er kommunens overordnede beredskapsplan samordnet med storulykkevirksomheten(e)s beredskapsplan(er)?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4381> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4381> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.dsb.no/menyartikler/statistikk/kommuneundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Har kommunen øvd på scenarioer som kan inntreffe ved storulykkevirksomhet(er) i kommunen i løpet av de siste 3 årene?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> a skos:ConceptScheme ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-> ;
+    dct:modified "2025-07-08"^^xsd:date ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
+    dct:title "DSB Kommuneundersøkelsen "@no ;
+    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4330>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4332>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4333>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4334>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4335>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4336>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4337>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4338>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4339>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4340>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4341>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4342>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4343>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4344>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4345>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4346>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4347>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4348>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4349>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4350>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4351>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4352>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4353>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4354>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4355>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4356>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4357>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4358>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4359>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4360>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4361>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4362>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4363>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4364>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4365>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4366>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4367>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4368>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4369>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4370>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4371>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4372>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4373>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4374>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4375>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4376>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4377>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4378>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4379>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4380>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/DSB-Kommuneundersøkelsen-#4381> ;
+    xkos:numberOfLevels 1 ;
+    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
+

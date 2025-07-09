@@ -1,0 +1,470 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix my: <https://metadata.ks.no/sdg-taxonomi/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdgo: <http://metadata.un.org/sdg/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+my:hasEvaluation a rdf:Property ;
+    rdfs:label "has evaluation"@en ;
+    rdfs:subPropertyOf skos:related .
+
+my:hasImpact a rdf:Property ;
+    rdfs:label "has impact"@en ;
+    rdfs:subPropertyOf skos:related .
+
+<https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> a vcard:Organization ;
+    vcard:hasEmail "kom@ks.no"^^xsd:anyURI ;
+    vcard:hasOrganizationName "KS"@no ;
+    vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4300> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4300> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Hvilket år ble arkivplanen sist oppdatert?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4302> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4302> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Organisasjonen arkiverer all dokumentasjon som blir til som ledd i virksomheten, som inngår i saksbehandlingen eller har verdi som dokumentasjon."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4303> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4303> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Organisasjonens arkivdokumenter og tilhørende metadata er kvalitetssikret."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4304> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4304> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Organisasjonen har kartlagt sine egne arbeidsprosesser for å identifisere dokumentasjonsbehovene sine."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4305> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4305> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Aktive arkiver er sikret i tråd med arkivlovverket (Kap. 2 i riksarkivarens forskrift)."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4306> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4306> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Omfattes arkivarbeidet av organisasjonens internkontroll?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4307> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/17> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/17.16> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4307> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Er dere vertskommune for samarbeid med andre kommuner?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4308> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4308> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Arkivfaglige hensyn er ivaretatt når det inngås interkommunale samarbeid og samarbeid med private aktører."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4309> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4309> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Papirarkiver har gått tapt eller blitt skadet."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4310> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.10> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4310> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Digitale arkiver har gått tapt eller blitt skadet."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4311> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4311> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Organisasjonen har rutiner for alle elektroniske systemer som produserer arkivdokumenter i tråd med kapittel 3 i riksarkivarens forskrift."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4312> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4312> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Organisasjonen har skriftlige rutiner for alle arkivoppgaver, inkludert daglige og periodiske oppgaver."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4313> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4313> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Alle ytre enheter har skriftlige rutiner for arkivarbeidet (for eksempel skole, PPT, helse og omsorg, barnevern, NAV mv.)."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4314> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4314> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Har organisasjonen bevaringsvurdert alle sine elektroniske systemer?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4315> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4315> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Har organisasjonen beskrevet alle sine elektroniske systemer som inneholder arkivverdig dokumentasjon?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4316> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4316> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Oppgi antall journalposter med status R med dokumentdato eldre enn 3 måneder."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4317> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4317> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Oppgi antall journalposter med status F med dokumentdato eldre enn 3 uker."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4318> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4318> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Oppgi antall journalposter med status S med dokumentdato eldre enn 3 uker."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4319> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4319> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Oppgi antall journalposter med status M med dokumentdato eldre enn 3 måneder."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4320> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4320> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Oppgi antall inngående journalposter journalført fra 1.1.22 til og med 31.12.22."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4321> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4321> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Oppgi antall utgående journalposter journalført fra 1.1.22 til og med 31.12.22."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4322> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4322> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Oppgi antall x-notater journalført fra 1.1.22 til og med 31.12.22."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4323> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4323> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Oppgi hvilket år den nåværende arkivperioden i sak-/ arkivsystemet startet."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4324> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4324> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Har organisasjonen fastsatt kassasjonsregler for alle deler av sin virksomhet?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4325> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4325> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Har organisasjonen avsluttede papirarkiver som ikke er ordnet og listeført?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4326> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.10> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4326> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Organisasjonen deponerer uttrekk av avsluttede arkivperioder fra elektroniske systemer med bevaringsverdig informasjon."@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4327> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4327> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Har organisasjonen avsluttede NOARK-systemer som det ikke er tatt uttrekk fra?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4328> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4328> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Har organisasjonen avsluttede fagsystemer det ikke er tatt uttrekk fra?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4329> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.10> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4329> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.arkivverket.no/arkivutvikling/tall-og-data-statistikk/kommunearkiver/resultater-fra-undersokelsen-2022" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Har organisasjonen lagret arkivverdig dokumentasjon i skyløsninger der server er plassert i utlandet?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> a skos:ConceptScheme ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse> ;
+    dct:modified "2025-07-08"^^xsd:date ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
+    dct:title "Arkivverkets kommuneundersøkelse"@no ;
+    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4300>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4302>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4303>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4304>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4305>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4306>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4307>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4308>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4309>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4310>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4311>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4312>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4313>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4314>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4315>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4316>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4317>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4318>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4319>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4320>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4321>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4322>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4323>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4324>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4325>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4326>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4327>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4328>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Arkivverkets-kommuneundersøkelse#4329> ;
+    xkos:numberOfLevels 1 ;
+    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
+

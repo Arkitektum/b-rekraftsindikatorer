@@ -1,0 +1,275 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix my: <https://metadata.ks.no/sdg-taxonomi/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdgo: <http://metadata.un.org/sdg/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+my:hasEvaluation a rdf:Property ;
+    rdfs:label "has evaluation"@en ;
+    rdfs:subPropertyOf skos:related .
+
+my:hasImpact a rdf:Property ;
+    rdfs:label "has impact"@en ;
+    rdfs:subPropertyOf skos:related .
+
+<https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> a vcard:Organization ;
+    vcard:hasEmail "kom@ks.no"^^xsd:anyURI ;
+    vcard:hasOrganizationName "KS"@no ;
+    vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3128> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3128> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ks.no/nye-kartregioner/norge-i-tall/statistikk-om-kommuneansatte/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Antall kvinner som er kommuneansatte "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3129> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3129> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ks.no/nye-kartregioner/norge-i-tall/statistikk-om-kommuneansatte/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Antall menn som er kommuneansatte "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3130> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3130> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ks.no/nye-kartregioner/norge-i-tall/statistikk-om-kommuneansatte/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Antall faglærte kommuneansatte "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3132> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3132> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ks.no/nye-kartregioner/norge-i-tall/statistikk-om-kommuneansatte/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Antall kommuneansatte med høyere utdanning "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3133> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3133> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ks.no/nye-kartregioner/norge-i-tall/statistikk-om-kommuneansatte/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Heltidsandel i kommunen "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3134> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3134> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ks.no/nye-kartregioner/norge-i-tall/statistikk-om-kommuneansatte/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Gjennomsnittlig stillingsstørrelse i kommunen"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3135> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3135> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ks.no/nye-kartregioner/norge-i-tall/statistikk-om-kommuneansatte/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Heltidsandel blant turnusansatte i helse og omsorg som jobber i kommunen"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3136> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.c> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3136> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ks.no/nye-kartregioner/norge-i-tall/statistikk-om-kommuneansatte/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Stillingsstørrelse blant turnusansatte i helse og omsorg i kommunen"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3137> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3137> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ks.no/nye-kartregioner/norge-i-tall/statistikk-om-kommuneansatte/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dct:title "Turnover blant kvinnlige kommuneansatte "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3138> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3138> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ks.no/nye-kartregioner/norge-i-tall/statistikk-om-kommuneansatte/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dct:title "Turnover blant mannlige kommuneansatte "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3139> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3139> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ks.no/nye-kartregioner/norge-i-tall/statistikk-om-kommuneansatte/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dct:title "Turnover blant faglærte kommuneansatte "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3140> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3140> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ks.no/nye-kartregioner/norge-i-tall/statistikk-om-kommuneansatte/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dct:title "Turnover blant de med høyere utdanning som er kommuneansatte "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3141> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3141> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ks.no/nye-kartregioner/norge-i-tall/statistikk-om-kommuneansatte/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Sykefravær blant kvinnlige kommuneansatte "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3142> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3142> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ks.no/nye-kartregioner/norge-i-tall/statistikk-om-kommuneansatte/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Sykefravær blant mannlige kommuneansatte "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3143> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3143> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ks.no/nye-kartregioner/norge-i-tall/statistikk-om-kommuneansatte/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Sykefravær blant kommuneansatte som underviser "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3144> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3144> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ks.no/nye-kartregioner/norge-i-tall/statistikk-om-kommuneansatte/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Sykefravær blant kommuneansatte som jobber i barnehage"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte> a skos:ConceptScheme ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte> ;
+    dct:modified "2025-07-08"^^xsd:date ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
+    dct:title "Statistikk om kommuneansatte"@no ;
+    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3128>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3129>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3130>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3132>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3133>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3134>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3135>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3136>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3137>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3138>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3139>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3140>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3141>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3142>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3143>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Statistikk-om-kommuneansatte#3144> ;
+    xkos:numberOfLevels 1 ;
+    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
+

@@ -1,0 +1,125 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix my: <https://metadata.ks.no/sdg-taxonomi/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdgo: <http://metadata.un.org/sdg/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+my:hasEvaluation a rdf:Property ;
+    rdfs:label "has evaluation"@en ;
+    rdfs:subPropertyOf skos:related .
+
+my:hasImpact a rdf:Property ;
+    rdfs:label "has impact"@en ;
+    rdfs:subPropertyOf skos:related .
+
+<https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> a vcard:Organization ;
+    vcard:hasEmail "kom@ks.no"^^xsd:anyURI ;
+    vcard:hasOrganizationName "KS"@no ;
+    vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen#3215> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/14> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/14.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen#3215> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/08917" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dct:title "Alt strandsoneareal - alle hellingsgrader"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen#3216> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen#3216> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/08917" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dct:title "Potensielt tilgjengelig strandsoneareal - alle hellingsgrader"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen#3217> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen#3217> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/08917" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dct:title "Bygningsnært areal < 50 m - alle hellingsgrader"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen#3219> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/2> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/2.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen#3219> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/08917" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Industry> ;
+    dct:title "Dyrket mark - alle hellingsgrader"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen#3220> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/9.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen#3220> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/08917" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Transport> ;
+    dct:title "Veiareal - alle hellingsgrader"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen#3221> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/9.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen#3221> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/08917" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Transport> ;
+    dct:title "Jernbaneareal - alle hellingsgrader"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen> a skos:ConceptScheme ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen> ;
+    dct:modified "2025-07-08"^^xsd:date ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
+    dct:title "Areal -Byggeaktivitet i strandsonen"@no ;
+    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen#3215>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen#3216>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen#3217>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen#3219>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen#3220>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal--Byggeaktivitet-i-strandsonen#3221> ;
+    xkos:numberOfLevels 1 ;
+    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
+

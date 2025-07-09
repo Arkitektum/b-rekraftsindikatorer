@@ -1,0 +1,2285 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix my: <https://metadata.ks.no/sdg-taxonomi/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdgo: <http://metadata.un.org/sdg/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+my:hasEvaluation a rdf:Property ;
+    rdfs:label "has evaluation"@en ;
+    rdfs:subPropertyOf skos:related .
+
+my:hasImpact a rdf:Property ;
+    rdfs:label "has impact"@en ;
+    rdfs:subPropertyOf skos:related .
+
+<https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> a vcard:Organization ;
+    vcard:hasEmail "kom@ks.no"^^xsd:anyURI ;
+    vcard:hasOrganizationName "KS"@no ;
+    vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3955> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3955> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/12241" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Husholdningsavfall per årsinnbygger"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3957> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3957> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/12241" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Husholdningsavfall per innbygger"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3958> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3958> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/12241" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Husholdningsavfall inkl vrakede biler per årsinnbygger"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3959> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3959> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/12241" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Husholdningsavfall inkl. vrakede biler per innbygger"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3960> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3960> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/12241" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Levert til materialgjenvinning inkl. biologisk behandling per årsinnbygger"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3961> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3961> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/12241" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Levert til materialgjenvinning inkl. biologisk behandling per innbygger"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3962> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3962> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/12241" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Farlig avfall fra husholdningene per årsinnbygger"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3963> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3963> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/12241" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Farlig avfall fra husholdningene per innbygger"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3964> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3964> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/12241" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Andel levert til gjenvinning inkl. biologisk behandling og energiutnyttelse"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3965> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3965> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/12241" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Andel levert til materialgjenvinning inkl. biologisk behandling"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3966> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3966> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/12241" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Andel levert til forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3967> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3967> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/12241" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Andel levert til deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3968> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3968> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/12241" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Hentingar av matavfall i løpet av eit år"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3969> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3969> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/12241" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Dagar per år med utvida opningstid på attvinningsstasjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3970> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3970> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/12241" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Avfallsfraksjoner det er lagt til rette for sortering av"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3971> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3971> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/12241" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Andel bringeordning levert til materialgjenvinning inkl. biologisk behandling"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3972> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3972> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/12241" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Andel henteordning levert til materialgjenvinning inkl. biologisk behandling"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3973> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3973> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Avfall I alt - I alt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3974> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3974> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "I alt - Materialgjenvinning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3975> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3975> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "I alt - Forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3976> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3976> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "I alt - Deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3977> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3977> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "I alt - Biogassproduksjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3978> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3978> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "I alt - Kompostering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3979> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3979> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "I alt - Annet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3980> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3980> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Restavfall - I alt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3981> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3981> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Restavfall - Materialgjenvinning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3982> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3982> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Restavfall - Forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3983> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3983> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Restavfall - Deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3984> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3984> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Restavfall - Biogassproduksjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3985> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3985> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Restavfall - Kompostering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3986> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3986> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Restavfall - Annet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3987> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3987> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Utsortert - I alt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3988> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3988> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Utsortert - Materialgjenvinning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3989> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3989> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Utsortert - Forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3990> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3990> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Utsortert - Deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3991> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3991> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Utsortert - Biogassproduksjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3992> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3992> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Utsortert - Kompostering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3993> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3993> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Utsortert - Annet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3994> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3994> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Papp - I alt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3995> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3995> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Papp - Materialgjenvinning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3996> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3996> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Papp - Forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3997> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3997> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Papp - Deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3998> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3998> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Papp - Biogassproduksjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3999> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3999> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Papp - Kompostering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4000> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4000> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Papp - Annet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4001> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4001> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Glass - I alt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4002> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4002> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Glass - Materialgjenvinning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4003> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4003> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Glass - Forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4004> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4004> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Glass - Deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4005> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4005> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Glass - Biogassproduksjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4006> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4006> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Glass - Kompostering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4007> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4007> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Glass - Annet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4008> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4008> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Plast - I alt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4009> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4009> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Plast - Materialgjenvinning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4010> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4010> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Plast - Forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4011> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4011> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Plast - Deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4012> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4012> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Plast - Biogassproduksjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4013> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4013> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Plast - Kompostering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4014> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4014> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Plast - Annet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4015> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4015> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Metaller - I alt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4016> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4016> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Metaller - Materialgjenvinning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4017> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4017> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Metaller - Forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4018> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4018> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Metaller - Deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4019> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4019> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Metaller - Biogassproduksjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4020> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4020> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Metaller - Kompostering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4021> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4021> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Metaller - Annet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4022> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4022> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "EE-avfall - I alt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4023> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4023> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "EE-avfall - Materialgjenvinning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4024> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4024> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "EE-avfall - Forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4025> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4025> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "EE-avfall - Deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4026> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4026> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "EE-avfall - Biogassproduksjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4027> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4027> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "EE-avfall - Kompostering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4028> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4028> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "EE-avfall - Annet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4029> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4029> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Matavfall - I alt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4030> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4030> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Matavfall - Materialgjenvinning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4031> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4031> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Matavfall - Forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4032> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4032> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Matavfall - Deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4033> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4033> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Matavfall - Biogassproduksjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4034> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4034> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Matavfall - Kompostering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4035> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4035> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Matavfall - Annet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4036> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4036> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Treavfall - I alt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4037> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4037> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Treavfall - Materialgjenvinning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4038> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4038> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Treavfall - Forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4039> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4039> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Treavfall - Deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4040> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4040> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Treavfall - Biogassproduksjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4041> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4041> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Treavfall - Kompostering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4042> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4042> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Treavfall - Annet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4043> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4043> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Hageavfall - I alt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4044> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4044> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Hageavfall - Materialgjenvinning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4045> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4045> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Hageavfall - Forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4046> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4046> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Hageavfall - Deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4047> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4047> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Hageavfall - Biogassproduksjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4048> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4048> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Hageavfall - Kompostering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4049> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4049> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Hageavfall - Annet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4050> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4050> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Tekstiler - I alt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4051> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4051> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Tekstiler - Materialgjenvinning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4052> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4052> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Tekstiler - Forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4053> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4053> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Tekstiler - Deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4054> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4054> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Tekstiler - Biogassproduksjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4055> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4055> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Tekstiler - Kompostering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4056> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4056> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Tekstiler - Annet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4057> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4057> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Utsortert brennbart - I alt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4058> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4058> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Utsortert brennbart - Materialgjenvinning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4059> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4059> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Utsortert brennbart - Forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4060> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4060> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Utsortert brennbart - Deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4061> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/7.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4061> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Utsortert brennbart - Biogassproduksjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4062> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4062> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Utsortert brennbart - Kompostering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4063> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4063> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Utsortert brennbart - Annet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4064> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4064> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Farlig avfall - I alt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4065> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4065> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Farlig avfall - Materialgjenvinning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4066> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4066> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Farlig avfall - Forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4067> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4067> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Farlig avfall - Deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4068> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4068> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Farlig avfall - Biogassproduksjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4069> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4069> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Farlig avfall - Kompostering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4070> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4070> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Farlig avfall - Annet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4071> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4071> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Annet avfall - I alt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4072> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4072> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Annet - Materialgjenvinning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4073> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4073> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Annet - Forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4074> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4074> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Annet - Deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4075> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/7.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4075> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Annet - Biogassproduksjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4076> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4076> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Annet - Kompostering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4077> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4077> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Annet - Annet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4078> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4078> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Byggavfall - I alt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4079> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4079> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Byggavfall - Materialgjenvinning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4080> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4080> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Byggavfall - Forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4081> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4081> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Byggavfall - Deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4082> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4082> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Byggavfall - Biogassproduksjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4083> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4083> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Byggavfall - Kompostering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4084> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4084> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Byggavfall - Annet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4085> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4085> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Forurensede/lett forurensede masser - I alt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4086> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4086> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Forurensede/lett forurensede masser - Materialgjenvinning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4087> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4087> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Forurensede/lett forurensede masser - Forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4088> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4088> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Forurensede/lett forurensede masser - Deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4089> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4089> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Forurensede/lett forurensede masser - Biogassproduksjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4090> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4090> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Forurensede/lett forurensede masser - Kompostering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4091> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4091> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Forurensede/lett forurensede masser - Annet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4092> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4092> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Gips - I alt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4093> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4093> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Gips - Materialgjenvinning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4094> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4094> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Gips - Forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4095> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4095> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Gips - Deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4096> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4096> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Gips - Biogassproduksjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4097> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4097> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Gips - Kompostering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4098> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4098> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Gips - Annet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4099> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4099> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Bildekk - I alt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4100> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4100> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Bildekk - Materialgjenvinning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4101> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4101> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Bildekk - Forbrenning"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4102> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4102> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Bildekk - Deponi"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4103> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4103> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Bildekk - Biogassproduksjon"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4104> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4104> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Bildekk - Kompostering"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4105> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4105> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13136" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Bildekk - Annet"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> a skos:ConceptScheme ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger> ;
+    dct:modified "2025-07-08"^^xsd:date ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
+    dct:title "Avfall - Avfall fra husholdninger"@no ;
+    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3955>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3957>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3958>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3959>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3960>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3961>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3962>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3963>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3964>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3965>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3966>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3967>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3968>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3969>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3970>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3971>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3972>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3973>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3974>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3975>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3976>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3977>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3978>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3979>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3980>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3981>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3982>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3983>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3984>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3985>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3986>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3987>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3988>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3989>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3990>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3991>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3992>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3993>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3994>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3995>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3996>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3997>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3998>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#3999>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4000>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4001>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4002>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4003>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4004>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4005>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4006>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4007>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4008>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4009>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4010>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4011>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4012>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4013>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4014>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4015>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4016>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4017>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4018>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4019>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4020>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4021>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4022>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4023>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4024>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4025>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4026>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4027>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4028>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4029>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4030>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4031>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4032>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4033>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4034>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4035>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4036>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4037>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4038>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4039>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4040>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4041>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4042>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4043>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4044>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4045>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4046>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4047>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4048>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4049>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4050>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4051>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4052>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4053>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4054>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4055>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4056>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4057>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4058>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4059>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4060>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4061>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4062>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4063>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4064>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4065>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4066>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4067>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4068>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4069>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4070>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4071>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4072>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4073>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4074>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4075>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4076>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4077>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4078>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4079>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4080>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4081>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4082>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4083>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4084>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4085>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4086>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4087>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4088>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4089>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4090>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4091>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4092>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4093>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4094>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4095>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4096>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4097>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4098>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4099>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4100>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4101>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4102>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4103>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4104>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Avfall---Avfall-fra-husholdninger#4105> ;
+    xkos:numberOfLevels 1 ;
+    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
+

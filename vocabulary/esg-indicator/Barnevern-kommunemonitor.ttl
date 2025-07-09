@@ -1,0 +1,429 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix my: <https://metadata.ks.no/sdg-taxonomi/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdgo: <http://metadata.un.org/sdg/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+my:hasEvaluation a rdf:Property ;
+    rdfs:label "has evaluation"@en ;
+    rdfs:subPropertyOf skos:related .
+
+my:hasImpact a rdf:Property ;
+    rdfs:label "has impact"@en ;
+    rdfs:subPropertyOf skos:related .
+
+<https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> a vcard:Organization ;
+    vcard:hasEmail "kom@ks.no"^^xsd:anyURI ;
+    vcard:hasOrganizationName "KS"@no ;
+    vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1013> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1013> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Barn med barnevernstiltak i forhold til innbyggere i aldersgruppen 0-17 år"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1015> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1015> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Barn med undersøkelse i forhold til antall innbyggere i aldersgruppen 0-17 år"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1017> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1017> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Barn med hjelpetiltak i hjemmet av alle barn med tiltak 0-17år "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1021> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1021> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Barn som bor utenfor hjemmet i løpet av året i forhold til antall innbyggere i aldersgruppen 0-17 år"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1023> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16>,
+        <http://metadata.un.org/sdg/3>,
+        <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3>,
+        <http://metadata.un.org/sdg/8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1023> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Barn med undersøkelser eller tiltak per årsverk "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1025> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1025> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Fosterhjemstiltak i familie og nære nettverk "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1027> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/16.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1027> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Barn med akuttvedtak pr. 1000 i barnebefolkningen "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1029> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1029> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Barn i hjelpetiltak med tiltaksplan (første halvår)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1031> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1031> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Barn i hjelpetiltak med tiltaksplan (andre halvår)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1033> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1033> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Barn i hjelpetiltak med evaluert tiltaksplan (første halvdel)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1035> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1035> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Barn i hjelpetiltak med evaluert tiltaksplan (andre halvdel)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1037> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1037> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Fristbrudd i undersøkelsessaker (første halvår)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1039> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1039> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Fristbrudd i undersøkelsessaker (andre halvår)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1040> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1040> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Andel årsverk med fagutdanning per 1000 barn i aldersgruppen 0-17 år "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1042> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1042> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Utgifter til barnevern pr. barn i befolkningen 0-17 år "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1044> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1044> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Utgifter pr. barn i barnevernet "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1046> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1046> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Utgifter pr. barn som bor utenfor hjemmet "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1047> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1047> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Utgifter pr. barn som får tiltak i hjemmet "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1049> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1049> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Andel av barnevernsutgiftene som går til saksbehandling "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1051> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1051> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Andel av kommunens totale utgifter som brukes på barnevern "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1053> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1053> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Barn i befolkningen "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1055> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1055> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Andel i befolkningen med utdanning utover grunnskole "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1057> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1057> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Enslige forsørgere med barn under 18 år "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1059> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1059> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dct:title "Barn som bor i lavinntektsfamilier "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1063> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1063> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Utgifter til forebygging, helsestasjon og skolehelsetjeneste pr. innbygger 0-17 år "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1064> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1064> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnevern?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Barn med bekymringsmelding i forhold til barnebefolkningen "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> a skos:ConceptScheme ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor> ;
+    dct:modified "2025-07-08"^^xsd:date ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
+    dct:title "Barnevern kommunemonitor"@no ;
+    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1013>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1015>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1017>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1021>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1023>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1025>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1027>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1029>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1031>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1033>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1035>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1037>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1039>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1040>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1042>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1044>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1046>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1047>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1049>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1051>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1053>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1055>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1057>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1059>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1063>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnevern-kommunemonitor#1064> ;
+    xkos:numberOfLevels 1 ;
+    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
+
