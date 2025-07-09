@@ -44,7 +44,7 @@ jobs:
           find vocabulary/ -name "*.md" | while read file; do
             out_file="public/${file%.md}.html"
             mkdir -p "$(dirname "$out_file")"
-            pandoc "$file" -o "$out_file"
+            pandoc -s "$file" -o "$out_file" --css https://unpkg.com/sakura.css/css/sakura.css
           done
           
           find vocabulary/ -name "*.adoc" | while read file; do
