@@ -25,116 +25,140 @@ my:hasImpact a rdf:Property ;
     vcard:hasOrganizationName "KS"@no ;
     vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3947> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3952> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.8> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3947> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3952> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13112" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Vedtak om dispensasjon til motorferdsel i utmark i alt"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3949> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3953> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.3> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3949> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.3>,
+        <http://metadata.un.org/sdg/15.7>,
+        <http://metadata.un.org/sdg/15.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3953> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13112" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Innvilget dispensasjon til motorferdsel i utmark i alt"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3950> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3955> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.3> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3950> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.3>,
+        <http://metadata.un.org/sdg/15.7>,
+        <http://metadata.un.org/sdg/15.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3955> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13112" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Innvilget dispensasjon til motorferdsel i utmark etter §6 i loven"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3951> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3957> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.3> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3951> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.3>,
+        <http://metadata.un.org/sdg/15.7>,
+        <http://metadata.un.org/sdg/15.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3957> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13112" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Innvilget dispensasjon til motorferdsel i utmark etter §5 i forskriften"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3952> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3958> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.3> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3952> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.3>,
+        <http://metadata.un.org/sdg/15.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3958> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13112" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Innvilget dispensasjon til motorferdsel i utmark etter §5a i forskriften"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3953> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3959> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.3> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3953> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.3>,
+        <http://metadata.un.org/sdg/15.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3959> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13112" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Innvilget dispensasjon til motorferdsel i utmark etter §6 i forskriften"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3954> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3960> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.3> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3954> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.3>,
+        <http://metadata.un.org/sdg/15.7>,
+        <http://metadata.un.org/sdg/15.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3960> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13112" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Avslått dispensasjonssøknad om motorferdsel i utmark"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-> a skos:ConceptScheme ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-> ;
-    dct:modified "2025-07-08"^^xsd:date ;
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning> a skos:ConceptScheme ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning> ;
+    dct:modified "2025-07-14"^^xsd:date ;
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
-    dct:title "Areal - Miljøforvaltning "@no ;
-    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3947>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3949>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3950>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3951>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3952>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3953>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning-#3954> ;
+    dct:title "Areal - Miljøforvaltning"@no ;
+    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3952>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3953>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3955>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3957>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3958>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3959>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Miljøforvaltning#3960> ;
     xkos:numberOfLevels 1 ;
     adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
 

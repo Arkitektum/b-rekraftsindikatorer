@@ -33,6 +33,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09280" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "km2" ;
     dct:title "Landareal "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn> ;
@@ -47,19 +48,98 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09280" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "km2" ;
     dct:title "Ferskvatn areal "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
     my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
 
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn#3942> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.1>,
+        <http://metadata.un.org/sdg/15.4>,
+        <http://metadata.un.org/sdg/15.9> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn#3942> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/09280" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "km2" ;
+    dct:title "Landareal "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn#3943> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/15>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.4>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn#3943> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/09280" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "km2" ;
+    dct:title "Ferskvatn areal "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn#3944> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.1>,
+        <http://metadata.un.org/sdg/15.4>,
+        <http://metadata.un.org/sdg/15.9> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn#3944> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/09280" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "km2" ;
+    dct:title "Landareal "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn#3945> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/15>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.4>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn#3945> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/09280" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "km2" ;
+    dct:title "Ferskvatn areal "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn> a skos:ConceptScheme ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn> ;
-    dct:modified "2025-07-08"^^xsd:date ;
+    dct:modified "2025-07-14"^^xsd:date ;
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
     dct:title "Areal - Areal av land og ferskvatn"@no ;
     uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn#3937>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn#3939> ;
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn#3939>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn#3942>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn#3943>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn#3944>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Areal-av-land-og-ferskvatn#3945> ;
     xkos:numberOfLevels 1 ;
     adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
 

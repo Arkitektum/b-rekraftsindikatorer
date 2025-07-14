@@ -33,6 +33,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Trives du på skolen?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
@@ -41,409 +42,514 @@ my:hasImpact a rdf:Property ;
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1282> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3>,
+        <http://metadata.un.org/sdg/4> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1282> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Har du noen medelever å være sammen med i friminuttene?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1283> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.6> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3>,
+        <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.6>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1283> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Er du interessert i å lære på skolen?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1285> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.6>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1285> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Hvor god liker du skolearbeidet? "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1286> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3>,
+        <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1286> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Jeg gleder meg til å gå på skolen "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1287> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.2>,
+        <http://metadata.un.org/sdg/4.6> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1287> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Prioriterer du å bruke tid på skolearbeidet (både arbeid i timene og lekser)?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1288> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.6>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1288> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Når jeg arbeider med skolefag, fortsetter jeg å jobbe selv om det jeg skal lære er vanskelig"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1289> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.2>,
+        <http://metadata.un.org/sdg/4.6> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1289> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Hjemme viser de interesse for det jeg gjør på skolen"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1290> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.2>,
+        <http://metadata.un.org/sdg/4.6> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1290> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Jeg får god hjelp til leksene mine hjemme"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1291> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.6> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1291> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Hjemme oppmuntrer de voksne meg i skolearbeidet"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1292> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.2>,
+        <http://metadata.un.org/sdg/4.6> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1292> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Hjemme forventer de at jeg gjør så godt jeg kan på skolen"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1293> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.6>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1293> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Opplever du at lærerne dine bryr seg om deg?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1294> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.6>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1294> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Opplever du at lærerne dine har tro på at du kan gjøre det bra på skolen?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1295> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.6> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1295> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Opplever du at lærerne behandler deg med respekt?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1296> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.5>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1296> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Når jeg har problemer med å forstå arbeidsoppgaver på skolen, får jeg god hjelp av lærerne"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1297> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.6> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1297> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Jeg ber læreren om hjelp hvis det er noe jeg ikke får til"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1298> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.5>,
+        <http://metadata.un.org/sdg/4.6> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1298> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Lærerne hjelper meg slik at jeg forstår det jeg skal lære"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1299> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.6> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1299> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Det er god arbeidsro i timene"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1300> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.6> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1300> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "I klassen min synes vi det er viktig å jobbe godt med skolearbeidet"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1301> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.6>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1301> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Mine lærere synes det er greit at vi elever gjør feil fordi vi kan lære av det"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1302> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.6>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1302> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Får du nok utfordringer på skolen?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1303> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.6> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1303> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Får du lekser som du greier å gjøre på egen hånd?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1304> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.6>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1304> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Tenk på når du får arbeidsoppgaver på skolen som du skal gjøre på egen hånd. Hvor ofte klarer du oppgavene alene?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1305> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.6> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1305> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Tenk på når læreren går gjennom og forklarer nytt stoff på skolen. Hvor ofte forstår du det som læreren gjennomgår og forklarer?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1306> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.6>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1306> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Jeg synes det vi lærer på skolen er viktig"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1307> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.6>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1307> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Det meste jeg lærer på skolen, vil jeg få nytte av senere i livet"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1308> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.4>,
+        <http://metadata.un.org/sdg/4.6>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1308> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Samme hvilken jobb jeg får, vil det jeg lærer på skolen være nyttig"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1309> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.4>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1309> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Lærerne forklarer tema og oppgaver slik at jeg forstår hvorfor vi jobber med dem"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1310> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.4>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1310> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Jeg synes at vi jobber med det vi skal lære på forskjellige måter"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1311> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.4>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1311> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Lærerne legger til rette for at jeg kan bruke praktiske arbeidsmåter (f.eks. å lage modeller, bruke måleinstrumenter, rollespill, spill og lignende)"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1312> a sdgo:Indicator,
         skos:Concept ;
@@ -453,546 +559,748 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Forklarer lærerne hva som er målene i de ulike fagene slik at du forstår dem?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1313> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1313> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Forklarer læreren godt nok hva det legges vekt på når skolearbeidet ditt vurderes?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1314> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1314> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Har læreren snakket om hva som kreves for å oppnå de ulike karakterene i halvårsvurderingen i fag?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1315> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.6>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1315> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Forteller lærerne deg hva som er bra med arbeidet du gjør?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1316> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1316> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Snakker lærerne med deg om hva du bør gjøre for å bli bedre i fagene?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1317> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.6>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1317> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Hvor ofte får du tilbakemeldinger fra lærerne som du kan bruke til å bli bedre i fagene?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1318> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1318> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Får du være med og foreslå hva det skal legges vekt på når arbeidet ditt skal vurderes?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1319> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.6> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1319> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Får du være med og vurdere skolearbeidet ditt?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1320> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1320> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Jeg får hjelp av lærerne til å tenke gjennom hvordan jeg utvikler meg i faget"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1769> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1769> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Er dere elever med på å foreslå hvordan dere skal arbeide med fagene?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1770> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1770> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Legger lærerne til rette for at dere elever kan delta i elevrådsarbeid og annet arbeid som tillitsvalgt?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1775> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1775> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Hører skolen på elevenes forslag?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1776> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1776> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Er dere elever med på å lage regler for hvordan dere skal ha det i klassen/gruppa?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1780> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1780> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "De voksne på skolen synes det er viktig at vi elever er greie med hverandre"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1781> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1781> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "De voksne på skolen har klare forventninger om hvordan vi elever skal oppføre oss mot hverandre"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1782> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1782> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Reagerer de voksne på skolen når noen sier eller gjør noe ubehagelig/ekkelt mot en elev?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2850> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2850> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "I min klasse gjør vi ikke narr av hverandre hvis noen gjør feil"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2851> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3>,
+        <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8>,
+        <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2851> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Hvis det er noe som plager meg, så kan jeg snakke med noen i klassen min"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2852> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3>,
+        <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8>,
+        <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2852> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Er du fornøyd med skolehelsetjenesten på skolen?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2853> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3>,
+        <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8>,
+        <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2853> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Er du blitt mobbet av andre elever på skolen de siste månedene?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2854> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3>,
+        <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8>,
+        <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2854> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Er du blitt mobbet av andre elever på skolen på en eller flere av disse måtene?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2855> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3>,
+        <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8>,
+        <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2855> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Hvem var det som mobbet deg på skolen? (Du kan velge flere)"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2863> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2863> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Hvor skjedde mobbingen? (Du kan velge flere)"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2864> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2864> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Gjorde skolen noe for å hjelpe deg?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2865> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2865> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Er du blitt mobbet digitalt (mobil, iPad, PC) de siste månedene?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2866> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#2866> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Er du blitt mobbet digitalt (mobil, iPad, PC) på en eller flere av disse måtene?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3115> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3115> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Hvem var det som mobbet deg digitalt? (mobil, iPad, PC)? (Du kan velge flere)"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3116> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3116> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Har du selv vært med på å mobbe en eller flere elever på skolen de siste månedene?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3117> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3117> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Har du mobbet andre elever på skolen på en eller flere av disse måtene?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3118> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3118> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Har du mobbet andre digitalt (mobil, iPad, PC) de siste månedene?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3119> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3119> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Hvem mobbet du digitalt (mobil, iPad, PC)? (Du kan velge flere)"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3120> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3120> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Er du blitt mobbet av voksne på skolen de siste månedene?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3121> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3121> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Er du blitt mobbet av voksne på skolen på en eller flere av disse måtene?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3122> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3122> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Vet du hvilke regler som gjelder for hvordan dere skal ha det på skolen?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3123> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3123> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "De voksne sørger for at vi følger reglene for hvordan vi skal ha det på skolen"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3124> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3124> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "De voksne på denne skolen reagerer på samme måte hvis elevene bryter reglene"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3125> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3125> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Jeg har fått et godt grunnlag for videre valg av utdanning og yrke, så langt på ungdomsskolen"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3126> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.3>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3126> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Hvor fornøyd er du med den rådgivingen du fikk om valg av utdanning og yrke på ungdomsskolen?"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3127> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.3>,
+        <http://metadata.un.org/sdg/4.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3127> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
     dct:title "Jeg har fått et godt grunnlag for videre valg av utdanning og yrke, så langt i videregående opplæring"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3128> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3128> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
+    dct:title "Jeg har fått et godt grunnlag for videre valg av utdanning og yrke, så langt på ungdomsskolen"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3129> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3129> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
+    dct:title "Hvor fornøyd er du med den rådgivingen du fikk om valg av utdanning og yrke på ungdomsskolen?"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3130> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3130> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.udir.no/tall-og-forskning/statistikk/elevundersokelsen/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Gjennomsnitt (1-5)" ;
+    dct:title "Jeg har fått et godt grunnlag for videre valg av utdanning og yrke, så langt i videregående opplæring"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> a skos:ConceptScheme ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)> ;
-    dct:modified "2025-07-08"^^xsd:date ;
+    dct:modified "2025-07-14"^^xsd:date ;
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
     dct:title "Elevundersøkelsen (5.-10. trinn og vg1-vg3)"@no ;
     uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#1281>,
@@ -1063,7 +1371,10 @@ my:hasImpact a rdf:Property ;
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3124>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3125>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3126>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3127> ;
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3127>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3128>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3129>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Elevundersøkelsen-(5.-10.-trinn-og-vg1-vg3)#3130> ;
     xkos:numberOfLevels 1 ;
     adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
 

@@ -1,0 +1,360 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix my: <https://metadata.ks.no/sdg-taxonomi/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdgo: <http://metadata.un.org/sdg/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+my:hasEvaluation a rdf:Property ;
+    rdfs:label "has evaluation"@en ;
+    rdfs:subPropertyOf skos:related .
+
+my:hasImpact a rdf:Property ;
+    rdfs:label "has impact"@en ;
+    rdfs:subPropertyOf skos:related .
+
+<https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> a vcard:Organization ;
+    vcard:hasEmail "kom@ks.no"^^xsd:anyURI ;
+    vcard:hasOrganizationName "KS"@no ;
+    vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4256> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4256> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/11788/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Prosentandel" ;
+    dct:title "Andel fornyet kommunalt spillvannsnett, gjennomsnitt for siste tre år"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4258> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4258> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/11788/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Prosentandel" ;
+    dct:title "Andel kommunalt spillvannsnett med ukjent alder"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4259> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4259> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/11788/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
+    dct:title "Antall avløpsanlegg i kommunen (=>50 pe)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4260> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4260> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/11788/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
+    dct:title "Antall avsluttede saker over kjelleroversvømmelser, der kommunen har erkjent erstatningsansvar"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4261> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4261> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/11788/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
+    dct:title "Antall innbyggere tilknyttet anlegg (=>50 pe)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4262> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4262> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/11788/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
+    dct:title "Antall innbyggere tilknyttet kommunalt avløp (=>50 pe)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4263> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4263> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/11788/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
+    dct:title "Antall innbyggere tilknyttet små kommunale anlegg (< 50 pe)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4264> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/9.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4264> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/11788/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
+    dct:title "Antall kloakkstopper i kommunale avløpsledninger og kummer"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4265> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4265> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/11788/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
+    dct:title "Antall kommunalt eide avløpsanlegg (=>50 pe)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4266> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.1>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/9.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4266> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/11788/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
+    dct:title "Tilknytningstetthet på det kommunale distribusjonsnettet (avløp)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4267> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/6.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4267> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/11788/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
+    dct:title "Antall avsluttede saker over kjelleroversvømmelser, der kommunen har erkjent erstatningsansvar"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4269> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.1>,
+        <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/6.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4269> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/11788/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
+    dct:title "Antall innbyggere tilknyttet anlegg (=>50 pe)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4270> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/6.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4270> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/11788/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
+    dct:title "Antall innbyggere tilknyttet kommunalt avløp (=>50 pe)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4271> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/6.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4271> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/11788/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
+    dct:title "Antall innbyggere tilknyttet små kommunale anlegg (< 50 pe)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4272> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4272> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/11788/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
+    dct:title "Antall kloakkstopper i kommunale avløpsledninger og kummer"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4273> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/6.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4273> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/11788/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
+    dct:title "Antall kommunalt eide avløpsanlegg (=>50 pe)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4274> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4274> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/11788/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
+    dct:title "Tilknytningstetthet på det kommunale distribusjonsnettet (avløp)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp> a skos:ConceptScheme ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp> ;
+    dct:modified "2025-07-14"^^xsd:date ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
+    dct:title "Vann og avløp - kommunalt avløp"@no ;
+    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4256>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4258>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4259>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4260>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4261>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4262>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4263>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4264>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4265>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4266>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4267>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4269>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4270>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4271>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4272>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4273>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Vann-og-avløp---kommunalt-avløp#4274> ;
+    xkos:numberOfLevels 1 ;
+    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
+

@@ -33,6 +33,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/05212" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Folkemengde i tettbygd strøk - menn"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal> ;
@@ -47,6 +48,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/05212" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Folkemengde i tettbygd strøk - kvinner"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal> ;
@@ -61,6 +63,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/05212" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Folkemengde i spredtbygd strøk - menn"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal> ;
@@ -69,27 +72,128 @@ my:hasImpact a rdf:Property ;
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3936> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.1> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3>,
+        <http://metadata.un.org/sdg/5.1> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3936> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/05212" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Folkemengde i spredtbygd strøk - kvinner"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3937> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3>,
+        <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3937> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/05212" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
+    dct:title "Folkemengde i tettbygd strøk - kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3939> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3939> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/05212" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
+    dct:title "Folkemengde i tettbygd strøk - menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3940> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3>,
+        <http://metadata.un.org/sdg/11.7>,
+        <http://metadata.un.org/sdg/5.1>,
+        <http://metadata.un.org/sdg/5.2>,
+        <http://metadata.un.org/sdg/5.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3940> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/05212" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
+    dct:title "Folkemengde i tettbygd strøk - kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3942> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3942> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/05212" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
+    dct:title "Folkemengde i spredtbygd strøk - menn"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3943> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3>,
+        <http://metadata.un.org/sdg/5.1>,
+        <http://metadata.un.org/sdg/5.2>,
+        <http://metadata.un.org/sdg/5.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3943> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/05212" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
+    dct:title "Folkemengde i spredtbygd strøk - kvinner"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal> a skos:ConceptScheme ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal> ;
-    dct:modified "2025-07-08"^^xsd:date ;
+    dct:modified "2025-07-14"^^xsd:date ;
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
     dct:title "Areal - Tettsteders befolkning og areal"@no ;
     uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3932>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3934>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3935>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3936> ;
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3936>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3937>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3939>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3940>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3942>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Tettsteders-befolkning-og-areal#3943> ;
     xkos:numberOfLevels 1 ;
     adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
 

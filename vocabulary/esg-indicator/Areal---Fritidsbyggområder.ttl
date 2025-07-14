@@ -25,101 +25,114 @@ my:hasImpact a rdf:Property ;
     vcard:hasOrganizationName "KS"@no ;
     vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-#3940> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder#3944> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-#3940> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder#3944> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/10328" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Culture> ;
+    dcterms:type "Antall" ;
     dct:title "Fritidsbygninger "@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-#3942> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder#3945> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-#3942> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder#3945> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/10328" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Helårsbolig benyttet som fritidsbolig "@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-#3943> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder#3947> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-#3943> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder#3947> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/10328" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Våningshus benyttet som fritidsbolig "@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-#3944> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder#3949> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.c> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-#3944> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder#3949> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/10328" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Nye fritidsbygninger "@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-#3945> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder#3950> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-#3945> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder#3950> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/10328" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Nye helårsbolig benyttet som fritidsbolig "@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-#3946> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder#3951> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-#3946> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1>,
+        <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder#3951> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/10328" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Nye våningshus benyttet som fritidsbolig "@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-> a skos:ConceptScheme ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-> ;
-    dct:modified "2025-07-08"^^xsd:date ;
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder> a skos:ConceptScheme ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder> ;
+    dct:modified "2025-07-14"^^xsd:date ;
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
-    dct:title "Areal - Fritidsbyggområder "@no ;
-    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-#3940>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-#3942>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-#3943>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-#3944>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-#3945>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder-#3946> ;
+    dct:title "Areal - Fritidsbyggområder"@no ;
+    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder#3944>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder#3945>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder#3947>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder#3949>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder#3950>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Fritidsbyggområder#3951> ;
     xkos:numberOfLevels 1 ;
     adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
 

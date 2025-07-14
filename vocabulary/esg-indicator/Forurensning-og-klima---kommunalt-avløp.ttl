@@ -33,6 +33,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11788" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Tonn" ;
     dct:title "Lekkasje/tap fra ledningsnettet - fosfor"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
@@ -47,6 +48,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11788" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Tonn" ;
     dct:title "Lekkasje/tap fra ledningsnettet - nitrogen"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
@@ -61,6 +63,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11788" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Tonn" ;
     dct:title "Totalt utslipp - fosfor"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
@@ -75,6 +78,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11788" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Tonn" ;
     dct:title "Totalt utslipp - nitrogen"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
@@ -89,6 +93,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11788" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Tonn" ;
     dct:title "Utslipp fra kommunale anlegg - fosfor"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
@@ -97,1127 +102,1805 @@ my:hasImpact a rdf:Property ;
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4112> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/15>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/14.1>,
+        <http://metadata.un.org/sdg/15.1>,
+        <http://metadata.un.org/sdg/15.3>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4112> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11788" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Tonn" ;
     dct:title "Utslipp fra kommunale anlegg - nitrogen"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4113> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/15>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/14.1>,
+        <http://metadata.un.org/sdg/15.1>,
+        <http://metadata.un.org/sdg/15.3>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4113> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11788" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Tonn" ;
     dct:title "Utslipp fra små anlegg (<50 PE) - fosfor"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4114> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/15>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/14.1>,
+        <http://metadata.un.org/sdg/15.1>,
+        <http://metadata.un.org/sdg/15.3>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4114> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11788" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Tonn" ;
     dct:title "Utslipp fra små anlegg (<50 PE) - nitrogen"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4115> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/2> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/2.4> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/15>,
+        <http://metadata.un.org/sdg/2>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/14.1>,
+        <http://metadata.un.org/sdg/15.1>,
+        <http://metadata.un.org/sdg/15.3>,
+        <http://metadata.un.org/sdg/2.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4115> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11793" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel slam disponert i jordbruket"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4116> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/2.4> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/14.1>,
+        <http://metadata.un.org/sdg/15.1>,
+        <http://metadata.un.org/sdg/15.3>,
+        <http://metadata.un.org/sdg/2.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4116> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11793" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel slam disponert på grøntarealer"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4117> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/15>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/14.1>,
+        <http://metadata.un.org/sdg/15.1>,
+        <http://metadata.un.org/sdg/15.3>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4117> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11793" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel slam disponert til annet formål"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4118> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/14.1>,
+        <http://metadata.un.org/sdg/15.1>,
+        <http://metadata.un.org/sdg/15.3>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4118> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11793" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel slam disponert til eksport"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4119> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/15>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/14.1>,
+        <http://metadata.un.org/sdg/15.1>,
+        <http://metadata.un.org/sdg/15.3>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4119> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11793" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel slam disponert til forbrenning/energigjenvinning"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4120> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/13>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/2>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/14.1>,
+        <http://metadata.un.org/sdg/15.1>,
+        <http://metadata.un.org/sdg/15.3>,
+        <http://metadata.un.org/sdg/2.4>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/9.1>,
+        <http://metadata.un.org/sdg/9.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4120> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11793" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel slam disponert til toppdekke på avfallsfylling"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4121> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/2.4> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/13>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/15>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/14.1>,
+        <http://metadata.un.org/sdg/15.1>,
+        <http://metadata.un.org/sdg/15.3>,
+        <http://metadata.un.org/sdg/2.4>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/9.1> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4121> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel slam levert til jordprodusent"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4122> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/2>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/2.4>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/9.1>,
+        <http://metadata.un.org/sdg/9.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4122> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel slam til deponi"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4123> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/2.4>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/9.1>,
+        <http://metadata.un.org/sdg/9.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4123> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Tonn" ;
     dct:title "Mengde slam deponert"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4124> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/6.1>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4124> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Tonn" ;
     dct:title "Mengde slam disponert til annet formål"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4125> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/6.1>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/9.1>,
+        <http://metadata.un.org/sdg/9.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4125> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Tonn" ;
     dct:title "Mengde slam disponert til eksport"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4126> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/2.4>,
+        <http://metadata.un.org/sdg/6.1>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4126> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Tonn" ;
     dct:title "Mengde slam disponert til forbrenning/energigjenvinning"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4127> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/2> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/2.4> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/2>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/2.4>,
+        <http://metadata.un.org/sdg/6.1>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4127> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Tonn" ;
     dct:title "Mengde slam disponert til jordforbedring i jordbruket"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4128> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/2.4> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/2.4>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/9.1>,
+        <http://metadata.un.org/sdg/9.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4128> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Tonn" ;
     dct:title "Mengde slam disponert til jordforbedring på grøntarealer"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4129> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/9.1>,
+        <http://metadata.un.org/sdg/9.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4129> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Tonn" ;
     dct:title "Mengde slam disponert til toppdekke på avfallsfylling"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4130> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/9.1>,
+        <http://metadata.un.org/sdg/9.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4130> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Tonn" ;
     dct:title "Mengde slam disponert totalt"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4131> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/2.4> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/2.4>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/9.1>,
+        <http://metadata.un.org/sdg/9.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4131> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Tonn" ;
     dct:title "Mengde slam levert til jordprodusent"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4132> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/2>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/2.4>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/9.1>,
+        <http://metadata.un.org/sdg/9.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4132> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "g/m3" ;
     dct:title "Slamtørrstoff produsert per kubikkmeter avløpsvann"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4133> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/2.4>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/9.1> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4133> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel innbyggere tilknyttet anlegg der oppfyllelse av rensekrav ikke kan vurderes"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4134> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/2>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/2.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4134> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel innbyggere tilknyttet anlegg der rensekrav er oppfylt"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4135> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/2.4>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/9.1>,
+        <http://metadata.un.org/sdg/9.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4135> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel innbyggere tilknyttet anlegg der rensekrav ikke er oppfylt"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4136> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/2.4>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/9.1> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4136> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel innbyggere tilknyttet anlegg med biologisk-kjemisk rensing"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4137> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.2> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/9.1>,
+        <http://metadata.un.org/sdg/9.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4137> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel innbyggere tilknyttet anlegg med kjemisk rensing"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4138> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/2.4>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/9.1> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4138> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel innbyggere tilknyttet anlegg med mekanisk, biologisk, naturbasert el. annet renseprinsipp"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4139> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4139> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel innbyggere tilknyttet kap. 13 anlegg der rensekrav er oppfylt"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4140> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/3>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4140> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel innbyggere tilknyttet kap. 13 anlegg der rensekrav ikke er oppfylt"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4141> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4141> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel innbyggere tilknyttet kap. 14 anlegg der oppfyllelse av rensekrav ikke kan vurderes"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4142> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/3>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4142> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel innbyggere tilknyttet kap. 14 anlegg der rensekrav er oppfylt"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4143> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4143> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel innbyggere tilknyttet kap. 14 anlegg der rensekrav ikke er oppfylt"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4144> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4144> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Antall innbyggere tilknyttet anlegg =>50 pe"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4145> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4145> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Antall innbyggere tilknyttet anlegg der oppfyllelse av rensekrav ikke kan vurderes"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4146> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4146> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Antall innbyggere tilknyttet anlegg der rensekrav er oppfylt"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4147> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4147> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Antall innbyggere tilknyttet anlegg der rensekrav ikke er oppfylt"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4148> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4148> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Antall innbyggere tilknyttet anlegg med biologisk-kjemisk rensing =>50 pe"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4149> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4149> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Antall innbyggere tilknyttet anlegg med kjemisk rensing =>50 pe"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4150> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4150> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13144" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Antall innbyggere tilknyttet anlegg med mekanisk, biologisk, naturbasert eller annen rensing =>50 pe"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4151> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.2> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4151> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/05280" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Antall innbyggere tilknyttet kap. 13 anlegg der oppfyllelse av rensekrav ikke kan vurderes"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4152> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/3>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4152> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/05280" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Antall innbyggere tilknyttet kap. 13 anlegg der rensekrav er oppfylt"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4153> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4153> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/05280" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Antall innbyggere tilknyttet kap. 13 anlegg der rensekrav ikke er oppfylt"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4154> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/3>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4154> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/05280" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Antall innbyggere tilknyttet kap. 14 anlegg der oppfyllelse av rensekrav ikke kan vurderes"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4155> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4155> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/05280" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Antall innbyggere tilknyttet kap. 14 anlegg der rensekrav er oppfylt"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4156> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4156> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/05280" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Antall innbyggere tilknyttet kap. 14 anlegg der rensekrav ikke er oppfylt"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4157> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4157> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/05280" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Antall innbyggere tilknyttet ledningsnettet med urenset utslipp =>50 pe"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4158> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/3>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4158> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/05280" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Kg" ;
     dct:title "Belastning på anlegg med biologisk-kjemisk rensing"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4159> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4159> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11786" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Kg" ;
     dct:title "Belastning på anlegg med kjemisk rensing"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4160> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/3>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4160> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11786" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Kg" ;
     dct:title "Belastning på anlegg med mekanisk, biologisk, naturbasert og annen rensing"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4161> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4161> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11786" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Kg" ;
     dct:title "Total belastning på avløpsanleggene"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4162> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4162> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11786" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel av befolkningen som er tilknyttet kommunal avløpstjeneste"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4163> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4163> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11786" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel av husholdningsabonnentene på avløp som har installert vannmåler"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4164> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4164> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11786" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel fornyet kommunalt spillvannsnett, gjennomsnitt for siste tre år"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4165> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4165> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11786" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel kommunalt spillvannsnett med ukjent alder"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4166> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4166> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11786" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
     dct:title "Antall avløpsanlegg i kommunen =>50 pe"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4167> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.2> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4167> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11786" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
     dct:title "Antall avsluttede saker over kjelleroversvømmelser, der kommunen har erkjent erstatningsansvar"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4168> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4168> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11786" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
     dct:title "Antall innbyggere tilknyttet anlegg =>50 pe"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4169> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4169> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11786" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
     dct:title "Antall innbyggere tilknyttet kommunalt avløp =>50 pe"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4170> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4170> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11786" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
     dct:title "Antall innbyggere tilknyttet små kommunale anlegg < 50 pe"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4171> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.2> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4171> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11786" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
     dct:title "Antall kloakkstopper i kommunale avløpsledninger og kummer"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4172> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4172> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/11786" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
     dct:title "Antall kommunalt eide avløpsanlegg =>50 pe"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4173> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4173> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13143" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
     dct:title "Antall pumpestasjoner"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4174> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.2> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4174> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13143" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
     dct:title "Antall regnvannsoverløp i fellessystemet"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4175> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/12.4>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4175> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13143" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "år" ;
     dct:title "Estimert gjennomsnittsalder for kommunalt spillvannsnett med kjent alder"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4176> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4176> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13143" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "m" ;
     dct:title "Lengde fornyet kommunalt spillvannsnett"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4177> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4177> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13143" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "m" ;
     dct:title "Lengde fornyet kommunalt spillvannsnett, gjennomsnitt siste tre år"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4178> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4178> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13143" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "m" ;
     dct:title "Lengde kommunale fellesledninger for både spill- og overvann"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4179> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4179> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13143" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "m" ;
     dct:title "Lengde kommunalt spillvannsnett 1940-59"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4180> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4180> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13143" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "m" ;
     dct:title "Lengde kommunalt spillvannsnett 1960-79"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4181> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4181> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13143" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "m" ;
     dct:title "Lengde kommunalt spillvannsnett 1980-99"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4182> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4182> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13143" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "m" ;
     dct:title "Lengde kommunalt spillvannsnett 2000-2019"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4183> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/12.5>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4183> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13143" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "m" ;
     dct:title "Lengde kommunalt spillvannsnett 2020 og senere"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4184> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.1>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4184> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13143" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "m" ;
     dct:title "Lengde kommunalt spillvannsnett før 1940"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4185> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4185> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13143" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "m" ;
     dct:title "Lengde kommunalt spillvannsnett med ukjent alder"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4186> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.1>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4186> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13143" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "m" ;
     dct:title "Lengde kommunalt spillvannsnett totalt"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4187> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4187> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13143" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "m" ;
     dct:title "Lengde nylagt kommunalt spillvannsnett"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4188> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.2> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4188> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13143" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "m" ;
     dct:title "Lengde separat kommunalt overvannsnett"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4189> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.2> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4189> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13143" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "m" ;
     dct:title "Lengde separat kommunalt spillvannsnett"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4190> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.1>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4190> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13143" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
     dct:title "Septiktømming - antall tilknyttede innbyggere"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4191> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.1>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4191> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13143" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
     dct:title "Tilknytningstetthet på det kommunale distribusjonsnettet (avløp) (innb/km)"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4192> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/14.1>,
+        <http://metadata.un.org/sdg/2.4>,
+        <http://metadata.un.org/sdg/6.1>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4192> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13143" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "m" ;
+    dct:title "Lengde kommunalt spillvannsnett med ukjent alder"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4194> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.1>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4194> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13143" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "m" ;
+    dct:title "Lengde kommunalt spillvannsnett totalt"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4195> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/14.1>,
+        <http://metadata.un.org/sdg/2.4>,
+        <http://metadata.un.org/sdg/6.1>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4195> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13143" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "m" ;
+    dct:title "Lengde nylagt kommunalt spillvannsnett"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4196> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4196> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13143" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "m" ;
+    dct:title "Lengde separat kommunalt overvannsnett"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4197> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.1>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4197> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13143" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "m" ;
+    dct:title "Lengde separat kommunalt spillvannsnett"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4198> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/6.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4198> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13143" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
+    dct:title "Septiktømming - antall tilknyttede innbyggere"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4199> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4199> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13143" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Antall" ;
+    dct:title "Tilknytningstetthet på det kommunale distribusjonsnettet (avløp) (innb/km)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> a skos:ConceptScheme ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp> ;
-    dct:modified "2025-07-08"^^xsd:date ;
+    dct:modified "2025-07-14"^^xsd:date ;
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
     dct:title "Forurensning og klima - kommunalt avløp"@no ;
     uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4106>,
@@ -1304,7 +1987,14 @@ my:hasImpact a rdf:Property ;
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4188>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4189>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4190>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4191> ;
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4191>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4192>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4194>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4195>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4196>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4197>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4198>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Forurensning-og-klima---kommunalt-avløp#4199> ;
     xkos:numberOfLevels 1 ;
     adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
 

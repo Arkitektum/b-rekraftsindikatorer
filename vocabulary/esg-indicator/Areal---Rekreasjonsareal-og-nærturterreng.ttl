@@ -33,6 +33,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "24" ;
     dcterms:source "https://www.ssb.no/statbank/table/09579" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel med trygg tilgang til rekreasjonsareal - alle aldere "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng> ;
@@ -47,6 +48,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "24" ;
     dcterms:source "https://www.ssb.no/statbank/table/09579" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel med trygg tilgang til nærturterreng - alle aldere "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng> ;
@@ -61,6 +63,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "24" ;
     dcterms:source "https://www.ssb.no/statbank/table/09579" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel med trygg tilgang til rekreasjonsareal - under 20 år"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng> ;
@@ -75,21 +78,114 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "24" ;
     dcterms:source "https://www.ssb.no/statbank/table/09579" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel med trygg tilgang til nærturterreng - under 20 år"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3932> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3932> ;
+    dcterms:accrualPeriodicity "24" ;
+    dcterms:source "https://www.ssb.no/statbank/table/09579" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
+    dct:title "Andel med trygg tilgang til nærturterreng - alle aldere "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3934> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3934> ;
+    dcterms:accrualPeriodicity "24" ;
+    dcterms:source "https://www.ssb.no/statbank/table/09579" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
+    dct:title "Andel med trygg tilgang til rekreasjonsareal - alle aldere "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3935> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3935> ;
+    dcterms:accrualPeriodicity "24" ;
+    dcterms:source "https://www.ssb.no/statbank/table/09579" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
+    dct:title "Andel med trygg tilgang til nærturterreng - alle aldere "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3936> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3936> ;
+    dcterms:accrualPeriodicity "24" ;
+    dcterms:source "https://www.ssb.no/statbank/table/09579" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
+    dct:title "Andel med trygg tilgang til rekreasjonsareal - under 20 år"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3937> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3937> ;
+    dcterms:accrualPeriodicity "24" ;
+    dcterms:source "https://www.ssb.no/statbank/table/09579" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Prosentandel" ;
+    dct:title "Andel med trygg tilgang til nærturterreng - under 20 år"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng> a skos:ConceptScheme ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng> ;
-    dct:modified "2025-07-08"^^xsd:date ;
+    dct:modified "2025-07-14"^^xsd:date ;
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
     dct:title "Areal - Rekreasjonsareal og nærturterreng"@no ;
     uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3927>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3929>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3930>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3931> ;
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3931>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3932>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3934>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3935>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3936>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Rekreasjonsareal-og-nærturterreng#3937> ;
     xkos:numberOfLevels 1 ;
     adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
 

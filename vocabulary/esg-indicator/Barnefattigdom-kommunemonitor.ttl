@@ -33,6 +33,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Prosentandel og antall" ;
     dct:title "Barn i husholdninger med vedvarende lavinntekt "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
@@ -42,230 +43,443 @@ my:hasImpact a rdf:Property ;
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1067> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2>,
+        <http://metadata.un.org/sdg/1.5> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1067> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Prosentandel og antall" ;
     dct:title "Barn i husholdninger med lavinntekt og lav finansformue, siste år"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1068> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2>,
+        <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/10.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1068> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Prosentandel og antall" ;
     dct:title "Barn i husholdninger med vedvarende lavinntekt siste år etter lokale lavinntektsgrenser"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1071> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2>,
+        <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/10.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1071> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Prosentandel og antall" ;
     dct:title "Barn i husholdninger med vedvarende lavinntekt med enslig forsørger"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1072> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/10>,
+        <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2>,
+        <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/10.3>,
+        <http://metadata.un.org/sdg/5.1>,
+        <http://metadata.un.org/sdg/5.a> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1072> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Prosentandel og antall" ;
     dct:title "Barn i husholdninger med vedvarende lavinntekt uten yrkestilknyttede personer "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1073> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/10>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2>,
+        <http://metadata.un.org/sdg/1.3>,
+        <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/10.3>,
+        <http://metadata.un.org/sdg/8.5>,
+        <http://metadata.un.org/sdg/8.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1073> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Prosentandel og antall" ;
     dct:title "Barn i husholdninger med vedvarende lavinntekt som mottar mer enn halvparten av samlet inntekt gjennom offentlige overføringer "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1075> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/10>,
+        <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2>,
+        <http://metadata.un.org/sdg/1.3>,
+        <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/10.3>,
+        <http://metadata.un.org/sdg/5.1>,
+        <http://metadata.un.org/sdg/5.a> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1075> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Prosentandel og antall" ;
     dct:title "Barn i husholdninger med vedvarende øavinntekt der hovedforsørger har lav utdanning "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1076> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/10>,
+        <http://metadata.un.org/sdg/4>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2>,
+        <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/10.3>,
+        <http://metadata.un.org/sdg/4.5>,
+        <http://metadata.un.org/sdg/8.5>,
+        <http://metadata.un.org/sdg/8.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1076> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Prosentandel og antall" ;
     dct:title "Barn i husholdninger med enslig forsørger "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1078> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/10>,
+        <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2>,
+        <http://metadata.un.org/sdg/1.3>,
+        <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/10.3>,
+        <http://metadata.un.org/sdg/5.4> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1078> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dcterms:type "Prosentandel og antall" ;
     dct:title "Barn i husholdninger som har mottatt sosialhjelp i løpet av året "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1079> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/10>,
+        <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2>,
+        <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/10.3>,
+        <http://metadata.un.org/sdg/4.5> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1079> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dcterms:type "Prosentandel og antall" ;
     dct:title "Barn i husholdninger uten yrkestilknyttende personer "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1081> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/5>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2>,
+        <http://metadata.un.org/sdg/1.3>,
+        <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/5.4>,
+        <http://metadata.un.org/sdg/8.5>,
+        <http://metadata.un.org/sdg/8.6>,
+        <http://metadata.un.org/sdg/8.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1081> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Prosentandel og antall" ;
     dct:title "Barn i husholdninger som mottar mer enn halvparten av samlet inntekt gjennom offentlige overføringer "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1082> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2>,
+        <http://metadata.un.org/sdg/1.3>,
+        <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/10.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1082> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dcterms:type "Prosentandel og antall" ;
     dct:title "Barn i husholdninger der minst en person mottar uføretrygd "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1084> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/10>,
+        <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2>,
+        <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/10.3>,
+        <http://metadata.un.org/sdg/11.1>,
+        <http://metadata.un.org/sdg/8.5>,
+        <http://metadata.un.org/sdg/8.6>,
+        <http://metadata.un.org/sdg/8.7> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1084> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dcterms:type "Prosentandel og antall" ;
     dct:title "Barn i husholdninger som bor trangt "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1085> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.5> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/10>,
+        <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.3>,
+        <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/10.3>,
+        <http://metadata.un.org/sdg/11.1> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1085> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Prosentandel og antall" ;
     dct:title "Barn i husholdninger med vedvarende lavinntekt som bor trangt "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1087> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.5> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/10>,
+        <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2>,
+        <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/10.3>,
+        <http://metadata.un.org/sdg/11.1>,
+        <http://metadata.un.org/sdg/11.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1087> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dcterms:type "Prosentandel og antall" ;
     dct:title "Barn 0-5 år i husholdninger med vedvarende lavinntekt som bor i leid bolig "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1088> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/11.1> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1088> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dcterms:type "Prosentandel og antall" ;
     dct:title "Barn 6-17 år i husholdninger som bor i leid bolig "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1091> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.5> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/11.1>,
+        <http://metadata.un.org/sdg/11.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1091> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Prosentandel og antall" ;
     dct:title "Barn 6-17 år i husholdninger med vedvarende lavinntekt som bor i leid bolig "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1093> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/11.1>,
+        <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1093> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dcterms:type "Prosentandel og antall" ;
+    dct:title "Barn 0-5 år i husholdninger med vedvarende lavinntekt som bor i leid bolig "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1096> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/11.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1096> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Prosentandel og antall" ;
+    dct:title "Barn 6-17 år i husholdninger som bor i leid bolig "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1098> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/11.1>,
+        <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1098> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.bufdir.no/statistikk-og-analyse/monitor/barnefattigdom?primary=03" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Prosentandel og antall" ;
+    dct:title "Barn 6-17 år i husholdninger med vedvarende lavinntekt som bor i leid bolig "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> a skos:ConceptScheme ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor> ;
-    dct:modified "2025-07-08"^^xsd:date ;
+    dct:modified "2025-07-14"^^xsd:date ;
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
     dct:title "Barnefattigdom kommunemonitor"@no ;
     uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1066>,
@@ -284,7 +498,10 @@ my:hasImpact a rdf:Property ;
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1085>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1087>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1088>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1091> ;
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1091>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1093>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1096>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Barnefattigdom-kommunemonitor#1098> ;
     xkos:numberOfLevels 1 ;
     adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
 

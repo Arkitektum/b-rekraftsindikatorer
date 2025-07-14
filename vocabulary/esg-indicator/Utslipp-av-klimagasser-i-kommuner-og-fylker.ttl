@@ -28,86 +28,174 @@ my:hasImpact a rdf:Property ;
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1001> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/13> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2>,
+        <http://metadata.un.org/sdg/13.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1001> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.miljodirektoratet.no/tjenester/klimagassutslipp-kommuner/?area=10010&sector=1" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Tonn CO2-ekvivalenter" ;
     dct:title "Utslipp fra veitrafikk"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1003> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/13> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13>,
+        <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2>,
+        <http://metadata.un.org/sdg/7.2>,
+        <http://metadata.un.org/sdg/7.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1003> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.miljodirektoratet.no/tjenester/klimagassutslipp-kommuner/?area=10010&sector=1" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Tonn CO2-ekvivalenter" ;
     dct:title "Utslipp fra sjøfart "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1005> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/13> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2>,
+        <http://metadata.un.org/sdg/13.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1005> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.miljodirektoratet.no/tjenester/klimagassutslipp-kommuner/?area=10010&sector=1" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Tonn CO2-ekvivalenter" ;
     dct:title "Utslipp fra luftfart "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1007> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/13> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2>,
+        <http://metadata.un.org/sdg/13.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1007> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.miljodirektoratet.no/tjenester/klimagassutslipp-kommuner/?area=10010&sector=1" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Tonn CO2-ekvivalenter" ;
     dct:title "Utslipp fra annen mobil forbrenning "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1010> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/13> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2>,
+        <http://metadata.un.org/sdg/13.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1010> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.miljodirektoratet.no/tjenester/klimagassutslipp-kommuner/?area=10010&sector=1" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Tonn CO2-ekvivalenter" ;
     dct:title "Utslipp fra jordbruk "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1012> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13>,
+        <http://metadata.un.org/sdg/15>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2>,
+        <http://metadata.un.org/sdg/13.3>,
+        <http://metadata.un.org/sdg/15.3>,
+        <http://metadata.un.org/sdg/15.8>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1012> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.miljodirektoratet.no/tjenester/klimagassutslipp-kommuner/?area=10010&sector=1" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Tonn CO2-ekvivalenter" ;
     dct:title "Utslipp fra avfall og avløp"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1013> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2>,
+        <http://metadata.un.org/sdg/14.1>,
+        <http://metadata.un.org/sdg/6.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1013> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.miljodirektoratet.no/tjenester/klimagassutslipp-kommuner/?area=10010&sector=1" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Tonn CO2-ekvivalenter" ;
+    dct:title "Utslipp fra annen mobil forbrenning "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1015> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13>,
+        <http://metadata.un.org/sdg/15> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2>,
+        <http://metadata.un.org/sdg/13.3>,
+        <http://metadata.un.org/sdg/15.3>,
+        <http://metadata.un.org/sdg/15.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1015> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.miljodirektoratet.no/tjenester/klimagassutslipp-kommuner/?area=10010&sector=1" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Tonn CO2-ekvivalenter" ;
+    dct:title "Utslipp fra jordbruk "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1017> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/14.1>,
+        <http://metadata.un.org/sdg/6.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1017> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.miljodirektoratet.no/tjenester/klimagassutslipp-kommuner/?area=10010&sector=1" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "Tonn CO2-ekvivalenter" ;
+    dct:title "Utslipp fra avfall og avløp"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#993> a sdgo:Indicator,
         skos:Concept ;
@@ -117,6 +205,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.miljodirektoratet.no/tjenester/klimagassutslipp-kommuner/?area=10010&sector=1" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Tonn CO2-ekvivalenter" ;
     dct:title "Utslipp fra industri, olje og gass "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker> ;
@@ -126,34 +215,43 @@ my:hasImpact a rdf:Property ;
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#995> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/13> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2>,
+        <http://metadata.un.org/sdg/13.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#995> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.miljodirektoratet.no/tjenester/klimagassutslipp-kommuner/?area=10010&sector=1" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Tonn CO2-ekvivalenter" ;
     dct:title "Utslipp fra energiforsyning "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#997> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/13> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13>,
+        <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2>,
+        <http://metadata.un.org/sdg/7.2>,
+        <http://metadata.un.org/sdg/7.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#997> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.miljodirektoratet.no/tjenester/klimagassutslipp-kommuner/?area=10010&sector=1" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dcterms:type "Tonn CO2-ekvivalenter" ;
     dct:title "Utslipp fra oppvarming "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker> a skos:ConceptScheme ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker> ;
-    dct:modified "2025-07-08"^^xsd:date ;
+    dct:modified "2025-07-14"^^xsd:date ;
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
     dct:title "Utslipp av klimagasser i kommuner og fylker"@no ;
     uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1001>,
@@ -162,6 +260,9 @@ my:hasImpact a rdf:Property ;
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1007>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1010>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1012>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1013>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1015>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#1017>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#993>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#995>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Utslipp-av-klimagasser-i-kommuner-og-fylker#997> ;

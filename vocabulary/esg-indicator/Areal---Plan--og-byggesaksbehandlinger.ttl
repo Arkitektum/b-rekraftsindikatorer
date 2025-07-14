@@ -33,6 +33,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13128" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Byggesøknader vedtatt i alt"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger> ;
@@ -47,6 +48,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13128" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Byggesøknader vedtatt for områder med restriksjoner i alt"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger> ;
@@ -61,6 +63,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13128" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Søknader om nye bygninger i LNF/LNFR-områder utenfor 100-metersbeltet langs saltvann"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger> ;
@@ -69,17 +72,23 @@ my:hasImpact a rdf:Property ;
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3226> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3226> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13128" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Søknader i LNF/LNFR-områder med byggeforbud langs ferskvann i kommuneplanen"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3227> a sdgo:Indicator,
         skos:Concept ;
@@ -88,100 +97,244 @@ my:hasImpact a rdf:Property ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3227> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13128" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Søknader om nye bygninger i 100-metersbeltet langs saltvann"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3228> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/15> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1>,
+        <http://metadata.un.org/sdg/11.3>,
+        <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/15.1>,
+        <http://metadata.un.org/sdg/15.9> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3228> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13128" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Søknader i alt angående universell utforming (UU) og tilgjengelighet siste år"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3229> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/15>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3>,
+        <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3229> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13128" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Dispensasjonssøknader ift krav om universell utforming (UU) i nye bygg (pbl §19-1)"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3923> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/15> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1>,
+        <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/14.5>,
+        <http://metadata.un.org/sdg/15.1>,
+        <http://metadata.un.org/sdg/15.9> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3923> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13128" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Dispensasjonssøknader ift krav om universell utforming (UU) i eksisterende byggverk (pbl § 31-2, siste ledd)"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3924> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.4> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/15>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1>,
+        <http://metadata.un.org/sdg/11.3>,
+        <http://metadata.un.org/sdg/11.4>,
+        <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/6.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3924> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13128" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Søknader om tiltak etter plan- og bygningsloven i områder med bevaringsstatus i reguleringsplan"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3925> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/14> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3>,
+        <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/11.c>,
+        <http://metadata.un.org/sdg/14.5> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3925> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13128" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Søknader etter plan- og bygningsloven som gjaldt tiltak i ikke-fredete bygninger oppført før 1850"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3926> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1>,
+        <http://metadata.un.org/sdg/11.3>,
+        <http://metadata.un.org/sdg/11.4>,
+        <http://metadata.un.org/sdg/11.c> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3926> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/13128" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "Antall" ;
     dct:title "Søknader om tiltak i fredete bygninger uansett oppføringsår"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3927> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/15> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3>,
+        <http://metadata.un.org/sdg/11.4>,
+        <http://metadata.un.org/sdg/11.c>,
+        <http://metadata.un.org/sdg/15.9> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3927> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13128" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
+    dct:title "Dispensasjonssøknader ift krav om universell utforming (UU) i nye bygg (pbl §19-1)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3929> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1>,
+        <http://metadata.un.org/sdg/11.3>,
+        <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/11.c> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3929> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13128" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
+    dct:title "Dispensasjonssøknader ift krav om universell utforming (UU) i eksisterende byggverk (pbl § 31-2, siste ledd)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3930> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/15> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.4>,
+        <http://metadata.un.org/sdg/15.9> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3930> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13128" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
+    dct:title "Søknader om tiltak etter plan- og bygningsloven i områder med bevaringsstatus i reguleringsplan"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3931> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3931> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13128" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
+    dct:title "Søknader etter plan- og bygningsloven som gjaldt tiltak i ikke-fredete bygninger oppført før 1850"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3932> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3932> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/13128" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "Antall" ;
+    dct:title "Søknader om tiltak i fredete bygninger uansett oppføringsår"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger> a skos:ConceptScheme ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger> ;
-    dct:modified "2025-07-08"^^xsd:date ;
+    dct:modified "2025-07-14"^^xsd:date ;
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
     dct:title "Areal - Plan- og byggesaksbehandlinger"@no ;
     uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3222>,
@@ -194,7 +347,12 @@ my:hasImpact a rdf:Property ;
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3923>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3924>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3925>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3926> ;
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3926>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3927>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3929>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3930>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3931>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Plan--og-byggesaksbehandlinger#3932> ;
     xkos:numberOfLevels 1 ;
     adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
 

@@ -33,6 +33,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel barn 1-5 år i barnehage "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
@@ -47,6 +48,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel menn blant kommunestyrerepresentanter "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
@@ -55,259 +57,488 @@ my:hasImpact a rdf:Property ;
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3177> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.5> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4>,
+        <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2>,
+        <http://metadata.un.org/sdg/5.5> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3177> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel kvinner blant kommunestyrerepresentanter"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3179> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4>,
+        <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3>,
+        <http://metadata.un.org/sdg/5.5> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3179> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel menn med høyere utdanning"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3180> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4>,
+        <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2>,
+        <http://metadata.un.org/sdg/4.3>,
+        <http://metadata.un.org/sdg/5.5> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3180> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel kvinner med høyere utdanning "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output>,
+        <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3181> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.5> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4>,
+        <http://metadata.un.org/sdg/5>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3>,
+        <http://metadata.un.org/sdg/5.5>,
+        <http://metadata.un.org/sdg/8.5> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3181> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel menn (20-66 år) i arbeidsstyrken "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3182> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.5> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4>,
+        <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3>,
+        <http://metadata.un.org/sdg/5.5> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3182> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel kvinner (20-66 år) i arbeidsstyrken "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3183> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/4>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/4.3>,
+        <http://metadata.un.org/sdg/8.5> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3183> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:type "Kr" ;
     dct:title "Gjennomsnittlig bruttoinntekt, menn "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3184> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/4>,
+        <http://metadata.un.org/sdg/5>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/4.3>,
+        <http://metadata.un.org/sdg/5.5>,
+        <http://metadata.un.org/sdg/8.5> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3184> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:type "Kr" ;
     dct:title "Gjennomsnittlig bruttoinntekt, kvinner "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3185> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.5> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/8.1>,
+        <http://metadata.un.org/sdg/8.5>,
+        <http://metadata.un.org/sdg/8.8> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3185> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel sysselsatte menn (20-66 år) som jobber deltid "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3186> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.5> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/5>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/5.5>,
+        <http://metadata.un.org/sdg/5.a>,
+        <http://metadata.un.org/sdg/8.1>,
+        <http://metadata.un.org/sdg/8.5>,
+        <http://metadata.un.org/sdg/8.8> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3186> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel sysselsatte kvinner (20-66 år) som jobber deltid "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3187> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.4> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/5>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/5.4>,
+        <http://metadata.un.org/sdg/8.1>,
+        <http://metadata.un.org/sdg/8.5>,
+        <http://metadata.un.org/sdg/8.8> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3187> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel fedre som tar hele fedrekvoten eller mer av foreldrepengeperioden"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3188> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.5> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/5>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/5.4>,
+        <http://metadata.un.org/sdg/5.5>,
+        <http://metadata.un.org/sdg/5.a>,
+        <http://metadata.un.org/sdg/8.1>,
+        <http://metadata.un.org/sdg/8.5>,
+        <http://metadata.un.org/sdg/8.8> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3188> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Industry> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Industry>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:type "Skår" ;
     dct:title "Grad av kjønnsbalansert næringsstuktur "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3189> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.5> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/5>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.4>,
+        <http://metadata.un.org/sdg/8.5>,
+        <http://metadata.un.org/sdg/8.8> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3189> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel menn blant sysselsatte (20-66 år) i offentlig sektor "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3190> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.5> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/5>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.4>,
+        <http://metadata.un.org/sdg/5.5>,
+        <http://metadata.un.org/sdg/5.a>,
+        <http://metadata.un.org/sdg/8.3>,
+        <http://metadata.un.org/sdg/8.5> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3190> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Industry>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel kvinner blant sysselsatte (20-66 år) i offentlig sektor"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3191> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.5> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/5>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.4>,
+        <http://metadata.un.org/sdg/5.5>,
+        <http://metadata.un.org/sdg/8.5>,
+        <http://metadata.un.org/sdg/8.8> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3191> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel menn blant sysselsatte (20-66 år) i privat sektor "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3192> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.5> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/5>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.5>,
+        <http://metadata.un.org/sdg/5.a>,
+        <http://metadata.un.org/sdg/8.3>,
+        <http://metadata.un.org/sdg/8.5>,
+        <http://metadata.un.org/sdg/8.8> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3192> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Industry>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel kvinner blant sysselsatte (20-66 år) i  privat sektor"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3193> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.5> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/5>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.5>,
+        <http://metadata.un.org/sdg/8.5>,
+        <http://metadata.un.org/sdg/8.8> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3193> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel menn blant ledere (20-66 år) "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3194> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.5> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/5>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.5>,
+        <http://metadata.un.org/sdg/8.5>,
+        <http://metadata.un.org/sdg/8.8> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3194> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:type "Prosentandel" ;
     dct:title "Andel kvinner blant ledere (20-66 år)"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3195> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4>,
+        <http://metadata.un.org/sdg/5>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3>,
+        <http://metadata.un.org/sdg/5.5>,
+        <http://metadata.un.org/sdg/8.5>,
+        <http://metadata.un.org/sdg/8.8> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3195> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
-    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:type "Skår" ;
     dct:title "Grad av kjønnsbalanse i utdanningsprogram på videregående skole"@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3196> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/5>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.5>,
+        <http://metadata.un.org/sdg/8.5>,
+        <http://metadata.un.org/sdg/8.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3196> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:type "Prosentandel" ;
+    dct:title "Andel kvinner blant sysselsatte (20-66 år) i  privat sektor"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3197> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4>,
+        <http://metadata.un.org/sdg/5>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3>,
+        <http://metadata.un.org/sdg/4.5>,
+        <http://metadata.un.org/sdg/5.5>,
+        <http://metadata.un.org/sdg/8.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3197> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:type "Prosentandel" ;
+    dct:title "Andel menn blant ledere (20-66 år) "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3198> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/5>,
+        <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.5>,
+        <http://metadata.un.org/sdg/8.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3198> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dcterms:type "Prosentandel" ;
+    dct:title "Andel kvinner blant ledere (20-66 år)"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3200> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4>,
+        <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3>,
+        <http://metadata.un.org/sdg/4.5>,
+        <http://metadata.un.org/sdg/5.5> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3200> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/befolkning/likestilling/statistikk/indikatorer-for-kjonnslikestilling-i-kommunene" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "Skår" ;
+    dct:title "Grad av kjønnsbalanse i utdanningsprogram på videregående skole"@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> a skos:ConceptScheme ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene> ;
-    dct:modified "2025-07-08"^^xsd:date ;
+    dct:modified "2025-07-14"^^xsd:date ;
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
     dct:title "Kjønnslikestilling i kommunene"@no ;
     uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3175>,
@@ -329,7 +560,11 @@ my:hasImpact a rdf:Property ;
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3192>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3193>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3194>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3195> ;
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3195>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3196>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3197>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3198>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Kjønnslikestilling-i-kommunene#3200> ;
     xkos:numberOfLevels 1 ;
     adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
 

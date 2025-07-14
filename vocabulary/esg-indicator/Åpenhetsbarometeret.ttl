@@ -25,221 +25,255 @@ my:hasImpact a rdf:Property ;
     vcard:hasOrganizationName "KS"@no ;
     vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4285> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4292> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4285> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.10>,
+        <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4292> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://presse.no/offentlighet-nyhet/resultater-fra-apenhetsbarometeret-2022/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dcterms:type "Svaralternativer" ;
     dct:title "Hvor mange virkedager brukte kommunen på å innvilge innsynskravet?"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4287> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4293> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.10> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4287> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4293> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://presse.no/offentlighet-nyhet/resultater-fra-apenhetsbarometeret-2022/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dcterms:type "Svaralternativer" ;
     dct:title "Har kommunen postjournal på nett?"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4288> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4295> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.10> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4288> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4295> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://presse.no/offentlighet-nyhet/resultater-fra-apenhetsbarometeret-2022/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dcterms:type "Svaralternativer" ;
     dct:title "Hva slags søkefunksjon har postjournalen på kommunens nettside?"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4289> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4296> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.10> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4289> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4296> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://presse.no/offentlighet-nyhet/resultater-fra-apenhetsbarometeret-2022/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dcterms:type "Svaralternativer" ;
     dct:title "Har kommunens postjournal fulltekstdokumenter på nett?"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4290> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4297> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.10> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4290> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4297> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://presse.no/offentlighet-nyhet/resultater-fra-apenhetsbarometeret-2022/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dcterms:type "Svaralternativer" ;
     dct:title "Har kommunen en forhåndsbestemt, maksimal levetid for postliste på nett?"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4291> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4298> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.10> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4291> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4298> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://presse.no/offentlighet-nyhet/resultater-fra-apenhetsbarometeret-2022/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dcterms:type "Svaralternativer" ;
     dct:title "Hvor langt tilbake i tid går kommunens nåværende, publiserte postliste?"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4292> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4299> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.10> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4292> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4299> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://presse.no/offentlighet-nyhet/resultater-fra-apenhetsbarometeret-2022/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dcterms:type "Svaralternativer" ;
     dct:title "Journalføres organinterne dokumenter i kommunens offentlige postliste?"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4293> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4300> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.7> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4293> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.10>,
+        <http://metadata.un.org/sdg/16.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4300> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://presse.no/offentlighet-nyhet/resultater-fra-apenhetsbarometeret-2022/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dcterms:type "Svaralternativer" ;
     dct:title "Legges politiske saksdokumenter ut på nett?"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4294> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4302> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.7> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4294> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.10>,
+        <http://metadata.un.org/sdg/16.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4302> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://presse.no/offentlighet-nyhet/resultater-fra-apenhetsbarometeret-2022/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dcterms:type "Svaralternativer" ;
     dct:title "Når legges politiske saksdokumenter ut på nett?"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4295> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4303> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.10> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4295> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4303> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://presse.no/offentlighet-nyhet/resultater-fra-apenhetsbarometeret-2022/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dcterms:type "Svaralternativer" ;
     dct:title "Hvor fort legges protokollen fra politiske møter ut på nett?"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4296> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4304> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.7> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4296> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.10>,
+        <http://metadata.un.org/sdg/16.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4304> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://presse.no/offentlighet-nyhet/resultater-fra-apenhetsbarometeret-2022/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dcterms:type "Svaralternativer" ;
     dct:title "Legges ettersendte politiske saksdokumenter ut på nett samtidig med at de tilgjengeliggjøres for politikerne, eller senest innen 2 døgn etter?"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4297> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4305> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.10> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4297> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4305> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://presse.no/offentlighet-nyhet/resultater-fra-apenhetsbarometeret-2022/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dcterms:type "Svaralternativer" ;
     dct:title "Journalføres tekstmeldinger?"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4298> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4306> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.10> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4298> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4306> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://presse.no/offentlighet-nyhet/resultater-fra-apenhetsbarometeret-2022/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dcterms:type "Svaralternativer" ;
     dct:title "Er postlister for kommunale foretak (KF) publisert på nett?"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4299> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4307> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4299> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.10>,
+        <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4307> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://presse.no/offentlighet-nyhet/resultater-fra-apenhetsbarometeret-2022/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dcterms:type "Svaralternativer" ;
     dct:title "Total score fra åpenhetsbarometeret"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-> a skos:ConceptScheme ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-> ;
-    dct:modified "2025-07-08"^^xsd:date ;
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret> a skos:ConceptScheme ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret> ;
+    dct:modified "2025-07-14"^^xsd:date ;
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
-    dct:title "Åpenhetsbarometeret "@no ;
-    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4285>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4287>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4288>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4289>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4290>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4291>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4292>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4293>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4294>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4295>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4296>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4297>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4298>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret-#4299> ;
+    dct:title "Åpenhetsbarometeret"@no ;
+    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4292>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4293>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4295>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4296>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4297>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4298>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4299>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4300>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4302>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4303>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4304>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4305>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4306>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Åpenhetsbarometeret#4307> ;
     xkos:numberOfLevels 1 ;
     adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
 

@@ -25,146 +25,198 @@ my:hasImpact a rdf:Property ;
     vcard:hasOrganizationName "KS"@no ;
     vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4275> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4281> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4275> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2>,
+        <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/10.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4281> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://boligsosial-monitor.husbanken.no/region/0/Norge" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Andel og antall" ;
     dct:title "Barnefamilier med lav inntekt "@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4277> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4282> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4277> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2>,
+        <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/11.1>,
+        <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4282> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://boligsosial-monitor.husbanken.no/region/0/Norge" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Andel og antall" ;
     dct:title "Barnefamilier med lav inntekt, som leier og bor trangt "@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4278> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4284> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4278> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2>,
+        <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/10.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4284> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://boligsosial-monitor.husbanken.no/region/0/Norge" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Andel og antall" ;
     dct:title "Barn i husholdninger med lav inntekt"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4279> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4285> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4279> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2>,
+        <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/11.1>,
+        <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4285> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://boligsosial-monitor.husbanken.no/region/0/Norge" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Andel og antall" ;
     dct:title "Barn i husholdninger med lav inntekt, som leier og bor trangt"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4280> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4287> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4280> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.4>,
+        <http://metadata.un.org/sdg/11.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4287> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://boligsosial-monitor.husbanken.no/region/0/Norge" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Andel og antall" ;
     dct:title "Uføre som leier "@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4281> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4288> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.5> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4281> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/10.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4288> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://boligsosial-monitor.husbanken.no/region/0/Norge" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dcterms:type "Andel og antall" ;
     dct:title "Uføre som bor sammen med foreldre "@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4282> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4289> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.5> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4282> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/11.1> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4289> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://boligsosial-monitor.husbanken.no/region/0/Norge" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Andel og antall" ;
     dct:title "Barnefamilier i midlertidige botilbud i mer enn 3 måneder "@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4283> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4290> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.5> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4283> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/11.1>,
+        <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4290> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://boligsosial-monitor.husbanken.no/region/0/Norge" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Andel og antall" ;
     dct:title "Bostedsløse som ikke disponerer egen eid eller leid bolig "@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4284> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4291> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.5> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4284> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1>,
+        <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.5>,
+        <http://metadata.un.org/sdg/11.1>,
+        <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4291> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://boligsosial-monitor.husbanken.no/region/0/Norge" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dcterms:type "Andel og antall" ;
     dct:title "Husholdninger i midlertidige botilbud i mer enn 3 måneder "@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-> a skos:ConceptScheme ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-> ;
-    dct:modified "2025-07-08"^^xsd:date ;
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor> a skos:ConceptScheme ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor> ;
+    dct:modified "2025-07-14"^^xsd:date ;
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
-    dct:title "Boligsosial monitor "@no ;
-    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4275>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4277>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4278>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4279>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4280>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4281>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4282>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4283>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor-#4284> ;
+    dct:title "Boligsosial monitor"@no ;
+    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4281>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4282>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4284>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4285>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4287>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4288>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4289>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4290>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Boligsosial-monitor#4291> ;
     xkos:numberOfLevels 1 ;
     adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
 

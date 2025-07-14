@@ -25,281 +25,353 @@ my:hasImpact a rdf:Property ;
     vcard:hasOrganizationName "KS"@no ;
     vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3196> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3198> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3196> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3198> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09594/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "km2" ;
     dct:title "Boligbebyggelse "@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3197> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3200> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3197> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3200> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09594/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "km2" ;
     dct:title "Fritidsbebyggelse"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3198> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3202> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3198> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3202> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09594/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "km2" ;
     dct:title "Bebygd område for landbruk og fiske"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3200> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3203> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.3> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3200> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/8>,
+        <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1>,
+        <http://metadata.un.org/sdg/8.3>,
+        <http://metadata.un.org/sdg/8.8>,
+        <http://metadata.un.org/sdg/9.2>,
+        <http://metadata.un.org/sdg/9.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3203> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09594/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Industry> ;
+    dcterms:type "km2" ;
     dct:title "Næring, offentlig og privat tjenesteyting"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3201> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3204> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3201> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1>,
+        <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3204> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09594/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dcterms:type "km2" ;
     dct:title "Undervisning og barnehage"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3202> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3205> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.8> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3202> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16>,
+        <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6>,
+        <http://metadata.un.org/sdg/3.8> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3205> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09594/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dcterms:type "km2" ;
     dct:title "Helse- og sosialinstitusjoner"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3203> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3206> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.7> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3203> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3>,
+        <http://metadata.un.org/sdg/16.10>,
+        <http://metadata.un.org/sdg/16.7> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3206> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09594/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Culture> ;
+    dcterms:type "km2" ;
     dct:title "Kultur og religiøse aktiviteter"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3204> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3207> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/9.1> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3204> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2>,
+        <http://metadata.un.org/sdg/11.a>,
+        <http://metadata.un.org/sdg/9.1>,
+        <http://metadata.un.org/sdg/9.c> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3207> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09594/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Transport> ;
+    dcterms:type "km2" ;
     dct:title "Transport, telekommunikasjon og teknisk infrastruktur"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3205> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3208> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.a> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3205> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3208> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09594/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dcterms:type "km2" ;
     dct:title "Beredskapstjenester og Forsvaret"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3206> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3209> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3206> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11>,
+        <http://metadata.un.org/sdg/15> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.7>,
+        <http://metadata.un.org/sdg/15.1>,
+        <http://metadata.un.org/sdg/15.4>,
+        <http://metadata.un.org/sdg/15.9> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3209> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09594/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "km2" ;
     dct:title "Grønne områder, idretts- og sportsområder"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3207> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3210> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3207> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.6>,
+        <http://metadata.un.org/sdg/11.c> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3210> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09594/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dcterms:type "km2" ;
     dct:title "Uklassifisert bebyggelse og anlegg"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3208> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3211> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/2> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/2.4> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3208> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/15>,
+        <http://metadata.un.org/sdg/2> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.1>,
+        <http://metadata.un.org/sdg/15.9>,
+        <http://metadata.un.org/sdg/2.4> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3211> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09594/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Industry> ;
+    dcterms:type "km2" ;
     dct:title "Jordbruksareal"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3209> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3212> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.2> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3209> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3212> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09594/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "km2" ;
     dct:title "Skog"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3210> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3213> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.3> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3210> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3213> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09594/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "km2" ;
     dct:title "Åpen fastmark"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3211> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3214> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.3> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3211> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3214> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09594/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "km2" ;
     dct:title "Åpen myr"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3212> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3215> a sdgo:Indicator,
         skos:Concept ;
     sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
     sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.4> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3212> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3215> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09594/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "km2" ;
     dct:title "Bart fjell, grus- og blokkmark"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3213> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3216> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/13> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.1> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3213> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13>,
+        <http://metadata.un.org/sdg/15> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.1>,
+        <http://metadata.un.org/sdg/15.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3216> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09594/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dcterms:type "km2" ;
     dct:title "Varig snø, is og bre"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3214> a sdgo:Indicator,
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3217> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.3> ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3214> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/14>,
+        <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/14.4>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/6.5>,
+        <http://metadata.un.org/sdg/6.6> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3217> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/09594/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dcterms:type "km2" ;
     dct:title "Ferskvann"@no ;
     xkos:depth 1 ;
-    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
 
-<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> a skos:ConceptScheme ;
-    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-> ;
-    dct:modified "2025-07-08"^^xsd:date ;
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> a skos:ConceptScheme ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser> ;
+    dct:modified "2025-07-14"^^xsd:date ;
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
-    dct:title "Areal - Arealbruk og arealressurser "@no ;
-    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3196>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3197>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3198>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3200>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3201>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3202>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3203>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3204>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3205>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3206>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3207>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3208>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3209>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3210>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3211>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3212>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3213>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser-#3214> ;
+    dct:title "Areal - Arealbruk og arealressurser"@no ;
+    uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3198>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3200>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3202>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3203>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3204>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3205>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3206>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3207>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3208>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3209>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3210>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3211>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3212>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3213>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3214>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3215>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3216>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Areal---Arealbruk-og-arealressurser#3217> ;
     xkos:numberOfLevels 1 ;
     adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
 

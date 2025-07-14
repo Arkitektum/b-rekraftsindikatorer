@@ -33,6 +33,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/10314/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dcterms:type "GWh" ;
     dct:title "Nettoforbruk av elektrisk kraft, alle forbrukergrupper "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft> ;
@@ -47,6 +48,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/10314/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dcterms:type "GWh" ;
     dct:title "Nettoforbruk av elektrisk kraft, Bergverksdrift og industri mv. "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft> ;
@@ -61,6 +63,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/10314/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dcterms:type "GWh" ;
     dct:title "Nettoforbruk av elektrisk kraft, Tjenesteyting mv. "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft> ;
@@ -75,6 +78,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/10314/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dcterms:type "GWh" ;
     dct:title "Nettoforbruk av elektrisk kraft, Husholdninger og jordbruk "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft> ;
@@ -89,6 +93,7 @@ my:hasImpact a rdf:Property ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/10314/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dcterms:type "GWh" ;
     dct:title "Nettoforbruk av elektrisk kraft, primærnæringen "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft> ;
@@ -97,35 +102,178 @@ my:hasImpact a rdf:Property ;
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4273> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/7.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/7.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4273> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/10314/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dcterms:type "GWh" ;
     dct:title "Nettoforbruk av elektrisk kraft, husholdninger "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4274> a sdgo:Indicator,
         skos:Concept ;
-    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
-    sdgo:isIndicatorOf <http://metadata.un.org/sdg/7.3> ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/7.3> ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4274> ;
     dcterms:accrualPeriodicity "12" ;
     dcterms:source "https://www.ssb.no/statbank/table/10314/tableViewLayout1/" ;
     dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dcterms:type "GWh" ;
     dct:title "Nettoforbruk av elektrisk kraft, hytter og fritidshus "@no ;
     xkos:depth 1 ;
     skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft> ;
     dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
-    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> .
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4275> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/7.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4275> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/10314/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dcterms:type "GWh" ;
+    dct:title "Nettoforbruk av elektrisk kraft, alle forbrukergrupper "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4277> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/7.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4277> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/10314/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dcterms:type "GWh" ;
+    dct:title "Nettoforbruk av elektrisk kraft, Bergverksdrift og industri mv. "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4278> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/7.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4278> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/10314/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dcterms:type "GWh" ;
+    dct:title "Nettoforbruk av elektrisk kraft, Tjenesteyting mv. "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4279> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/7.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4279> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/10314/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dcterms:type "GWh" ;
+    dct:title "Nettoforbruk av elektrisk kraft, Husholdninger og jordbruk "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4280> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/7.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4280> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/10314/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dcterms:type "GWh" ;
+    dct:title "Nettoforbruk av elektrisk kraft, primærnæringen "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4281> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/7.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4281> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/10314/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dcterms:type "GWh" ;
+    dct:title "Nettoforbruk av elektrisk kraft, husholdninger "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4282> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12>,
+        <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.2>,
+        <http://metadata.un.org/sdg/7.3> ;
+    dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4282> ;
+    dcterms:accrualPeriodicity "12" ;
+    dcterms:source "https://www.ssb.no/statbank/table/10314/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dcterms:type "GWh" ;
+    dct:title "Nettoforbruk av elektrisk kraft, hytter og fritidshus "@no ;
+    xkos:depth 1 ;
+    skos:inScheme <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
 
 <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft> a skos:ConceptScheme ;
     dct:identifier <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft> ;
-    dct:modified "2025-07-08"^^xsd:date ;
+    dct:modified "2025-07-14"^^xsd:date ;
     dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
     dct:title "Nettoforbruk av elektrisk kraft"@no ;
     uneskos:contains <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4267>,
@@ -134,7 +282,14 @@ my:hasImpact a rdf:Property ;
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4271>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4272>,
         <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4273>,
-        <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4274> ;
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4274>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4275>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4277>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4278>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4279>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4280>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4281>,
+        <https://esg.arkitektum.no/vocabulary/esg-indicator/Nettoforbruk-av-elektrisk-kraft#4282> ;
     xkos:numberOfLevels 1 ;
     adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
 
