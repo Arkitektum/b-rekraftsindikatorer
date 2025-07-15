@@ -1,0 +1,958 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dct: <http://purl.org/dc/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix my: <https://metadata.ks.no/sdg-taxonomi/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdgo: <http://metadata.un.org/sdg/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix uneskos: <http://purl.org/umu/uneskos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+my:hasEvaluation a rdf:Property ;
+    rdfs:label "has evaluation"@en ;
+    rdfs:subPropertyOf skos:related .
+
+my:hasImpact a rdf:Property ;
+    rdfs:label "has impact"@en ;
+    rdfs:subPropertyOf skos:related .
+
+<https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> a vcard:Organization ;
+    vcard:hasEmail "kom@ks.no"^^xsd:anyURI ;
+    vcard:hasOrganizationName "KS"@no ;
+    vcard:hasURL "https://www.ks.no"^^xsd:anyURI .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2722> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/1> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/1.2>,
+        <http://metadata.un.org/sdg/1.4> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2722> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.ssb.no/en/statbank/table/06071/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Lone parent private households (with children aged 0 to under 18)"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2725> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/2> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/2.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2725> ;
+    dcterms:accrualPeriodicity "Other" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.ssb.no/en/statbank/table/06189/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Adults overweight (including obese)"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2726> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/2> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/2.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2726> ;
+    dcterms:accrualPeriodicity "Other" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "no data found" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Organic food purchased for schools "@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_2> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2727> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/2> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/2.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2727> ;
+    dcterms:accrualPeriodicity "Other" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "no data found" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Soup kitchens for people who cannot afford food"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2730> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2730> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.ssb.no/en/sdg/god-helse-og-livskvalitet" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Transport> ;
+    dct:title "Deaths in Road Accidents"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2731> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/3> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/3.a> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2731> ;
+    dcterms:accrualPeriodicity "Other" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.ssb.no/en/statbank/table/05307/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Daily smokers in 1st and 2nd year of upper secondary school"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2732> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2732> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.ssb.no/en/sdg/god-utdanning" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Children 0-4 in day care or school "@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2733> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2733> ;
+    dcterms:accrualPeriodicity "Other" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.ssb.no/en/utdanning/voksenopplaering/statistikk/voksnes-laering" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Adults with less then primary, primary and lower secondary education"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2734> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2734> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.ssb.no/en/utdanning/hoyere-utdanning/statistikk/studenter-i-universitets-og-hogskoleutdanning" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Students in higher education "@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2735> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/4> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/4.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2735> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "no data found" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education> ;
+    dct:title "Non-native students graduating from upper secondary schools"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_2> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2737> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2737> ;
+    dcterms:accrualPeriodicity "Other" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "no data found" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Satisfaction with life by sexual identity for 15-year-old children "@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2738> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2738> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/District-level> ;
+    dcterms:source "no data found" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Formal complaints for episodes of ‘violence against women’ "@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2739> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2739> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "no data found" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Female hospitalization for assault data "@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2740> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/5> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/5.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2740> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.ssb.no/en/sdg/likestilling-mellom-kjonnene" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Seats held by women in municipal governments"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2742> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2742> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.worldometers.info/water/norway-water/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Drinking water consumption "@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2743> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.4> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2743> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "no data found" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Recycled water used for open spaces "@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2744> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/6> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/6.1>,
+        <http://metadata.un.org/sdg/6.2>,
+        <http://metadata.un.org/sdg/6.3>,
+        <http://metadata.un.org/sdg/6.4>,
+        <http://metadata.un.org/sdg/6.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2744> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.watershare.eu/tool/city-blueprint/#:~:text=Furthermore%2C%20the%20Blue%20City%20Index,with%20low%20BCI%20performance%20scores." ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Blue City Index (BCI)"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2745> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/7.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2745> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dct:title "New buildings"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2746> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/7.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2746> ;
+    dcterms:accrualPeriodicity "Other" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.solenergiklyngen.no/2021/06/24/status-update-on-the-norwegian-solar-pv-market-2020/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dct:title "Technical Photovoltaic Potential "@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/1-Input> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2747> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/7.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2747> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/District-level> ;
+    dcterms:source "https://ec.europa.eu/eurostat/web/sdi/affordable-and-clean-energy" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy> ;
+    dct:title "Energy consumption per capita"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2748> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/7> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/7.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2748> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/District-level> ;
+    dcterms:source "https://ec.europa.eu/eurostat/web/sdi/affordable-and-clean-energy" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Energy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Industry> ;
+    dct:title "Energy consumption index"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2750> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.8> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2750> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "https://ec.europa.eu/eurostat/web/sdi/decent-work-and-economic-growth" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Accidents at Work"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2752> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/8> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/8.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2752> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/District-level> ;
+    dcterms:source "https://ec.europa.eu/eurostat/web/sdi/decent-work-and-economic-growth" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Gross Domestic Product (GDP) per capita"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2755> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/9.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2755> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.ssb.no/en/statbank/table/09028/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Enterprises in Industry, construction and services "@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2756> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/9.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2756> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "no data found" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "New Start-ups over 1,000 inhabitants"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2757> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/9> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/9.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2757> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.ssb.no/en/statbank/table/03982/tableViewSorted/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Transport> ;
+    dct:title "City trasport performance"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2758> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/10.4> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2758> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "https://tradingeconomics.com/norway/gini-index-wb-data.html#:~:text=Gini%20index%20in%20Norway%20was,Bank%20on%20June%20of%202022." ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dct:title "Gini index "@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2759> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/10.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2759> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.ssb.no/en/arbeid-og-lonn/sysselsetting/statistikk/personer-med-nedsatt-funksjonsevne-arbeidskraftundersokelsen" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Unemployed people with disabilities "@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2760> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/10.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2760> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.ssb.no/en/utdanning/utdanningsniva/statistikk/befolkningens-utdanningsniva" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Graduates by field and gender"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2761> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/10> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/10.7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2761> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.ssb.no/en/befolkning/innvandrere/statistikk/innvandrere-og-norskfodte-med-innvandrerforeldre" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare> ;
+    dct:title "Population with migrant background"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2763> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2763> ;
+    dcterms:accrualPeriodicity "Other" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "https://www.ssb.no/en/statbank/table/12128/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy> ;
+    dct:title "Housing cost overburden rate"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2764> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2764> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.ssb.no/en/statbank/table/08515/tableViewLayout1/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Transport> ;
+    dct:title "Bicycle traffic "@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2766> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2766> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "http://www.worldcitiestool.org/" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment> ;
+    dct:title "Built-up area per capita"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2769> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/11> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/11.2>,
+        <http://metadata.un.org/sdg/11.3>,
+        <http://metadata.un.org/sdg/11.7>,
+        <http://metadata.un.org/sdg/11.b> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2769> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://composite-indicators.jrc.ec.europa.eu/cultural-creative-cities-monitor/countries-and-cities" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Built_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Childhood_and_education>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Culture>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Transport> ;
+    dct:title "Cultural Creative Cities Index - C3 Index"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2770> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2770> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.ssb.no/en/sdg/ansvarlig-forbruk-og-produksjon" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Local recycling rates"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2771> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.5> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2771> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "no data found" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Water_and_waste> ;
+    dct:title "Urban waste per capita"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2772> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.4> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2772> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.norskeutslipp.no/en/Industrial-activities/?SectorID=600" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Industry>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Pollutants from industrial facilities"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2773> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/12> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/12.b> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2773> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "no data found" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Culture>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Industry>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dct:title "Local tourism intensity "@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2775> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.2> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2775> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.ssb.no/en/sdg/stoppe-klimaendringene" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Greenhouse gas emissions"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2776> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2776> ;
+    dcterms:accrualPeriodicity "Other" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.iea.org/articles/norway-climate-resilience-policy-indicator" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Urban Flood Risk"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2777> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/13> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/13.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2777> ;
+    dcterms:accrualPeriodicity "Other" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "no data found" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Heat vulnerability"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2779> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/14> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/14.7> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2779> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "no data found" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dct:title "Participation of local governments in Community-Led Local Development (CLLD) projects "@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/2-Process> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2780> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2780> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/District-level> ;
+    dcterms:source "no data found" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dct:title "Urban greenness "@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2781> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2781> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "no data found" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dct:title "Land Abandonment"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2782> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/15> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/15.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2782> ;
+    dcterms:accrualPeriodicity "Other" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.ssb.no/en/sdg/livet-pa-land" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Natural_environment> ;
+    dct:title "Tree Cover Density "@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/Planet> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2783> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2783> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.ssb.no/en/sdg/fred-rettferdighet-og-velfungerende-institusjoner" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Health_and_social_services_and_welfare>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Safety_and_preparedness> ;
+    dct:title "Murders and violent deaths"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2784> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.1> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2784> ;
+    dcterms:accrualPeriodicity "Other" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.ssb.no/en/sdg/fred-rettferdighet-og-velfungerende-institusjoner" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Level of trust toward other people in the city"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2785> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2785> ;
+    dcterms:accrualPeriodicity "Other" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "no data found" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Satisfaction with the administrative services of the city"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/5-Impact> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2786> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/16> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/16.6> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2786> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dcterms:source "https://www.transparency.org/en/countries/norway" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Governance_and_citizen_engagement> ;
+    dct:title "Transparency of the public administration "@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/4-Outcome> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2789> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/17> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/17.3> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2789> ;
+    dcterms:accrualPeriodicity "Yearly" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/Regional/county-level> ;
+    dcterms:source "https://unstats.un.org/sdgs/dataportal/database" ;
+    dcterms:subject <https://data.norge.no/vocabulary/indicator/developmentsector/Economy>,
+        <https://data.norge.no/vocabulary/indicator/developmentsector/Work_and_employment> ;
+    dct:title "Remittances as a proportion of GDP "@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> ;
+    my:hasEvaluation <https://data.norge.no/vocabulary/indicator/Evaluation/3-Output> ;
+    my:hasImpact <https://data.norge.no/vocabulary/indicator/triplebottomline/People>,
+        <https://data.norge.no/vocabulary/indicator/triplebottomline/Prosperity> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2790> a sdgo:Indicator,
+        skos:Concept ;
+    sdgo:hasGoal <http://metadata.un.org/sdg/17> ;
+    sdgo:isIndicatorOf <http://metadata.un.org/sdg/17.18> ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2790> ;
+    dcterms:accrualPeriodicity "Other" ;
+    dcterms:coverage <https://data.norge.no/vocabulary/indicator/Levelofgeography/City-level> ;
+    dct:title "VLR indicators from official statistics"@en ;
+    xkos:depth 1 ;
+    skos:inScheme <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dqv:hasQualityMeasurement <https://data.norge.no/vocabulary/indicator/quality/Class_1> .
+
+<https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> a skos:ConceptScheme ;
+    dct:identifier <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020> ;
+    dct:modified "2025-07-15"^^xsd:date ;
+    dct:publisher <https://organization-catalog.fellesdatakatalog.digdir.no/organizations/971032146> ;
+    uneskos:contains <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2722>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2725>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2726>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2727>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2730>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2731>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2732>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2733>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2734>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2735>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2737>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2738>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2739>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2740>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2742>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2743>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2744>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2745>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2746>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2747>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2748>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2750>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2752>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2755>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2756>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2757>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2758>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2759>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2760>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2761>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2763>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2764>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2766>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2769>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2770>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2771>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2772>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2773>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2775>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2776>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2777>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2779>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2780>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2781>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2782>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2783>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2784>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2785>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2786>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2789>,
+        <https://data.norge.no/vocabulary/indicator/The-EU-JRC-VLR-handbook-indicators-2020/2790> ;
+    xkos:numberOfLevels 1 ;
+    skos:prefLabel "The EU-JRC-VLR-handbook indicators 2020"@en ;
+    adms:status <http://publications.europa.eu/resource/authority/dataset-status/DEVELOP> .
+

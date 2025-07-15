@@ -59,7 +59,7 @@ jobs:
           # Lag en enkel index.html med lenker til alle .html-filer
           INDEX_FILE="public/index.html"
           echo "<!DOCTYPE html><html><head><meta charset='UTF-8'><title>Index</title></head><body>" > "$INDEX_FILE"
-          echo "<h1>Katalog</h1><ul>" >> "$INDEX_FILE"
+          echo "<h1>Katalog bærekraftsindikatorer</h1><ul>" >> "$INDEX_FILE"
 
           find public/ -name "*.html" ! -name "index.html" | sort | while read file; do
             rel_path="${file#public/}"
